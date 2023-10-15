@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Categories = () => {
+const CategoriesSection = () => {
   return (
     <section className="category-list">
       <div className='row category-list-right'>
@@ -47,4 +47,4 @@ const Categories = () => {
   );
 };
 
-export default Categories;
+export default CategoriesSection;

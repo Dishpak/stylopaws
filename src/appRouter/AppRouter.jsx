@@ -1,37 +1,33 @@
 import React from 'react';
 import {createBrowserRouter} from "react-router-dom";
 import ErrorPage from "./routes/error-page";
-import CategoryList from "../components/CategoryList";
+import CategoriesList from "../components/CategoriesList";
 import MainPage from "../components/MainPage";
-import Header from "../components/Header/Header"
-import Footer from "../components/Footer";
 import Layout from "./Layout";
+import Category from "../components/Category";
+import Product from "../components/Product";
 
 export const router = createBrowserRouter([
   {
     element: <Layout/>,
+    errorElement: <ErrorPage/>,
     children: [
       {
         path: "/",
         element: <MainPage/>,
-        errorElement: <ErrorPage/>,
       },
       {
         path: "/categories",
-        element: <CategoryList/>
+        element: <CategoriesList/>
+      },
+      {
+        path: "/categories/:categoryId",
+        element: <Category/>
+      },
+      {
+        path: "/product/:productId",
+        element: <Product/>
       }
     ]
   }
 ])
-
-const AppRouter = () => {
-  return (
-    <>
-      <Header/>
-      router
-      <Footer/>
-    </>
-  )
-}
-
-export default AppRouter;

@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroSection from "./HeroSection";
-import Categories from "./Categories";
+import CategoriesSection from "./CategoriesSection";
 import Trendings from "./Trendings";
 import SubscribeSection from "./SubscribeSection";
 
@@ -11,7 +11,7 @@ const MainPage = () => {
         <HeroSection/>
       </section>
       <section className="container my-5">
-        <Categories/>
+        <CategoriesSection/>
       </section>
       {/*<section className="container">*/}
       {/*    <Trendings/>*/}
