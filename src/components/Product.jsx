@@ -1,13 +1,16 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import {useLocation} from "react-router-dom";
 import {useSelector, useDispatch} from "react-redux";
-import {addToCart} from "../redux/cartSlice";
+import {loadProduct} from "../store/productsSlice";
+import AddToCartButton from "./AddToCartButton";
 
 const Product = () => {
   const productId = useLocation().state;
-  const [product, setProduct] = useState([]);
-  const cartValue = useSelector((state) => state.cart);
+  const product = useSelector(state => state.product.product)
+  const cart = useSelector(state => state.cart);
   const dispatch = useDispatch();
+
+  console.log(useLocation());
 
   useEffect(() => {
     const loadData = async () => {
@@ -17,7 +20,9 @@ const Product = () => {
           throw new Error(`HTTP Error! Status ${response.status}`)
         }
         const data = await response.json();
-        setProduct([...data.filter(product => product.id === productId)]);
+        const product = data.filter(product => product.id === productId);
+        dispatch(loadProduct(...product))
+
       } catch (error) {
         console.error('Error', error)
       }
@@ -25,34 +30,20 @@ const Product = () => {
     loadData();
   }, [productId]);
 
-  console.log(product);
-
-  const addToCartHandler = () => {
-    dispatch(addToCart)
-  }
-
   return (
     <div className="container">
       <div className="row">
         <div className="col">
-          <img src={product[0]?.image} alt=""/>
+          <img src={product?.image} alt=""/>
         </div>
-        <div className="col"><h1>{product[0]?.title}</h1>
-          <p>{product[0]?.description}</p>
-          <p><span>{product[0]?.price}</span></p>
-          <button
-            className="btn btn-primary"
-            onClick={() => dispatch(
-              addToCart({
-                id: product[0]?.id,
-                title: product[0]?.title
-              }))}>
-            Add to cart
-          </button>
-          <p>{cartValue[0]}</p>
+        <div className="col">
+          <h1>{product?.title}</h1>
+          <p>{product?.description}</p>
+          <p><span>{product?.price}</span></p>
+          <AddToCartButton product={product}/>
+          <p>{cart.amount}</p>
         </div>
       </div>
-
     </div>
   );
 };

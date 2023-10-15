@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {Link, useLocation} from "react-router-dom";
+import AddToCartButton from "./AddToCartButton";
 
 const Category = () => {
   const categoryTitle = useLocation().state;
@@ -26,21 +27,22 @@ const Category = () => {
 
   return (
     <div className="container">
-      <h1>Category List Component</h1>
+      <h1>{categoryTitle}</h1>
       <div className="row row-cols-4 g-5">
         {products.map((product) => {
-          return <Link to={`/product/${product.id}`} state={product.id} key={product.id}>
-            <div className="col">
+          return (
+            <div className="col" key={product.id}>
               <div className="card">
                 <img className="card-img-top" src={product.image} alt=""/>
                 <div className="card-body">
-                  <h2 className="card-body">{product.title}</h2>
+                  <Link to={`/product/${product.id}`} state={product.id}><h2 className="card-body">{product.title}</h2></Link>
                   <p className="card-text">{product.description}</p>
                   <p className="card-text">{product.price}</p>
+                  <AddToCartButton product={product}/>
                 </div>
               </div>
             </div>
-          </Link>
+          )
         })}
       </div>
     </div>

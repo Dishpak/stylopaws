@@ -1,11 +1,12 @@
 import React from 'react';
 import {createBrowserRouter} from "react-router-dom";
+import Layout from "./Layout";
 import ErrorPage from "./routes/error-page";
 import CategoriesList from "../components/CategoriesList";
 import MainPage from "../components/MainPage";
-import Layout from "./Layout";
 import Category from "../components/Category";
 import Product from "../components/Product";
+import Cart from "../components/Cart";
 
 export const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ export const router = createBrowserRouter([
       {
         path: "/product/:productId",
         element: <Product/>
+      },
+      {
+        path: "/cart",
+        element: <Cart/>
       }
     ]
   }

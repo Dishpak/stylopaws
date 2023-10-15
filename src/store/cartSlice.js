@@ -10,6 +10,7 @@ export const cartSlice = createSlice({
     addToCart: (state, action) => {
       const product = action.payload;
       state.cart.push(product)
+      state.amount++
     },
   }
 })
