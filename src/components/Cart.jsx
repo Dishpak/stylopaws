@@ -1,9 +1,11 @@
 import React, {useState, useEffect} from 'react';
-import {useSelector} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
+import {removeFromCart} from '../store/cartSlice';
 
 const Cart = () => {
+  const dispatch = useDispatch();
   const cart = useSelector((state) => state.cart.cart)
-  const cartTotal = cart.map(product => product.price).reduce((prev, next) => prev + next);
+  const cartTotal = cart.reduce((total, product) => total + product.price, 0);
   const [productOverallPrice, setProductOverallPrice] = useState({});
   const [cartSummary, setCartSummary] = useState(cartTotal);
 
@@ -14,7 +16,6 @@ const Cart = () => {
 
   const handlePriceCalculation = (productId, productQuantity, productPrice) => {
     const productSum = productPrice * productQuantity;
-
     setProductOverallPrice((prev) => ({
       ...prev, [productId]: {
         productPrice,
@@ -22,6 +23,10 @@ const Cart = () => {
         productSum,
       },
     }))
+  }
+
+  const handleDeleteProduct = (product) => {
+    dispatch(removeFromCart(product));
   }
 
   return (<div className="container">
@@ -56,7 +61,13 @@ const Cart = () => {
             />
           </td>
           <td>
-            {productOverallPrice[product.id]?.productSum ? productOverallPrice[product.id]?.productSum : product.price}
+            {productOverallPrice[product.id]?.productSum || product.price}
+          </td>
+          <td>
+            <button
+              className="btn btn-primary"
+              onClick={() => handleDeleteProduct(product.id)}
+            >Delete product</button>
           </td>
         </tr>)
       })}
@@ -64,8 +75,9 @@ const Cart = () => {
       <tfoot>
       <tr>
         <td style={{textAlign: "right"}} colSpan="5">
-          Summary: {cartSummary}
+          Summary:
         </td>
+        <td>{cartSummary}</td>
         <td></td>
       </tr>
       </tfoot>

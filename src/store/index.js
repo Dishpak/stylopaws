@@ -16,7 +16,7 @@ import productReducer from "./productsSlice";
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist: ['cart']
+  // whitelist: ['cart']
 }
 
 const rootReducer = combineReducers({

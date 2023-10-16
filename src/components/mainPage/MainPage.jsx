@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroSection from "./HeroSection";
 import CategoriesSection from "./CategoriesSection";
-import Trendings from "../Trendings";
+import Trendings from "./Trendings";
 import SubscribeSection from "./SubscribeSection";
 
 const MainPage = () => {
