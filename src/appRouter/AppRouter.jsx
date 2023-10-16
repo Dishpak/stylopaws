@@ -3,7 +3,7 @@ import {createBrowserRouter} from "react-router-dom";
 import Layout from "./Layout";
 import ErrorPage from "./routes/error-page";
 import CategoriesList from "../components/CategoriesList";
-import MainPage from "../components/MainPage";
+import MainPage from "../components/mainPage/MainPage";
 import Category from "../components/Category";
 import Product from "../components/Product";
 import Cart from "../components/Cart";
@@ -22,7 +22,7 @@ export const router = createBrowserRouter([
         element: <CategoriesList/>
       },
       {
-        path: "/categories/:categoryId",
+        path: "/categories/:categoryTitle",
         element: <Category/>
       },
       {

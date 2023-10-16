@@ -565,4 +565,31 @@
   padding: 0;
 }
 
+header {
+  background-color: #fff;
+}
+header .dropdown {
+  display: inherit;
+  align-items: center;
+}
+header .dropdown .dropdown-toggle {
+  align-self: start;
+  padding-left: 0 !important;
+}
+header .toolbar {
+  font-size: 20px;
+}
+
+main .category-list div:nth-child(even) {
+  flex-direction: row-reverse;
+}
+main .category-list .category-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .category-list .category-item .item-text {
+  text-align: left;
+}
+
 /*# sourceMappingURL=styles.css.map */

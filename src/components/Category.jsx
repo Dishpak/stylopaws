@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from 'react';
-import {Link, useLocation} from "react-router-dom";
-import AddToCartButton from "./AddToCartButton";
+import {Link, useLocation, useParams} from "react-router-dom";
+import AddToCartButton from "./helpers/AddToCartButton";
 
 const Category = () => {
-  const categoryTitle = useLocation().state;
+  const categoryTitle = useParams().categoryTitle;
   const [products, setProducts] = useState([]);
 
 
@@ -23,7 +23,6 @@ const Category = () => {
 
     loadProducts()
   }, [categoryTitle]);
-
 
   return (
     <div className="container">

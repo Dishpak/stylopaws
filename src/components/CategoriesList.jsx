@@ -27,7 +27,7 @@ const CategoriesList = () => {
       <h1>Category List Component</h1>
       <div className="row row-cols-4 g-5">
         {categories.map((category) => {
-        return <Link to={`${category.id}`} state={category.title} key={category.id}>
+        return <Link to={`${category.title}`} key={category.id}>
           <div className="col">
             <div className="card">
               <img className="card-img-top" src={category.image} alt=""/>

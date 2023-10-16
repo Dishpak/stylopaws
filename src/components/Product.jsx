@@ -2,15 +2,13 @@ import React, {useEffect} from 'react';
 import {useLocation} from "react-router-dom";
 import {useSelector, useDispatch} from "react-redux";
 import {loadProduct} from "../store/productsSlice";
-import AddToCartButton from "./AddToCartButton";
+import AddToCartButton from "./helpers/AddToCartButton";
 
 const Product = () => {
   const productId = useLocation().state;
   const product = useSelector(state => state.product.product)
   const cart = useSelector(state => state.cart);
   const dispatch = useDispatch();
-
-  console.log(useLocation());
 
   useEffect(() => {
     const loadData = async () => {
@@ -41,7 +39,6 @@ const Product = () => {
           <p>{product?.description}</p>
           <p><span>{product?.price}</span></p>
           <AddToCartButton product={product}/>
-          <p>{cart.amount}</p>
         </div>
       </div>
     </div>

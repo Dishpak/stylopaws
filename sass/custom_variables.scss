@@ -1,6 +1,31 @@
+//Colors
 $primary:       #7CB9E8;
 $secondary:     #F5F5F5;
+$bg-color: #fff;
 
-//$theme-colors: (
-//  "primary": #7CB9E8,
-//)
+$component-active-bg:         $primary;
+
+//Menu
+$dropdown-link-active-bg:           $component-active-bg;
+
+//Spacing
+$spacer: 1rem;
+$spacers: (
+        0: 0,
+        1: $spacer * .25,
+        2: $spacer * .5,
+        3: $spacer,
+        4: $spacer * 1.5,
+        5: $spacer * 3,
+);
+
+$grid-gutter-width: 1.5rem;
+$gutters: (
+        0: 0,
+        1: $spacer * .25,
+        2: $spacer * .5,
+        3: $spacer,
+        4: $spacer * 1.5,
+        5: $spacer * 3,
+        6: $spacer * 10,
+);

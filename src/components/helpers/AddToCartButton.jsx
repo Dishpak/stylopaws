@@ -1,11 +1,18 @@
 import React from 'react';
-import {addToCart} from "../store/cartSlice";
-import {useDispatch} from "react-redux";
+import {addToCart} from "../../store/cartSlice";
+import {useDispatch, useSelector} from "react-redux";
 
 const AddToCartButton = (props) => {
   const dispatch = useDispatch();
+  const cart = useSelector(state => state.cart.cart)
   const addProductToCart = () => {
-    dispatch(addToCart(props.product))
+
+    if(cart.find(item => item.id === props.product.id)) {
+      return null;
+    } else {
+      dispatch(addToCart(props.product))
+    }
+
   }
 
   return (

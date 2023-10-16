@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -8,7 +9,9 @@ const HeroSection = () => {
           className="container h-100 d-flex flex-column justify-content-center align-items-start text-start px-0">
           <h1>Elevate Your Style</h1>
           <p>Discover Modern, Stylish Clothing for Every Occasion. Shop Now for the Latest Trends!</p>
-          <button className="btn btn-primary px-4 py-3">Shop now</button>
+          <Link to={"/categories"}>
+            <button className="btn btn-primary px-4 py-3">Shop now</button>
+          </Link>
         </div>
       </div>
       <div className="col p-0 h-100">
