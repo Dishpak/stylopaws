@@ -3,14 +3,9 @@ import {useSelector} from "react-redux";
 
 const useCartIco = () => {
   const cart = useSelector(state => state.cart)
-  const isEmpty = cart.cart.length <=0;
-  // const cartCounter = cart.amount;
   const [cartCounter, setCartCounter] = useState(cart.amount);
-  const [cartIcoClass, setCartIcoClass] = useState('')
 
   const fullCartIco = () => {
-    isEmpty ? setCartIcoClass('empty') : setCartIcoClass('full');
-
     if(cartCounter >= 10) {
       setCartCounter('...')
     } else {
@@ -23,7 +18,7 @@ const useCartIco = () => {
   }, [cart]);
 
 
-  return [cartIcoClass, cartCounter]
+  return [cartCounter]
 };
 
 export default useCartIco;

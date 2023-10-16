@@ -3,7 +3,7 @@ import {NavLink, Link} from "react-router-dom";
 import useCartIco from "../../hooks/useCartIco";
 
 const Header = () => {
-  const [cartIconClass, cartCounter] = useCartIco();
+  const [cartCounter] = useCartIco();
 
   return (
     <header className='border-bottom py-3 shadow sticky-top'>
@@ -28,7 +28,7 @@ const Header = () => {
           </ul>
           <div className="toolbar">
             <a href="#" className="px-2"><i className="fa-solid fa-magnifying-glass"></i></a>
-            <Link to={"/cart"} className={`px-2 ${cartIconClass}`}><i className="fa-solid fa-cart-shopping"></i>{cartCounter}</Link>
+            <Link to={"/cart"} className="px-2"><i className="fa-solid fa-cart-shopping"></i>{cartCounter}</Link>
             <a href="#" className="px-2"><i className="fa-solid fa-right-to-bracket"></i></a>
           </div>
         </div>
