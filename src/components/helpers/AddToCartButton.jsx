@@ -7,7 +7,7 @@ const AddToCartButton = (props) => {
   const cart = useSelector(state => state.cart.cart)
   const addProductToCart = () => {
 
-    if(cart.find(item => item.id === props.product.id)) {
+    if (cart.find(item => item.id === props.product.id)) {
       return null;
     } else {
       dispatch(addToCart(props.product))
@@ -15,13 +15,11 @@ const AddToCartButton = (props) => {
 
   }
 
-  return (
-    <button
+  return (<button
       className="btn btn-primary"
       onClick={() => addProductToCart()}>
       Add to cart
-    </button>
-  );
+    </button>);
 };
 
 export default AddToCartButton;

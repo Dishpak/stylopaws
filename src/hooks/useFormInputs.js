@@ -5,7 +5,6 @@ export const useFormInputs = (initialState) => {
 
   const handleInputChange = (e) => {
     setInput({
-      // ...input,
       [e.target.name]: e.target.value,
     })
   }

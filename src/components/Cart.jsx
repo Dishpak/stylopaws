@@ -67,7 +67,7 @@ const Cart = () => {
             <button
               className="btn btn-primary"
               onClick={() => handleDeleteProduct(product.id)}
-            >Delete product</button>
+            >Remove</button>
           </td>
         </tr>)
       })}
