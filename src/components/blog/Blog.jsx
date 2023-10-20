@@ -6,7 +6,13 @@ import usePagination from "../../hooks/usePagination";
 const Blog = () => {
   const [posts, setPosts] = useState([]);
   const itemsPerPageLimit = 20;
-  const { currentPage, handleMoveForward, handleMoveBack, handleMoveToPage, dataPerPage } = usePagination(posts, itemsPerPageLimit);
+  const {
+    currentPage,
+    handleMoveForward,
+    handleMoveBack,
+    handleMoveToPage,
+    dataPerPage
+  } = usePagination(posts, itemsPerPageLimit);
   const pagesNumbers = Math.ceil(posts.length / itemsPerPageLimit);
 
   const loadPosts = async () => {
@@ -29,13 +35,6 @@ const Blog = () => {
   return (
     <div className="container">
       <h1>Blog Component</h1>
-      <Pagination
-        currentPage={currentPage}
-        pagesNumbers={pagesNumbers}
-        handleMoveForward={handleMoveForward}
-        handleMoveBack={handleMoveBack}
-        handleMoveToPage={handleMoveToPage}
-      />
       {
         dataPerPage().map(post => (
           <div key={post.id}>
@@ -44,6 +43,13 @@ const Blog = () => {
           </div>
         ))
       }
+      <Pagination
+        currentPage={currentPage}
+        pagesNumbers={pagesNumbers}
+        handleMoveForward={handleMoveForward}
+        handleMoveBack={handleMoveBack}
+        handleMoveToPage={handleMoveToPage}
+      />
     </div>
   );
 };

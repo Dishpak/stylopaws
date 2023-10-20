@@ -8,15 +8,14 @@ import MainPage from "../components/mainPage/MainPage";
 import Category from "../components/Category";
 import Product from "../components/Product";
 import Cart from "../components/Cart";
-import Blog from "../components/Blog/Blog";
+import Blog from "../components/blog/Blog";
+import About from "../components/about/About";
+import Contacts from "../components/contacts/Contacts";
 
 export const router = createBrowserRouter([{
   element: <Layout/>, errorElement: <ErrorPage/>, children: [
     {
       path: ROUTES.HOME, element: <MainPage/>,
-    },
-    {
-      path: ROUTES.BLOG, element: <Blog/>,
     },
     {
       path: ROUTES.CATEGORIES, element: <CategoriesList/>
@@ -26,6 +25,15 @@ export const router = createBrowserRouter([{
     },
     {
       path: `${ROUTES.PRODUCT}/:productId`, element: <Product/>
+    },
+    {
+      path: ROUTES.BLOG, element: <Blog/>,
+    },
+    {
+      path: ROUTES.ABOUT, element: <About/>,
+    },
+    {
+      path: ROUTES.CONTACTS, element: <Contacts />,
     },
     {
       path: ROUTES.CART, element: <Cart/>
