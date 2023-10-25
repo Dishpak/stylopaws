@@ -208,6 +208,7 @@
   background-color: var(--bs-btn-bg);
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
@@ -218,11 +219,13 @@
   background-color: var(--bs-btn-hover-bg);
   border-color: var(--bs-btn-hover-border-color);
 }
+
 .btn-check + .btn:hover {
   color: var(--bs-btn-color);
   background-color: var(--bs-btn-bg);
   border-color: var(--bs-btn-border-color);
 }
+
 .btn:focus-visible {
   color: var(--bs-btn-hover-color);
   background-color: var(--bs-btn-hover-bg);
@@ -230,19 +233,23 @@
   outline: 0;
   box-shadow: var(--bs-btn-focus-box-shadow);
 }
+
 .btn-check:focus-visible + .btn {
   border-color: var(--bs-btn-hover-border-color);
   outline: 0;
   box-shadow: var(--bs-btn-focus-box-shadow);
 }
+
 .btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
   color: var(--bs-btn-active-color);
   background-color: var(--bs-btn-active-bg);
   border-color: var(--bs-btn-active-border-color);
 }
+
 .btn-check:checked + .btn:focus-visible, :not(.btn-check) + .btn:active:focus-visible, .btn:first-child:active:focus-visible, .btn.active:focus-visible, .btn.show:focus-visible {
   box-shadow: var(--bs-btn-focus-box-shadow);
 }
+
 .btn:disabled, .btn.disabled, fieldset:disabled .btn {
   color: var(--bs-btn-disabled-color);
   pointer-events: none;
@@ -538,9 +545,11 @@
   --bs-btn-focus-shadow-rgb: 105, 157, 197;
   text-decoration: underline;
 }
+
 .btn-link:focus-visible {
   color: var(--bs-btn-color);
 }
+
 .btn-link:hover {
   color: var(--bs-btn-hover-color);
 }
@@ -559,7 +568,7 @@
   --bs-btn-border-radius: var(--bs-border-radius-sm);
 }
 
-.social-icons.container i {
+.social-icons i {
   font-size: 30px;
   margin: 0 8px;
   padding: 0;
@@ -568,28 +577,57 @@
 header {
   background-color: #fff;
 }
+
 header .dropdown {
   display: inherit;
   align-items: center;
 }
+
 header .dropdown .dropdown-toggle {
   align-self: start;
   padding-left: 0 !important;
 }
+
 header .toolbar {
-  font-size: 20px;
+  font-size: 24px;
 }
 
-main .category-list div:nth-child(even) {
+header .toolbar .toolbar-ico {
+  position: relative;
+  cursor: pointer;
+}
+
+header .toolbar .toolbar-ico .badge {
+  font-size: 10px;
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+}
+
+.searchbar {
+  position: relative;
+  top: -100px;
+}
+
+main .category-list .row:nth-child(even) {
   flex-direction: row-reverse;
 }
-main .category-list .category-item {
+
+main .category-list .col {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-main .category-list .category-item .item-text {
   text-align: left;
 }
+
+main .category-list .col .item-text {
+  text-align: left;
+}
+
+main .subscribe {
+  background-color: #7CB9E8;
+}
+
+
 
 /*# sourceMappingURL=styles.css.map */

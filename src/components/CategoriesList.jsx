@@ -1,48 +1,49 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from "react-router-dom"
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import {Card} from "react-bootstrap";
+import {apiUrl} from "../globalVariables";
 
 const CategoriesList = () => {
   const [categories, setCategories] = useState([]);
 
   const loadCategories = async () => {
     try {
-      const response = await fetch('http://localhost:3001/categories');
-      if(!response.ok) {
+      const response = await fetch(`${apiUrl}/categories`);
+      if (!response.ok) {
         throw new Error(`HTTP error! Status ${response.status}`)
       }
       const data = await response.json();
       setCategories([...data])
-    }
-    catch (error) {
+    } catch (error) {
       console.error('Error:', error);
     }
   }
 
   useEffect(() => {
-    loadCategories();
+    void loadCategories();
   }, []);
 
   return (
-    <div className="container">
-      <h1>Category List Component</h1>
-      <div className="row row-cols-4 g-5">
-        {categories.map((category) => {
-        return <Link to={`${category.title}`} key={category.id}>
-          <div className="col">
-            <div className="card">
-              <img className="card-img-top" src={category.image} alt=""/>
-              <div className="card-body">
-                <h2 className="card-body">{category.title}</h2>
-                <p className="card-text">{category.description}</p>
-              </div>
-            </div>
-          </div>
-        </Link>
-      })}
-      </div>
-</div>
-)
-  ;
+    <Container>
+      <h1>Pick a Category</h1>
+      <Row>
+        {categories.map(category => (
+          <Col key={category.id}>
+            <Card>
+              <Card.Img variant="top" src={category.image}/>
+              <Card.Body>
+                <Card.Title as={Link} to={category.title}>{category.title}</Card.Title>
+                <Card.Text>{category.description}</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
+    </Container>
+  );
 };
 
 export default CategoriesList;

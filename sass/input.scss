@@ -7,7 +7,7 @@
 @import "../node_modules/bootstrap/scss/root";
 @import "../node_modules/bootstrap/scss/buttons";
 
-.social-icons.container {
+.social-icons {
   i {
     font-size: 30px;
     margin: 0 8px;
@@ -28,27 +28,51 @@ header {
       padding-left: 0 !important;
     }
   }
+
   .toolbar {
-    font-size: 20px;
+    font-size: 24px;
+
+    .toolbar-ico {
+      position: relative;
+      cursor: pointer;
+
+      .badge {
+        font-size: 10px;
+        position: absolute;
+        bottom: -5px;
+        right: -5px;
+      }
+    }
+    }
 }
 
+.searchbar {
+  //animation: 4s linear searchbar-popup;
+  position: relative;
+  //width: 50%;
+  top: -100px;
 }
 
 main {
+
   .category-list {
-    div:nth-child(even) {
+    .row:nth-child(even) {
       flex-direction: row-reverse;
     }
-
-    .category-item {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      .item-text {
+      .col {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         text-align: left;
+
+        .item-text {
+          text-align: left;
+        }
       }
-    }
+  }
+
+  .subscribe {
+    background-color: $primary;
   }
 }
 

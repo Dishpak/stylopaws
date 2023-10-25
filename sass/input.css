@@ -559,7 +559,7 @@
   --bs-btn-border-radius: var(--bs-border-radius-sm);
 }
 
-.social-icons.container i {
+.social-icons i {
   font-size: 30px;
   margin: 0 8px;
   padding: 0;
@@ -577,19 +577,38 @@ header .dropdown .dropdown-toggle {
   padding-left: 0 !important;
 }
 header .toolbar {
-  font-size: 20px;
+  font-size: 24px;
+}
+header .toolbar .toolbar-ico {
+  position: relative;
+  cursor: pointer;
+}
+header .toolbar .toolbar-ico .badge {
+  font-size: 10px;
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
 }
 
-main .category-list div:nth-child(even) {
+.searchbar {
+  position: relative;
+  top: -100px;
+}
+
+main .category-list .row:nth-child(even) {
   flex-direction: row-reverse;
 }
-main .category-list .category-item {
+main .category-list .col {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-main .category-list .category-item .item-text {
   text-align: left;
+}
+main .category-list .col .item-text {
+  text-align: left;
+}
+main .subscribe {
+  background-color: #7CB9E8;
 }
 
 /*# sourceMappingURL=input.css.map */

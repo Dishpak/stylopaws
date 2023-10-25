@@ -8,8 +8,10 @@ export const ROUTES = {
   ACCESSORIES: '/categories/accessories',
   ABOUT: '/about',
   BLOG: '/blog',
+  POST: '/blog/post',
   CONTACTS: '/contacts',
   CART: '/cart',
+  SEARCH_RESULTS: '/search-results',
 }
 
 export const apiUrl = 'http://localhost:3001';

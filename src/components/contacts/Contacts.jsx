@@ -1,11 +1,11 @@
 import React from 'react';
+import Container from "react-bootstrap/Container";
 import ContactForm from "./ContactForm";
 import ContactInfo from "./ContantInfo";
 
 const Contacts = () => {
   return (
-    <main>
-      <div className="container">
+      <Container>
         <h1>Contacts Component</h1>
         <div className="row">
           <div className="col">
@@ -26,8 +26,7 @@ const Contacts = () => {
             <ContactInfo/>
           </address>
         </div>
-      </div>
-    </main>
+      </Container>
   );
 };
 

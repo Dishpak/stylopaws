@@ -1,60 +1,33 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import {mainPageCategories} from '../helpers/renderDatas'
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import {Image} from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
 
 const CategoriesSection = () => {
-
   return (
-    <>
-      <div className="row">
-        <div className="col-12 category-item my-5">
-          <div className="item-img">
-            <img src="/assets/cat_men.jpg" alt=""/>
-          </div>
-          <div className="item-text">
-            <h2>Men's Clothing</h2>
-            <p>Timeless elegance and contemporary styles for men</p>
-            <Link to={"/categories/men's clothing"}>
-              <button className="btn btn-primary">Explore now</button>
-            </Link>
-          </div>
+    <section className="category-list">
+      {mainPageCategories.map((category, index) => (
+        <div className="py-5" key={index}>
+          <Container>
+            <Row className="justify-content-between">
+              <Col>
+                <Image src={category.image}/>
+              </Col>
+              <Col>
+                <div className="container">
+                  <h2>{category.title}</h2>
+                  <p>{category.description}</p>
+                  <Link to={category.link}><Button>Explore now</Button></Link>
+                </div>
+              </Col></Row>
+          </Container>
         </div>
-        <div className="col-12 category-item my-5">
-          <div className="item-img">
-          <img src="/assets/cat_women.jpg" alt=""/>
-        </div>
-          <div className="item-text">
-            <h2>Women's Clothing</h2>
-            <p>Elevate your wardrobe with modern chic and classic elegance</p>
-            <Link to={"/categories/women's clothing"}>
-              <button className="btn btn-primary">Explore now</button>
-            </Link>
-          </div></div>
-        <div className="col-12 category-item my-5">
-          <div className="item-img">
-            <img src="/assets/cat_footwear.jpg" alt=""/>
-          </div>
-          <div className="item-text">
-            <h2>Footwear</h2>
-            <p>Step into style: discover the perfect pair for every occasion</p>
-            <Link to={"/categories/footwear"}>
-              <button className="btn btn-primary">Explore now</button>
-            </Link>
-          </div>
-        </div>
-        <div className="col-12 category-item my-5">
-          <div className="item-img">
-            <img src="/assets/cat_accessories.jpg" alt=""/>
-          </div>
-          <div className="item-text">
-            <h2>Accessories</h2>
-            <p>Finishing touches: elevate your look with stylish accessories</p>
-            <Link to={"/categories/accessories"}>
-              <button className="btn btn-primary">Explore now</button>
-            </Link>
-          </div>
-        </div>
-      </div>
-    </>
+      ))}
+    </section>
   );
 };
 

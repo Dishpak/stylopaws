@@ -11,6 +11,8 @@ import Cart from "../components/Cart";
 import Blog from "../components/blog/Blog";
 import About from "../components/about/About";
 import Contacts from "../components/contacts/Contacts";
+import SearchResults from "../components/SearchResults";
+import Post from "../components/blog/Post";
 
 export const router = createBrowserRouter([{
   element: <Layout/>, errorElement: <ErrorPage/>, children: [
@@ -30,6 +32,9 @@ export const router = createBrowserRouter([{
       path: ROUTES.BLOG, element: <Blog/>,
     },
     {
+      path: `${ROUTES.POST}/:postId`, element: <Post />
+    },
+    {
       path: ROUTES.ABOUT, element: <About/>,
     },
     {
@@ -37,6 +42,9 @@ export const router = createBrowserRouter([{
     },
     {
       path: ROUTES.CART, element: <Cart/>
+    },
+    {
+      path: ROUTES.SEARCH_RESULTS, element: <SearchResults/>
     }
   ]
 }])

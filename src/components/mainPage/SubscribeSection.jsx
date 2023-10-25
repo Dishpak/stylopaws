@@ -1,19 +1,22 @@
 import React from 'react';
+import Container from "react-bootstrap/Container";
+import InputGroup from "react-bootstrap/InputGroup";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 
 const SubscribeSection = () => {
   return (
-    <div className='row bg-primary py-5 m-0 justify-content-center'>
-      <div className="col-1 w-50">
-        <h2>Stay in fascion loop!</h2>
+    <section className="subscribe">
+      <Container className="py-5 w-50">
+        <h2>Stay in fashion loop!</h2>
         <p>Sign up for our newsletter to receive exclusive promotions, style updates, and early access to new arrivals.
           Join now and stay ahead in the world of fashion!</p>
-        <div className="input-group w-50 mx-auto">
-          <input type="text" className="form-control rounded-start-5" placeholder="enter your email"/>
-          <button className="btn btn-danger rounded-end-5">subscribe</button>
-        </div>
-      </div>
-    </div>
-  );
+        <InputGroup className="w-50 mx-auto">
+          <Form.Control placeholder="enter your email"/>
+          <Button variant="danger">subscribe</Button>
+        </InputGroup>
+      </Container>
+    </section>);
 };
 
 export default SubscribeSection;
