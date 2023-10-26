@@ -4,7 +4,8 @@ import {removeFromCart} from '../store/cartSlice';
 
 const Cart = () => {
   const dispatch = useDispatch();
-  const cart = useSelector((state) => state.cart.cart)
+  const cart = useSelector(state => state.cart.cart)
+  const userId = useSelector(state => state.user.user?.id)
   const cartTotal = cart.reduce((total, product) => total + product.price, 0);
   const [productOverallPrice, setProductOverallPrice] = useState({});
   const [cartSummary, setCartSummary] = useState(cartTotal);
@@ -26,7 +27,7 @@ const Cart = () => {
   }
 
   const handleDeleteProduct = (product) => {
-    dispatch(removeFromCart(product));
+    dispatch(removeFromCart({product: product, userId: userId}));
   }
 
   return (<div className="container">

@@ -1,29 +1,24 @@
 import React, {useState} from 'react';
 import {Link, NavLink} from "react-router-dom";
 import {ROUTES} from '../globalVariables';
-import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import {NavDropdown} from "react-bootstrap";
-import Badge from "react-bootstrap/Badge";
+import {NavDropdown, Nav, Container, Navbar, Badge} from "react-bootstrap";
 import useCartIco from "../hooks/useCartIco";
 import Search from "./Search";
-import {useToggle} from "../hooks/useToggle";
+import AuthModal from "./auth/AuthModal";
+import Userbar from "./header/UserBar";
+import {useSelector} from "react-redux";
 
 const Header = () => {
+  const user = useSelector(state => state.user.user)
   const [cartCounter] = useCartIco()
-  const [showBarVisibility, toggle] = useToggle(false);
+  const [searchbarVisible, setSearchbarVisible] = useState(false);
+  const [show, setShow] = useState(false);
 
-  const searchBarToggler = () => {
-    const searchbar = document.getElementById('searchbar');
-    if (!showBarVisibility) {
-      toggle()
-      searchbar.style.top = '0';
-    } else {
-      searchbar.style.top = '-100px';
-      toggle()
-    }
-  }
+
+  const handleShow = () => setShow(true);
+
+
+
   return (
     <>
       <header className='border-bottom py-2 shadow sticky-top'>
@@ -34,7 +29,7 @@ const Header = () => {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto mx-auto">
                 <Nav.Link as={NavLink} to={ROUTES.HOME}>Home</Nav.Link>
-                <NavDropdown title="Products" id="basic-nav-dropdown">
+                <NavDropdown title="Products" id="basic-nav-dropdown" show={true}>
                   <NavDropdown.Item as={NavLink} to={ROUTES.MENS_CLOTHING}>Men's clothing</NavDropdown.Item>
                   <NavDropdown.Item as={NavLink} to={ROUTES.WOMENS_CLOTHING}>Women's clothing</NavDropdown.Item>
                   <NavDropdown.Item as={NavLink} to={ROUTES.FOOTWEAR}>Footwear</NavDropdown.Item>
@@ -46,23 +41,35 @@ const Header = () => {
               </Nav>
             </Navbar.Collapse>
             <div className="toolbar">
-              <span className="toolbar-ico" onClick={searchBarToggler}>
+              <span className="toolbar-ico"
+                    onClick={() => setSearchbarVisible(!searchbarVisible)}
+                    aria-controls="searchbar"
+                    aria-expanded={searchbarVisible}>
           <i className="fa-solid fa-magnifying-glass"></i>
         </span>
               <span className="toolbar-ico">
           <Link to={ROUTES.CART} className="px-2"><i className="fa-solid fa-cart-shopping"></i><Badge
-            pill>{cartCounter !== 0 && cartCounter}</Badge></Link>
+            pill>{cartCounter > 0 && cartCounter}</Badge></Link>
         </span>
-              <span className="toolbar-ico">
-          <a href="src/components/Header#" className="px-2"><i className="fa-solid fa-right-to-bracket"></i></a>
-        </span>
+              {user?.username
+                ? <>
+                    <Userbar user={user} />
+                  </>
+                : <span className="toolbar-ico" onClick={handleShow}>
+                  <i className="fa-solid fa-right-to-bracket"></i>
+                  </span>
+              }
             </div>
           </Container>
         </Navbar>
       </header>
       <Container id="searchbar-container" className="w-25">
-        <Search toggle={toggle}/>
+        <Search searchbarVisible={searchbarVisible}/>
       </Container>
+      <AuthModal
+        show={show}
+        setShow={setShow}
+      />
     </>
   );
 };

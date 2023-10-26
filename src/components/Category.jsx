@@ -11,7 +11,6 @@ const Category = () => {
   const categoryTitle = useParams().categoryTitle;
   const [products, setProducts] = useState([]);
 
-
   const loadProducts = async () => {
     try {
       const response = await fetch(`${apiUrl}/products`);

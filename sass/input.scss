@@ -27,30 +27,44 @@ header {
       align-self: start;
       padding-left: 0 !important;
     }
+
+    .dropdown-menu {
+      display: none;
+    }
+
+    &:hover .dropdown-menu {
+      display: block;
+    }
   }
 
   .toolbar {
+    display: flex;
+    align-items: center;
     font-size: 24px;
+
+    .userbar {
+      display: inline;
+      position: relative;
+
+      .user-avatar {
+        width: 50px;
+        line-height: 24px;
+      }
+
+    }
+
+    .badge {
+      font-size: 10px;
+      position: absolute;
+      bottom: -5px;
+      right: -5px;
+    }
 
     .toolbar-ico {
       position: relative;
       cursor: pointer;
-
-      .badge {
-        font-size: 10px;
-        position: absolute;
-        bottom: -5px;
-        right: -5px;
-      }
     }
-    }
-}
-
-.searchbar {
-  //animation: 4s linear searchbar-popup;
-  position: relative;
-  //width: 50%;
-  top: -100px;
+  }
 }
 
 main {
@@ -59,16 +73,17 @@ main {
     .row:nth-child(even) {
       flex-direction: row-reverse;
     }
-      .col {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        text-align: left;
 
-        .item-text {
-          text-align: left;
-        }
+    .col {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+
+      .item-text {
+        text-align: left;
       }
+    }
   }
 
   .subscribe {

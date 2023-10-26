@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import {Form} from "react-bootstrap";
+import {Collapse, Fade, Form} from "react-bootstrap";
 import {useNavigate} from "react-router-dom";
 
-const Search = () => {
+const Search = ({searchbarVisible}) => {
   const [searchInput, setSearchInput] = useState('');
   const navigate = useNavigate();
 
@@ -10,27 +10,29 @@ const Search = () => {
     setSearchInput(e.target.value)
   };
 
-
-  const handleKeyDown = (event) => {
-    if (event.key === 'Enter') {
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter') {
       navigate('/search-results', {state: {query: searchInput}})
+      setSearchInput('')
+    } else if (e.key === 'Escape') {
       setSearchInput('')
     }
   }
 
-
   return (
-    <>
+    <Collapse in={searchbarVisible}>
+      <div id="searchbar">
         <Form.Control
           type="search"
-          id="searchbar"
           name="searchInput"
           value={searchInput || ''}
           onChange={handleSearchInput}
           onKeyDown={handleKeyDown}
           className="searchbar"
+          autoFocus
       />
-    </>
+      </div>
+    </Collapse>
   );
 };
 

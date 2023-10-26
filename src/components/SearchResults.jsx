@@ -4,7 +4,6 @@ import {Link, useLocation} from "react-router-dom";
 import {apiUrl} from "../globalVariables";
 import {Card, ListGroup, Row, Col} from "react-bootstrap";
 import {ROUTES} from "../globalVariables";
-import Post from "./blog/Post";
 
 const SearchResults = () => {
   const query = useLocation().state.query;
