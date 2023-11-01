@@ -11,7 +11,7 @@ import Cart from "../components/Cart";
 import Blog from "../components/blog/Blog";
 import About from "../components/about/About";
 import Contacts from "../components/contacts/Contacts";
-import SearchResults from "../components/SearchResults";
+import SearchResults from "../components/search/SearchResults";
 import Post from "../components/blog/Post";
 
 export const router = createBrowserRouter([{

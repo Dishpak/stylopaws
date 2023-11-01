@@ -3,7 +3,7 @@ import HeroSection from "./HeroSection";
 import CategoriesSection from "./CategoriesSection";
 import Trendings from "./Trendings";
 import SubscribeSection from "./SubscribeSection";
-import Search from "../Search";
+import Search from "../search/Search";
 
 const MainPage = () => {
   return (

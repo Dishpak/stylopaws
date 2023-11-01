@@ -3,7 +3,7 @@ import {Button, Collapse, Modal} from "react-bootstrap";
 import LoginForm from "./LoginForm";
 import RegisterForm from "./RegisterForm";
 
-const AuthModal = ({show, setShow},props) => {
+const AuthModal = ({show, setShow}, props) => {
   const handleClose = () => setShow(false);
   const [showLoginForm, setShowLoginForm] = useState(true);
   const [showRegisterForm, setShowRegisterForm] = useState(false);

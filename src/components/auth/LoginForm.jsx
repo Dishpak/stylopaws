@@ -4,6 +4,8 @@ import {useFormInputs} from "../../hooks/useFormInputs";
 import {apiUrl} from "../../globalVariables";
 import {useDispatch} from "react-redux";
 import {loginUser} from "../../store/userSlice";
+import {loadCart} from "../../store/cartSlice";
+
 
 const LoginForm = ({closeModal}) => {
   const [formInputs, handleInputChange] = useFormInputs({});
@@ -15,11 +17,11 @@ const LoginForm = ({closeModal}) => {
     try {
       const response = await fetch(`${apiUrl}/users/`);
       const data = await response.json()
-
       const isUser = data.find(user => user.username === formInputs.username && user.password === formInputs.password);
       if(isUser) {
         setFailedLogMessage(false)
         dispatch(loginUser(isUser))
+        dispatch(loadCart(isUser))
         closeModal();
       } else {
         setFailedLogMessage(true);

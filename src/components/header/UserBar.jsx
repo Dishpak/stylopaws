@@ -1,13 +1,19 @@
 import React from 'react';
 import {Button, Image, Badge} from "react-bootstrap";
 import {logoutUser} from "../../store/userSlice";
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
+import {dropCart} from "../../store/cartSlice";
+import {useNavigate} from "react-router-dom";
 
 const Userbar = ({user}) => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const cart = useSelector(state => state.cart)
 
   const logOut = () => {
-    dispatch(logoutUser())
+    dispatch(logoutUser(cart))
+    dispatch(dropCart())
+    navigate("/")
   }
 
   return (

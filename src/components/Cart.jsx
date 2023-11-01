@@ -3,9 +3,10 @@ import {useDispatch, useSelector} from "react-redux";
 import {removeFromCart} from '../store/cartSlice';
 
 const Cart = () => {
+  const user = useSelector(state => state.user.user)
   const dispatch = useDispatch();
-  const cart = useSelector(state => state.cart.cart)
-  const userId = useSelector(state => state.user.user?.id)
+  const cart = useSelector(state => state.cart.cart);
+  const cartAmount = useSelector(state => state.cart.amount)
   const cartTotal = cart.reduce((total, product) => total + product.price, 0);
   const [productOverallPrice, setProductOverallPrice] = useState({});
   const [cartSummary, setCartSummary] = useState(cartTotal);
@@ -26,8 +27,10 @@ const Cart = () => {
     }))
   }
 
+  console.log(cartAmount);
+
   const handleDeleteProduct = (product) => {
-    dispatch(removeFromCart({product: product, userId: userId}));
+    dispatch(removeFromCart({product: product, userId: user.id}));
   }
 
   return (<div className="container">
