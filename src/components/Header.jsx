@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Link, NavLink} from "react-router-dom";
-import {ROUTES} from '../globalVariables';
+import {ROUTES} from './helpers/globalVariables';
 import {NavDropdown, Nav, Container, Navbar, Badge} from "react-bootstrap";
 import useCartIco from "../hooks/useCartIco";
 import Search from "./search/Search";

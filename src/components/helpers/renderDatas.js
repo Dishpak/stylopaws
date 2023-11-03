@@ -1,4 +1,4 @@
-import {ROUTES} from "../../globalVariables";
+import {ROUTES} from "./globalVariables";
 
 export const mainPageCategories = [
   {

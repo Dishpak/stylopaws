@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {apiUrl} from "../../globalVariables";
+import {apiUrl} from "../helpers/globalVariables";
 import Pagination from "../helpers/Pagination";
 import usePagination from "../../hooks/usePagination";
 

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Button, Form} from "react-bootstrap";
 import {useFormInputs} from "../../hooks/useFormInputs";
-import {apiUrl} from "../../globalVariables";
+import {apiUrl} from "../helpers/globalVariables";
 import {useDispatch} from "react-redux";
 import {loginUser} from "../../store/userSlice";
 

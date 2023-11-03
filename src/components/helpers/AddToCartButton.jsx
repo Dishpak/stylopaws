@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {addToCart, dropCart} from "../../store/cartSlice";
 import {useDispatch, useSelector} from "react-redux";
 import AuthModal from "../auth/AuthModal";
-import {apiUrl} from "../../globalVariables";
+import {apiUrl} from "./globalVariables";
 
 const AddToCartButton = ({product}) => {
   const dispatch = useDispatch();
@@ -21,7 +21,7 @@ const AddToCartButton = ({product}) => {
       if (cart.cart.find(item => item.id === product.id)) {
         return null;
       } else {
-        dispatch(addToCart({product: product, userId: userId}))
+        dispatch(addToCart({product}))
         fetch(`${apiUrl}/users/${userId}`, {
           method: 'PATCH',
           headers: {

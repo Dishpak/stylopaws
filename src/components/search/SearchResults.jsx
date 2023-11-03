@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import Container from "react-bootstrap/Container";
 import {Link, useLocation} from "react-router-dom";
-import {apiUrl} from "../../globalVariables";
+import {apiUrl} from "../helpers/globalVariables";
 import {Card, ListGroup, Row, Col} from "react-bootstrap";
-import {ROUTES} from "../../globalVariables";
+import {ROUTES} from "../helpers/globalVariables";
 
 const SearchResults = () => {
   const query = useLocation().state.query;

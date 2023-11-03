@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {Row} from "react-bootstrap";
 import {useLocation} from "react-router-dom";
-import {apiUrl} from "../../globalVariables";
+import {apiUrl} from "../helpers/globalVariables";
 
 const Post = () => {
   const postId = useLocation().state;

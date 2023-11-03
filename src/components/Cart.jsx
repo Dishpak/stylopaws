@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import {removeFromCart} from '../store/cartSlice';
+import {apiUrl} from "./helpers/globalVariables";
 
 const Cart = () => {
   const user = useSelector(state => state.user.user)
@@ -13,7 +14,7 @@ const Cart = () => {
 
   useEffect(() => {
     const updateTotal = Object.values(productOverallPrice).reduce((total, productData) => total + productData?.productSum, cartTotal);
-    setCartSummary(Math.round(updateTotal, -1));
+    setCartSummary(updateTotal.toFixed(2));
   }, [productOverallPrice, cart]);
 
   const handlePriceCalculation = (productId, productQuantity, productPrice) => {
@@ -27,10 +28,22 @@ const Cart = () => {
     }))
   }
 
-  console.log(cartAmount);
-
-  const handleDeleteProduct = (product) => {
-    dispatch(removeFromCart({product: product, userId: user.id}));
+  const handleDeleteProduct = async (productId) => {
+      dispatch(removeFromCart(productId));
+      try {
+        await fetch(`${apiUrl}/users/${user.id}`, {
+          method: 'PATCH',
+          headers: {
+            'Content-Type': 'application/json;charset=utf-8'
+          },
+          body: JSON.stringify({
+            cart: cart.filter(item => item.id !== productId),
+            cartAmount: cartAmount - 1,
+          })
+        })
+      } catch (error) {
+        console.log(error);
+      }
   }
 
   return (<div className="container">
@@ -71,7 +84,8 @@ const Cart = () => {
             <button
               className="btn btn-primary"
               onClick={() => handleDeleteProduct(product.id)}
-            >Remove</button>
+            >Remove
+            </button>
           </td>
         </tr>)
       })}

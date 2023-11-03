@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Link, useParams} from "react-router-dom";
 import AddToCartButton from "./helpers/AddToCartButton";
-import {apiUrl} from "../globalVariables";
+import {apiUrl} from "./helpers/globalVariables";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";

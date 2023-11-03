@@ -2,7 +2,7 @@ import React from 'react';
 import {createBrowserRouter} from "react-router-dom";
 import Layout from "./Layout";
 import ErrorPage from "./routes/error-page";
-import {ROUTES} from "../globalVariables";
+import {ROUTES} from "../components/helpers/globalVariables";
 import CategoriesList from "../components/CategoriesList";
 import MainPage from "../components/mainPage/MainPage";
 import Category from "../components/Category";

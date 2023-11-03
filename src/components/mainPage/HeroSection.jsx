@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import {Image} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
-import {ROUTES} from "../../globalVariables";
+import {ROUTES} from "../helpers/globalVariables";
 
 const HeroSection = () => {
   return (
