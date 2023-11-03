@@ -16,7 +16,7 @@ const Header = () => {
   const isLoggedIn = user.isLogged;
 
 
-  const handleShow = () => setShow(true);
+  const showLoginForm = () => setShow(true);
 
 
   return (<>
@@ -58,7 +58,7 @@ const Header = () => {
         </span>
             {isLoggedIn ? <>
               <Userbar user={user}/>
-            </> : <span className="toolbar-ico" onClick={handleShow}>
+            </> : <span className="toolbar-ico" onClick={showLoginForm}>
                   <i className="fa-solid fa-right-to-bracket"></i>
                   </span>}
           </div>
