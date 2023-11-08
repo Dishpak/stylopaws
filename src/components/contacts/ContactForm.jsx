@@ -2,30 +2,16 @@ import React, {useState} from 'react';
 import {useFormInputs} from "../../hooks/useFormInputs";
 import BootstrapModal from "../helpers/BootstrapModal";
 import {Form, Button} from "react-bootstrap";
-import {useNavigate} from "react-router-dom";
 
 const ContactForm = () => {
-  const [formInputs, handleInputChange, handleInputsReset] = useFormInputs({
-    message: '',
-    name: '',
-    email: '',
-    subject: '',
-  });
+  const [formInputs, handleInputChange, handleInputsReset] = useFormInputs({});
 
-  const [show, setShow] = useState(false);
-  const navigate = useNavigate();
-
-  const handleCloseModal = () => setShow(false);
-  const handleRedirectModal = () => {
-    setShow(false)
-    navigate('/categories')
-  }
-  const handleShowModal = () => setShow(true);
+  const [showModal, setShowModal] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     handleInputsReset();
-    handleShowModal();
+    setShowModal(true)
   }
 
   return (
@@ -56,14 +42,14 @@ const ContactForm = () => {
                         onChange={handleInputChange}/>
         </Form.Group>
       </div>
-      <Button type="submit" onClick={handleShowModal}>Submit form</Button>
-      <BootstrapModal
+      <Button type="submit">Submit form</Button>
+      {showModal && <BootstrapModal
         title='Thank you!'
-        message='Your message successfully sent'
-        show={show}
-        handleClose={handleCloseModal}
-        handleRedirect={handleRedirectModal}
-      />
+        show={showModal}
+        setShow={setShowModal}
+      >
+        <p>Your message successfully sent</p>
+      </BootstrapModal>}
     </Form>
   )
 };

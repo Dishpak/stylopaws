@@ -1,22 +1,20 @@
 import React from 'react';
 import {Modal, Button} from "react-bootstrap";
 
-const BootstrapModal = ({title, message, handleClose, show, handleRedirect}) => {
+const BootstrapModal = ({title, children, show, setShow}) => {
 
+  const handleCloseModal = () => setShow(false)
 
   return (
     <>
-      <Modal show={show} onHide={handleClose} centered>
+      <Modal show={show} onHide={handleCloseModal} centered>
         <Modal.Header closeButton>
           <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>{message}</Modal.Body>
+        <Modal.Body>{children}</Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="secondary" onClick={handleCloseModal}>
             Close
-          </Button>
-          <Button variant="primary" onClick={handleRedirect}>
-            Back to Shopping
           </Button>
         </Modal.Footer>
       </Modal>

@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
-import {addToCart, dropCart} from "../../store/cartSlice";
+import {addToCart} from "../../store/cartSlice";
 import {useDispatch, useSelector} from "react-redux";
 import AuthModal from "../auth/AuthModal";
 import {apiUrl} from "./globalVariables";
-import CartModal from "../modals/CartModal";
 import BootstrapModal from "./BootstrapModal";
 
 const AddToCartButton = ({product}) => {
@@ -39,7 +38,7 @@ const AddToCartButton = ({product}) => {
             'Content-Type': 'application/json;charset=utf-8'
           },
           body: JSON.stringify({
-            cart: [...cart.cart,{...product}],
+            cart: [...cart.cart, {...product}],
             cartAmount: cart.amount + 1,
           })
         })
@@ -51,21 +50,21 @@ const AddToCartButton = ({product}) => {
 
   return (
     <>
-      <button
-        className="btn btn-primary"
-        onClick={addProductToCart}
-      >
-        Add to cart
-      </button>
-      <AuthModal show={showModal.registryModal} setShow={setShowModal} />
+      <button className="btn btn-primary" onClick={addProductToCart}>Add to cart</button>
       <BootstrapModal
         title="Product already in cart"
-        message="You can change amount of items in cart"
         show={showModal.inCartModal}
-        // handleClose={handleCloseModal}
-        // handleRedirect={handleRedirectModal}
-      />
-      {/*<CartModal show={showModal.inCartModal} setShow={setShowModal} />*/}
+        setShow={setShowModal}
+      >
+        <p>You can change amount of items in cart</p>
+      </BootstrapModal>
+      <BootstrapModal
+        title="You have to be registered"
+        show={showModal.registryModal}
+        setShow={setShowModal}
+      >
+        <AuthModal/>
+      </BootstrapModal>
     </>
   );
 };
