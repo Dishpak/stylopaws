@@ -11,7 +11,7 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     handleInputsReset();
-    setShowModal(true)
+    setShowModal(true);
   }
 
   return (
