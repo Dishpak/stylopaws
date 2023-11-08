@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
 import {useFormInputs} from "../../hooks/useFormInputs";
 import BootstrapModal from "../helpers/BootstrapModal";
-import Button from "react-bootstrap/Button";
-import Form from 'react-bootstrap/Form';
+import {Form, Button} from "react-bootstrap";
 import {useNavigate} from "react-router-dom";
 
 const ContactForm = () => {

@@ -8,7 +8,6 @@ import Search from "../search/Search";
 const MainPage = () => {
   return (
     <>
-      <Search />
       <HeroSection/>
       <CategoriesSection/>
       {/*<Trendings/>*/}

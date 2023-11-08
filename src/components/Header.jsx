@@ -20,8 +20,8 @@ const Header = () => {
 
 
   return (<>
-    <header className='border-bottom py-2 shadow sticky-top'>
-      <Navbar expand="lg" className="w-100 justify-content-between">
+    <header className='py-2 sticky-top'>
+      <Navbar expand="lg" className="w-100 justify-content-between shadow border-bottom">
         <Container className="p-0">
           <Navbar.Brand as={NavLink} to={ROUTES.HOME}>StyloPaws</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
@@ -49,10 +49,10 @@ const Header = () => {
             <span className="toolbar-ico">
           {isLoggedIn
             ?
-              <Link to={ROUTES.CART} className="px-2">
-                <i className="fa-solid fa-cart-shopping"></i>
-                <Badge pill>{cartCounter > 0 && cartCounter}</Badge>
-              </Link>
+            <Link to={ROUTES.CART} className="px-2">
+              <i className="fa-solid fa-cart-shopping"></i>
+              <Badge pill>{cartCounter > 0 && cartCounter}</Badge>
+            </Link>
             : <i className="fa-solid fa-cart-shopping"></i>
           }
         </span>
@@ -64,10 +64,10 @@ const Header = () => {
           </div>
         </Container>
       </Navbar>
+      <Container className="searchbar-container w-25">
+        <Search searchbarVisible={searchbarVisible} setSearchVisible={setSearchbarVisible}/>
+      </Container>
     </header>
-    <Container id="searchbar-container" className="w-25">
-      <Search searchbarVisible={searchbarVisible}/>
-    </Container>
     <AuthModal
       show={show}
       setShow={setShow}

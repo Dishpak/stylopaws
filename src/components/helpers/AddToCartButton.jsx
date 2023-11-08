@@ -4,6 +4,7 @@ import {useDispatch, useSelector} from "react-redux";
 import AuthModal from "../auth/AuthModal";
 import {apiUrl} from "./globalVariables";
 import CartModal from "../modals/CartModal";
+import BootstrapModal from "./BootstrapModal";
 
 const AddToCartButton = ({product}) => {
   const dispatch = useDispatch();
@@ -57,7 +58,14 @@ const AddToCartButton = ({product}) => {
         Add to cart
       </button>
       <AuthModal show={showModal.registryModal} setShow={setShowModal} />
-      <CartModal show={showModal.inCartModal} setShow={setShowModal} />
+      <BootstrapModal
+        title="Product already in cart"
+        message="You can change amount of items in cart"
+        show={showModal.inCartModal}
+        // handleClose={handleCloseModal}
+        // handleRedirect={handleRedirectModal}
+      />
+      {/*<CartModal show={showModal.inCartModal} setShow={setShowModal} />*/}
     </>
   );
 };

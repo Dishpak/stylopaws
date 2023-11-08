@@ -2,10 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {Link, useParams} from "react-router-dom";
 import AddToCartButton from "./helpers/AddToCartButton";
 import {apiUrl} from "./helpers/globalVariables";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import {Card} from "react-bootstrap";
+import {Card, Row, Col, Container} from "react-bootstrap";
 
 const Category = () => {
   const categoryTitle = useParams().categoryTitle;

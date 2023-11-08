@@ -1,10 +1,7 @@
 import React from 'react';
 import SubscribeSection from "../mainPage/SubscribeSection";
 import {companyFeatures} from "../helpers/renderDatas";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import {Image} from "react-bootstrap";
+import {Container, Row, Col, Image} from "react-bootstrap";
 
 
 const About = () => {

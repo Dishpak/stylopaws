@@ -65,6 +65,15 @@ header {
       cursor: pointer;
     }
   }
+  .searchbar-container {
+    background: none;
+    position: relative;
+
+    .searchbar {
+      position: absolute;
+      width: 100%;
+    }
+  }
 }
 
 main {

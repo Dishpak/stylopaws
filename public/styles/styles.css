@@ -624,6 +624,16 @@ header .toolbar .toolbar-ico {
   cursor: pointer;
 }
 
+header .searchbar-container {
+  background: none;
+  position: relative;
+}
+
+header .searchbar-container .searchbar {
+  position: absolute;
+  width: 100%;
+}
+
 main .category-list .row:nth-child(even) {
   flex-direction: row-reverse;
 }
