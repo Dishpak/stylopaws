@@ -560,6 +560,12 @@
   --bs-btn-border-radius: var(--bs-border-radius-sm);
 }
 
+.social-icons a {
+  color: #000;
+}
+.social-icons a:hover {
+  color: #7CB9E8;
+}
 .social-icons i {
   font-size: 30px;
   margin: 0 8px;
@@ -605,6 +611,7 @@ header .toolbar .badge {
 header .toolbar .toolbar-ico {
   position: relative;
   cursor: pointer;
+  margin: 0 5px;
 }
 header .searchbar-container {
   background: none;
@@ -615,23 +622,37 @@ header .searchbar-container .searchbar {
   width: 100%;
 }
 
-main .category-list .container .row:nth-child(even) {
-  flex-direction: row-reverse;
+main section {
+  padding: 2rem 0;
+  background-color: #f2f2f2;
 }
-main .category-list .col {
+main section:nth-child(even) {
+  background-color: #fff;
+}
+main .category-list .container .row {
+  padding-bottom: 50px;
+}
+main .category-list .container .row .col {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   text-align: left;
 }
-main .category-list .col .item-text {
+main .category-list .container .row .col .item-text {
   text-align: left;
 }
-main section {
-  padding: 30px 0;
+main .category-list .container .row:nth-child(even) {
+  flex-direction: row-reverse;
+}
+main .category-list .container .row:nth-child(even) .col {
+  text-align: right;
+  justify-content: flex-start;
 }
 main .top-products a {
   text-decoration: none;
+}
+main .top-products h3 {
+  font-size: 1.1rem;
 }
 main .top-products .card-container {
   display: flex;
@@ -649,7 +670,10 @@ main .top-products .card-container .product-card .rating::before {
   color: #7CB9E8;
 }
 main .subscribe {
-  background-color: #7CB9E8;
+  background-color: #7CB9E8 !important;
+}
+main .pagination {
+  justify-content: center;
 }
 
 /*# sourceMappingURL=input.css.map */

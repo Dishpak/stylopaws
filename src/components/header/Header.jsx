@@ -19,11 +19,8 @@ const Header = () => {
 
     return (
         <>
-            <header className="py-2 sticky-top">
-                <Navbar
-                    expand="lg"
-                    className="w-100 justify-content-between shadow border-bottom"
-                >
+            <header className="py-2 sticky-top border-bottom shadow">
+                <Navbar expand="lg" className="w-100 justify-content-between">
                     <Container className="p-0">
                         <Navbar.Brand as={NavLink} to={ROUTES.HOME}>
                             StyloPaws

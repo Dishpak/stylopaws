@@ -27,7 +27,7 @@ const BootstrapPagination = ({
 
     return (
         pagesNumbers > 1 && (
-            <nav aria-label="Page navigation example">
+            <nav aria-label="Page navigation" className="my-3">
                 <ul className="pagination">
                     <li className="page-item">
                         <button

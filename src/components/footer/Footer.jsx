@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Row, Col} from "react-bootstrap";
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Footer = () => {
   return (
@@ -7,16 +7,36 @@ const Footer = () => {
       <Container>
         <Row className="w-50 mx-auto justify-content-center">
           <Col className="social-icons col-1">
-            <i className="fa-brands fa-linkedin"></i>
+            <a
+              href="https://www.linkedin.com/in/dishpak/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
           </Col>
           <Col className="social-icons col-1">
-            <i className="fa-brands fa-github"></i>
+            <a
+              href="https://github.com/dishpak"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-brands fa-github"></i>
+            </a>
           </Col>
           <Col className="social-icons col-1">
-            <i className="fa-brands fa-instagram"></i>
+            <a
+              href="https://www.instagram.com/dj_dishpak/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-brands fa-instagram"></i>
+            </a>
           </Col>
           <Col className="social-icons col-1">
-            <i className="fa-brands fa-telegram"></i>
+            <a href="mailto: dishpak.dev@gmail.com">
+              <i className="fa-solid fa-envelope"></i>
+            </a>
           </Col>
         </Row>
       </Container>
