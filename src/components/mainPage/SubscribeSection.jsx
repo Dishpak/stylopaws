@@ -21,9 +21,10 @@ const SubscribeSection = () => {
         <Form onSubmit={handleSubmit}><InputGroup className="w-50 mx-auto">
           <Form.Control
             placeholder="enter your email"
+            name="email"
+            type="email"
             value={formInputs.email || ''}
             onChange={handleInputChange}
-            name="email"
             onSubmit={handleSubmit}
           />
           <Button variant="danger" type="submit">subscribe</Button>

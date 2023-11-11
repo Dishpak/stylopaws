@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -634,7 +635,7 @@ header .searchbar-container .searchbar {
   width: 100%;
 }
 
-main .category-list .row:nth-child(even) {
+main .category-list .container .row:nth-child(even) {
   flex-direction: row-reverse;
 }
 
@@ -647,6 +648,33 @@ main .category-list .col {
 
 main .category-list .col .item-text {
   text-align: left;
+}
+
+main section {
+  padding: 30px 0;
+}
+
+main .top-products a {
+  text-decoration: none;
+}
+
+main .top-products .card-container {
+  display: flex;
+}
+
+main .top-products .card-container .product-card {
+  min-height: 100%;
+}
+
+main .top-products .card-container .product-card .card-img-top {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+main .top-products .card-container .product-card .rating::before {
+  content: "✭";
+  color: #7CB9E8;
 }
 
 main .subscribe {
