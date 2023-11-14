@@ -6,8 +6,6 @@ const useCartIco = () => {
   const [cartCounter, setCartCounter] = useState('');
 
   const fullCartIco = () => {
-    console.log(cart.amount);
-    console.log(cartCounter);
     if (cart.amount >= 10) {
       setCartCounter('10+');
     } else {
