@@ -24,7 +24,7 @@ const CategoriesList = () => {
   }, []);
 
   return (
-    <Container>
+    <Container className={'categories'}>
       <h1>Pick a Category</h1>
       <Row>
         {categories.map((category) => (

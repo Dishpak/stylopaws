@@ -769,7 +769,7 @@ main .pagination {
   justify-content: center;
 }
 
-main .category {
+main > .container {
   padding: 50px 0;
 }
 
@@ -783,6 +783,12 @@ main .product-page .row {
 main .product-page .row img {
   width: 300px;
   cursor: pointer;
+}
+
+main .blog .article {
+  padding: 20px 0;
+  text-align: left;
+  border-bottom: 1px solid #000;
 }
 
 

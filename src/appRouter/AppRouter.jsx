@@ -12,53 +12,48 @@ import Blog from '../components/blog/Blog';
 import About from '../components/about/About';
 import Contacts from '../components/contacts/Contacts';
 import SearchResults from '../components/search/SearchResults';
-import Post from '../components/blog/Post';
 
 export const router = createBrowserRouter([
-    {
-        element: <Layout />,
-        errorElement: <ErrorPage />,
-        children: [
-            {
-                path: ROUTES.HOME,
-                element: <MainPage />,
-            },
-            {
-                path: ROUTES.CATEGORIES,
-                element: <CategoriesList />,
-            },
-            {
-                path: `${ROUTES.CATEGORIES}/:categoryTitle`,
-                element: <Category />,
-            },
-            {
-                path: `${ROUTES.PRODUCT}/:productId`,
-                element: <Product />,
-            },
-            {
-                path: ROUTES.BLOG,
-                element: <Blog />,
-            },
-            {
-                path: `${ROUTES.POST}/:postId`,
-                element: <Post />,
-            },
-            {
-                path: ROUTES.ABOUT,
-                element: <About />,
-            },
-            {
-                path: ROUTES.CONTACTS,
-                element: <Contacts />,
-            },
-            {
-                path: ROUTES.CART,
-                element: <Cart />,
-            },
-            {
-                path: ROUTES.SEARCH_RESULTS,
-                element: <SearchResults />,
-            },
-        ],
-    },
+  {
+    element: <Layout />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: ROUTES.HOME,
+        element: <MainPage />,
+      },
+      {
+        path: ROUTES.CATEGORIES,
+        element: <CategoriesList />,
+      },
+      {
+        path: `${ROUTES.CATEGORIES}/:categoryTitle`,
+        element: <Category />,
+      },
+      {
+        path: `${ROUTES.PRODUCT}/:productId`,
+        element: <Product />,
+      },
+      {
+        path: ROUTES.BLOG,
+        element: <Blog />,
+      },
+      {
+        path: ROUTES.ABOUT,
+        element: <About />,
+      },
+      {
+        path: ROUTES.CONTACTS,
+        element: <Contacts />,
+      },
+      {
+        path: ROUTES.CART,
+        element: <Cart />,
+      },
+      {
+        path: ROUTES.SEARCH_RESULTS,
+        element: <SearchResults />,
+      },
+    ],
+  },
 ]);

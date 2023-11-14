@@ -92,6 +92,7 @@ header {
 }
 
 main {
+
   section {
     padding: 2rem 0;
     background-color: darken($bg-color, 5%);
@@ -111,6 +112,7 @@ main {
         height: 200px;
         margin: 0 auto;
       }
+
       .card-footer {
         background: none;
         border: none;
@@ -184,7 +186,7 @@ main {
     justify-content: center;
   }
 
-  .category {
+  &>.container {
     padding: 50px 0;
   }
 
@@ -199,6 +201,15 @@ main {
         width: 300px;
         cursor: pointer;
       }
+    }
+  }
+
+  .blog {
+
+    .article {
+      padding: 20px 0;
+      text-align: left;
+      border-bottom: 1px solid #000;
     }
   }
 }

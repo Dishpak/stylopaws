@@ -2,54 +2,59 @@ import React, { useEffect, useState } from 'react';
 import { apiUrl } from '../helpers/globalVariables';
 import Pagination from '../helpers/BootstrapPagination';
 import usePagination from '../../hooks/usePagination';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const Blog = () => {
-    const [posts, setPosts] = useState([]);
-    const itemsPerPageLimit = 20;
-    const {
-        currentPage,
-        handleMoveForward,
-        handleMoveBack,
-        handleMoveToPage,
-        dataPerPage,
-    } = usePagination(posts, itemsPerPageLimit);
-    const pagesNumbers = Math.ceil(posts.length / itemsPerPageLimit);
+  const [posts, setPosts] = useState([]);
+  const itemsPerPageLimit = 10;
+  const {
+    currentPage,
+    handleMoveForward,
+    handleMoveBack,
+    handleMoveToPage,
+    dataPerPage,
+  } = usePagination(posts, itemsPerPageLimit);
+  const pagesNumbers = Math.ceil(posts.length / itemsPerPageLimit);
 
-    const loadPosts = async () => {
-        try {
-            const response = await fetch(`${apiUrl}/posts`);
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status ${response.status}`);
-            }
-            const data = await response.json();
-            setPosts(data);
-        } catch (error) {
-            console.error('Error:', error);
-        }
-    };
+  const loadPosts = async () => {
+    try {
+      const response = await fetch(`${apiUrl}/posts`);
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status ${response.status}`);
+      }
+      const data = await response.json();
+      setPosts(data);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
 
-    useEffect(() => {
-        loadPosts();
-    }, [currentPage]);
+  useEffect(() => {
+    loadPosts();
+  }, [currentPage]);
 
-    return (
-        <div className="container">
-            <h1>Blog Component</h1>
-            {dataPerPage().map((post) => (
-                <div key={post.id}>
-                    <h3>{post.title}</h3>
-                    <div>{post.body}</div>
-                </div>
-            ))}
-            <Pagination
-                currentPage={currentPage}
-                pagesNumbers={pagesNumbers}
-                handleMoveForward={handleMoveForward}
-                handleMoveBack={handleMoveBack}
-                handleMoveToPage={handleMoveToPage}
-            />
-        </div>
-    );
+  return (
+    <Container className={'blog'}>
+      <h1>Our Blog</h1>
+      <Row>
+        <Col>
+          {dataPerPage().map((post) => (
+            <div key={post.id} className={'article'}>
+              <h3>{post.title}</h3>
+              <div>{post.body}</div>
+            </div>
+          ))}
+        </Col>
+      </Row>
+      <Pagination
+        currentPage={currentPage}
+        pagesNumbers={pagesNumbers}
+        handleMoveForward={handleMoveForward}
+        handleMoveBack={handleMoveBack}
+        handleMoveToPage={handleMoveToPage}
+      />
+    </Container>
+  );
 };
 
 export default Blog;
