@@ -13,6 +13,7 @@ const AddToCartButton = ({ product }) => {
     registryModal: false,
     inCartModal: false,
   });
+  const inCart = cart.cart.find((item) => item.id === product.id);
 
   const showRegisterDuties = () => {
     alert('You have to log in to make purchases!');
@@ -24,7 +25,7 @@ const AddToCartButton = ({ product }) => {
 
   const addProductToCart = () => {
     if (userId) {
-      if (cart.cart.find((item) => item.id === product.id)) {
+      if (inCart) {
         setShowModal({
           ...showModal,
           inCartModal: true,
@@ -49,16 +50,12 @@ const AddToCartButton = ({ product }) => {
 
   return (
     <>
-      <button className="btn btn-primary" onClick={addProductToCart}>
-        Add to cart
-      </button>
-      <BootstrapModal
-        title="Product already in cart"
-        show={showModal.inCartModal}
-        setShow={setShowModal}
+      <button
+        className={`btn btn-primary ${inCart ? 'disabled' : ''}`}
+        onClick={addProductToCart}
       >
-        <p>You can change amount of items in cart</p>
-      </BootstrapModal>
+        {inCart ? 'Already in cart' : 'Add to cart'}
+      </button>
       <AuthModal show={showModal.registryModal} setShow={setShowModal} />
     </>
   );
