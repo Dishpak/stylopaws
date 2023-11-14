@@ -37,6 +37,7 @@ const TopRatedSection = () => {
               as={Link}
               to={`/product/${product.id}`}
               state={product.id}
+              key={product.id}
             >
               <Card key={product.id} className="product-card p-5">
                 <Card.Img variant="top" src={product.image} />
