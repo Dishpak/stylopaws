@@ -1,8 +1,8 @@
-import React, {useEffect, useState} from 'react';
-import {Link, useLocation} from "react-router-dom";
-import {apiUrl} from "../helpers/globalVariables";
-import {Card, ListGroup, Row, Col, Container} from "react-bootstrap";
-import {ROUTES} from "../helpers/globalVariables";
+import React, { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { Card, ListGroup, Row, Col, Container } from 'react-bootstrap';
+
+import { ROUTES, apiUrl } from '../helpers/globalVariables';
 
 const SearchResults = () => {
   const query = useLocation().state.query;
@@ -11,22 +11,21 @@ const SearchResults = () => {
 
   const loadSearchData = async () => {
     try {
-      const responseProducts = await fetch(`${apiUrl}/products?q=${query}`)
+      const responseProducts = await fetch(`${apiUrl}/products?q=${query}`);
       const dataProducts = await responseProducts.json();
-      setSearchResultsProducts(dataProducts)
+      setSearchResultsProducts(dataProducts);
 
-      const responseBlog = await fetch(`${apiUrl}/posts?q=${query}`)
+      const responseBlog = await fetch(`${apiUrl}/posts?q=${query}`);
       const dataBlog = await responseBlog.json();
-      setSearchResultsBlog(dataBlog)
+      setSearchResultsBlog(dataBlog);
     } catch (error) {
       console.error('Error:', error);
     }
-  }
+  };
 
   useEffect(() => {
     loadSearchData();
   }, [query]);
-
 
   return (
     <Container>
@@ -36,21 +35,33 @@ const SearchResults = () => {
         <Row key={index}>
           <Col>
             <Card>
-              <Card.Img variant="top" src={result.image}/>
+              <Card.Img variant="top" src={result.image} />
               <Card.Body>
-                <Card.Title as={Link} to={`${ROUTES.PRODUCT}/${result.id}`} state={result.id}>{result.title}</Card.Title>
+                <Card.Title
+                  as={Link}
+                  to={`${ROUTES.PRODUCT}/${result.id}`}
+                  state={result.id}
+                >
+                  {result.title}
+                </Card.Title>
                 <Card.Text>{result.description}</Card.Text>
               </Card.Body>
             </Card>
           </Col>
         </Row>
       ))}
-        <p>In blog: {searchResultsBlog.length} posts</p>
+      <p>In blog: {searchResultsBlog.length} posts</p>
       {searchResultsBlog.map((result, index) => (
         <Row key={index}>
           <Col>
             <ListGroup>
-              <ListGroup.Item as={Link} to={`${ROUTES.POST}/${result.id}`} state={result.id}>{result.title}</ListGroup.Item>
+              <ListGroup.Item
+                as={Link}
+                to={`${ROUTES.POST}/${result.id}`}
+                state={result.id}
+              >
+                {result.title}
+              </ListGroup.Item>
             </ListGroup>
           </Col>
         </Row>

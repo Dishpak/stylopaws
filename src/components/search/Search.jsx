@@ -1,25 +1,25 @@
-import React, {useState} from 'react';
-import {Collapse, Fade, Form} from "react-bootstrap";
-import {useNavigate} from "react-router-dom";
+import React, { useState } from 'react';
+import { Collapse, Form } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
-const Search = ({searchbarVisible, setSearchVisible}) => {
+const Search = ({ searchbarVisible, setSearchVisible }) => {
   const [searchInput, setSearchInput] = useState('');
   const navigate = useNavigate();
 
   const handleSearchInput = (e) => {
-    setSearchInput(e.target.value)
+    setSearchInput(e.target.value);
   };
 
   const handleKeyDown = (e) => {
     if (e.key === 'Enter') {
-      navigate('/search-results', {state: {query: searchInput}})
-      setSearchInput('')
-      setSearchVisible(false)
+      navigate('/search-results', { state: { query: searchInput } });
+      setSearchInput('');
+      setSearchVisible(false);
     } else if (e.key === 'Escape') {
-      setSearchInput('')
-      setSearchVisible(false)
+      setSearchInput('');
+      setSearchVisible(false);
     }
-  }
+  };
 
   return (
     <Collapse in={searchbarVisible}>
@@ -32,7 +32,7 @@ const Search = ({searchbarVisible, setSearchVisible}) => {
           onKeyDown={handleKeyDown}
           className="searchbar"
           autoFocus
-      />
+        />
       </div>
     </Collapse>
   );

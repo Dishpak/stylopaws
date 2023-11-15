@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
+
 import { loadProduct } from '../../store/productsSlice';
 import AddToCartButton from '../helpers/AddToCartButton';
 import ImageModal from '../modals/ImageModal';

@@ -2,8 +2,8 @@ export const ROUTES = {
   HOME: '/',
   CATEGORIES: '/categories',
   PRODUCT: '/product',
-  MENS_CLOTHING: '/categories/men\'s clothing',
-  WOMENS_CLOTHING: '/categories/women\'s clothing',
+  MENS_CLOTHING: "/categories/men's clothing",
+  WOMENS_CLOTHING: "/categories/women's clothing",
   FOOTWEAR: '/categories/footwear',
   ACCESSORIES: '/categories/accessories',
   ABOUT: '/about',
@@ -12,6 +12,6 @@ export const ROUTES = {
   CONTACTS: '/contacts',
   CART: '/cart',
   SEARCH_RESULTS: '/search-results',
-}
+};
 
 export const apiUrl = 'http://localhost:3001';

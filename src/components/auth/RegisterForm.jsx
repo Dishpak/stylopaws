@@ -1,11 +1,12 @@
-import React, {useState} from 'react';
-import {Button, Form} from "react-bootstrap";
-import {useFormInputs} from "../../hooks/useFormInputs";
-import {apiUrl} from "../helpers/globalVariables";
-import {useDispatch} from "react-redux";
-import {loginUser} from "../../store/userSlice";
+import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { Button, Form } from 'react-bootstrap';
 
-const RegisterForm = ({closeModal}) => {
+import { useFormInputs } from '../../hooks/useFormInputs';
+import { apiUrl } from '../helpers/globalVariables';
+import { loginUser } from '../../store/userSlice';
+
+const RegisterForm = ({ closeModal }) => {
   const [formInputs, handleInputChange, handleInputsReset] = useFormInputs({
     username: '',
     password: '',
@@ -17,12 +18,16 @@ const RegisterForm = ({closeModal}) => {
     e.preventDefault();
     try {
       const response = await fetch(`${apiUrl}/users/`);
-      const data = await response.json()
+      const data = await response.json();
 
-      const isUser = data.find(user => user.username === formInputs.username && user.password === formInputs.password);
+      const isUser = data.find(
+        (user) =>
+          user.username === formInputs.username &&
+          user.password === formInputs.password,
+      );
       if (isUser) {
-        setFailedLogMessage(false)
-        dispatch(loginUser(isUser))
+        setFailedLogMessage(false);
+        dispatch(loginUser(isUser));
         handleInputsReset();
       } else {
         setFailedLogMessage(true);
@@ -30,7 +35,7 @@ const RegisterForm = ({closeModal}) => {
     } catch (error) {
       console.log(error);
     }
-  }
+  };
 
   return (
     <>

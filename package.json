@@ -25,7 +25,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server --watch src/server/localApiDb.json --port 3001",
-    "sass": "sass --watch sass/input.css public/styles/styles.css"
+    "sass": "sass --watch sass/input.css public/styles/styles.css",
+    "format": "prettier --loglevel warn --write \"{<src/components/>}/**/*.{jsx,js}\""
   },
   "eslintConfig": {
     "extends": [

@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { ROUTES } from '../helpers/globalVariables';
 import { NavDropdown, Nav, Container, Navbar, Badge } from 'react-bootstrap';
+import { useSelector } from 'react-redux';
+
+import { ROUTES } from '../helpers/globalVariables';
 import useCartIco from '../../hooks/useCartIco';
 import Search from '../search/Search';
 import AuthModal from '../auth/AuthModal';
 import Userbar from './UserBar';
-import { useSelector } from 'react-redux';
 
 const Header = () => {
   const user = useSelector((state) => state.user.user);

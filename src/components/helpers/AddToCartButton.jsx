@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { addToCart } from '../../store/cartSlice';
 import { useDispatch, useSelector } from 'react-redux';
+
+import { addToCart } from '../../store/cartSlice';
 import AuthModal from '../auth/AuthModal';
 import { apiUrl } from './globalVariables';
-import BootstrapModal from './BootstrapModal';
 
 const AddToCartButton = ({ product }) => {
   const dispatch = useDispatch();

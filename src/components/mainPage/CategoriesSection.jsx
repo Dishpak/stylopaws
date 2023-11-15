@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { mainPageCategories } from '../helpers/renderDatas';
 import { Container, Button, Image, Row, Col } from 'react-bootstrap';
+
+import { mainPageCategories } from '../helpers/renderDatas';
 
 const CategoriesSection = () => {
   return (

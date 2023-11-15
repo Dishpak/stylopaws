@@ -1,12 +1,12 @@
-@import "../node_modules/bootstrap/scss/functions";
-@import "custom_variables";
-@import "image-modal";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/variables-dark";
-@import "../node_modules/bootstrap/scss/maps";
-@import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/root";
-@import "../node_modules/bootstrap/scss/buttons";
+@import '../node_modules/bootstrap/scss/functions';
+@import 'custom_variables';
+@import 'image-modal';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/variables-dark';
+@import '../node_modules/bootstrap/scss/maps';
+@import '../node_modules/bootstrap/scss/mixins';
+@import '../node_modules/bootstrap/scss/root';
+@import '../node_modules/bootstrap/scss/buttons';
 
 a {
   text-decoration: none;
@@ -29,7 +29,6 @@ a {
 }
 
 header {
-
   background-color: $bg-color;
 
   .dropdown {
@@ -63,7 +62,6 @@ header {
         width: 50px;
         line-height: 24px;
       }
-
     }
 
     .badge {
@@ -92,7 +90,6 @@ header {
 }
 
 main {
-
   section {
     padding: 2rem 0;
     background-color: darken($bg-color, 5%);
@@ -170,13 +167,12 @@ main {
         }
 
         .rating::before {
-          content: "✭";
+          content: '✭';
           color: $primary;
         }
       }
     }
   }
-
 
   .subscribe {
     background-color: $primary !important;
@@ -186,7 +182,7 @@ main {
     justify-content: center;
   }
 
-  &>.container {
+  & > .container {
     padding: 50px 0;
   }
 
@@ -205,7 +201,6 @@ main {
   }
 
   .blog {
-
     .article {
       padding: 20px 0;
       text-align: left;
@@ -213,4 +208,3 @@ main {
     }
   }
 }
-

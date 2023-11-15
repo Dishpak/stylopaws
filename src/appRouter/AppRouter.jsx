@@ -1,7 +1,8 @@
 import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
+
 import Layout from './Layout';
-import ErrorPage from './routes/error-page';
+import ErrorPage from './routes/route-error';
 import { ROUTES } from '../components/helpers/globalVariables';
 import CategoriesList from '../components/products/CategoriesList';
 import MainPage from '../components/mainPage/MainPage';

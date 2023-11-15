@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
-import { apiUrl } from '../helpers/globalVariables';
 import { Link } from 'react-router-dom';
 
+import { apiUrl } from '../helpers/globalVariables';
 const TopRatedSection = () => {
   const [products, setProducts] = useState();
 

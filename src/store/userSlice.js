@@ -1,14 +1,15 @@
-import {createSlice} from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
   user: {
     id: 0,
     username: 'default',
-    avatar: 'https://img.freepik.com/premium-vector/empty-face-icon-avatar-with-beard-vector-illustration_601298-13395.jpg',
+    avatar:
+      'https://img.freepik.com/premium-vector/empty-face-icon-avatar-with-beard-vector-illustration_601298-13395.jpg',
     isLogged: false,
     cart: [],
-  }
-}
+  },
+};
 
 export const usersSlice = createSlice({
   name: 'user',
@@ -24,10 +25,9 @@ export const usersSlice = createSlice({
 
     logoutUser: (state) => {
       state.user = initialState;
-    }
+    },
+  },
+});
 
-  }
-})
-
-export const {loginUser, logoutUser} = usersSlice.actions;
+export const { loginUser, logoutUser } = usersSlice.actions;
 export default usersSlice.reducer;

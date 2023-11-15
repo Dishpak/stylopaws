@@ -1,10 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
-import { Image } from 'react-bootstrap';
-import Container from 'react-bootstrap/Container';
+import { Image, Row, Col, Container, Button } from 'react-bootstrap';
+
 import { ROUTES } from '../helpers/globalVariables';
 
 const HeroSection = () => {

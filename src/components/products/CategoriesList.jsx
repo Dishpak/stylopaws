@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Card, Container, Row, Col } from 'react-bootstrap';
+
 import { apiUrl } from '../helpers/globalVariables';
 
 const CategoriesList = () => {

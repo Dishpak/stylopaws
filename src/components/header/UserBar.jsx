@@ -1,9 +1,10 @@
 import React from 'react';
-import { Button, Image, Badge, Dropdown } from 'react-bootstrap';
-import { logoutUser } from '../../store/userSlice';
-import { useDispatch, useSelector } from 'react-redux';
-import { dropCart } from '../../store/cartSlice';
 import { useNavigate } from 'react-router-dom';
+import { Image, Dropdown } from 'react-bootstrap';
+import { useDispatch, useSelector } from 'react-redux';
+
+import { logoutUser } from '../../store/userSlice';
+import { dropCart } from '../../store/cartSlice';
 
 const Userbar = ({ user }) => {
   const dispatch = useDispatch();

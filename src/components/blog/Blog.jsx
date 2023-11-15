@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+
 import { apiUrl } from '../helpers/globalVariables';
 import Pagination from '../helpers/BootstrapPagination';
 import usePagination from '../../hooks/usePagination';
-import { Col, Container, Row } from 'react-bootstrap';
 
 const Blog = () => {
   const [posts, setPosts] = useState([]);
