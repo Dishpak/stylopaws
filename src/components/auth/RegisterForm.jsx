@@ -1,36 +1,58 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useDispatch } from 'react-redux';
 import { Button, Form } from 'react-bootstrap';
 
 import { useFormInputs } from '../../hooks/useFormInputs';
 import { apiUrl } from '../helpers/globalVariables';
-import { loginUser } from '../../store/userSlice';
+import { registerUser } from '../../store/userSlice';
 
 const RegisterForm = ({ closeModal }) => {
-  const [formInputs, handleInputChange, handleInputsReset] = useFormInputs({
-    username: '',
-    password: '',
-  });
-  const [failedLogMessage, setFailedLogMessage] = useState(false);
+  const [
+    input,
+    handleInputChange,
+    handleInputsReset,
+    errorMessage,
+    setErrorMessage,
+  ] = useFormInputs([]);
+
   const dispatch = useDispatch();
 
   const checkUser = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch(`${apiUrl}/users/`);
+      const response = await fetch(`${apiUrl}/users`);
       const data = await response.json();
 
-      const isUser = data.find(
-        (user) =>
-          user.username === formInputs.username &&
-          user.password === formInputs.password,
-      );
-      if (isUser) {
-        setFailedLogMessage(false);
-        dispatch(loginUser(isUser));
+      const formValidation = () => {
+        if (data.find((user) => user.username === input.username)) {
+          setErrorMessage('Username is already taken, choose another');
+        } else if (input.password !== input.passwordConfirmation) {
+          setErrorMessage(`Passwords doesn't match`);
+        } else {
+          return true;
+        }
+      };
+
+      if (formValidation()) {
+        const uid = Date.now();
+        const newUser = {
+          id: uid,
+          username: input.username,
+          password: input.password,
+        };
+
+        dispatch(registerUser(newUser));
+
+        fetch(`${apiUrl}/users`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(newUser),
+        });
+
         handleInputsReset();
-      } else {
-        setFailedLogMessage(true);
+        closeModal();
       }
     } catch (error) {
       console.log(error);
@@ -45,10 +67,10 @@ const RegisterForm = ({ closeModal }) => {
           <Form.Control
             type="text"
             name="username"
-            value={formInputs.username || ''}
+            value={input.username || ''}
             onChange={handleInputChange}
             placeholder="enter your username"
-            required
+            // required
           />
         </Form.Group>
         <Form.Group>
@@ -56,7 +78,7 @@ const RegisterForm = ({ closeModal }) => {
           <Form.Control
             type="password"
             name="password"
-            value={formInputs.password || ''}
+            value={input.password || ''}
             onChange={handleInputChange}
             placeholder="enter your password"
             required
@@ -64,14 +86,14 @@ const RegisterForm = ({ closeModal }) => {
           <Form.Label>Repeat Password:</Form.Label>
           <Form.Control
             type="password"
-            name="password"
-            value={formInputs.password || ''}
+            name="passwordConfirmation"
+            value={input.passwordConfirmation || ''}
             onChange={handleInputChange}
             placeholder="enter your password"
             required
           />
         </Form.Group>
-        {failedLogMessage && <p>Please check your Username & Password</p>}
+        {errorMessage && <p>{errorMessage}</p>}
         <Button type="submit">Register</Button>
       </Form>
     </>

@@ -471,27 +471,15 @@
       },
       "cart": [
         {
-          "id": 3,
-          "title": "Mens Cotton Jacket",
-          "price": 55.99,
-          "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+          "id": 1,
+          "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+          "price": 109.95,
+          "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
           "category": "men's clothing",
-          "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+          "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
           "rating": {
-            "rate": 4.7,
-            "count": 500
-          }
-        },
-        {
-          "id": 4,
-          "title": "Mens Casual Slim Fit",
-          "price": 15.99,
-          "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-          "category": "men's clothing",
-          "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
-          "rating": {
-            "rate": 2.1,
-            "count": 430
+            "rate": 3.9,
+            "count": 120
           }
         },
         {
@@ -505,117 +493,9 @@
             "rate": 4.1,
             "count": 259
           }
-        },
-        {
-          "id": 1,
-          "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-          "price": 109.95,
-          "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-          "category": "men's clothing",
-          "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-          "rating": {
-            "rate": 3.9,
-            "count": 120
-          }
-        },
-        {
-          "id": 5,
-          "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
-          "price": 695,
-          "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-          "category": "footwear",
-          "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
-          "rating": {
-            "rate": 4.6,
-            "count": 400
-          }
-        },
-        {
-          "id": 6,
-          "title": "Solid Gold Petite Micropave ",
-          "price": 168,
-          "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
-          "category": "footwear",
-          "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-          "rating": {
-            "rate": 3.9,
-            "count": 70
-          }
-        },
-        {
-          "id": 7,
-          "title": "White Gold Plated Princess",
-          "price": 9.99,
-          "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
-          "category": "footwear",
-          "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
-          "rating": {
-            "rate": 3,
-            "count": 400
-          }
-        },
-        {
-          "id": 8,
-          "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
-          "price": 10.99,
-          "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
-          "category": "footwear",
-          "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
-          "rating": {
-            "rate": 1.9,
-            "count": 100
-          }
-        },
-        {
-          "id": 15,
-          "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
-          "price": 56.99,
-          "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
-          "category": "women's clothing",
-          "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
-          "rating": {
-            "rate": 2.6,
-            "count": 235
-          }
-        },
-        {
-          "id": 16,
-          "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
-          "price": 29.95,
-          "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
-          "category": "women's clothing",
-          "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
-          "rating": {
-            "rate": 2.9,
-            "count": 340
-          }
-        },
-        {
-          "id": 17,
-          "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
-          "price": 39.99,
-          "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
-          "category": "women's clothing",
-          "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
-          "rating": {
-            "rate": 3.8,
-            "count": 679
-          }
-        },
-        {
-          "id": 18,
-          "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
-          "price": 9.85,
-          "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
-          "category": "women's clothing",
-          "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
-          "rating": {
-            "rate": 4.7,
-            "count": 130
-          }
         }
       ],
-      "cartAmount": 12
+      "cartAmount": 2
     },
     {
       "id": 2,
@@ -726,119 +606,9 @@
       }
     },
     {
-      "id": 6,
-      "name": "Mrs. Dennis Schulist",
-      "username": "Leopoldo_Corkery",
-      "email": "Karley_Dach@jasper.info",
-      "address": {
-        "street": "Norberto Crossing",
-        "suite": "Apt. 950",
-        "city": "South Christy",
-        "zipcode": "23505-1337",
-        "geo": {
-          "lat": "-71.4197",
-          "lng": "71.7478"
-        }
-      },
-      "phone": "1-477-935-8478 x6430",
-      "website": "ola.org",
-      "company": {
-        "name": "Considine-Lockman",
-        "catchPhrase": "Synchronised bottom-line interface",
-        "bs": "e-enable innovative applications"
-      }
-    },
-    {
-      "id": 7,
-      "name": "Kurtis Weissnat",
-      "username": "Elwyn.Skiles",
-      "email": "Telly.Hoeger@billy.biz",
-      "address": {
-        "street": "Rex Trail",
-        "suite": "Suite 280",
-        "city": "Howemouth",
-        "zipcode": "58804-1099",
-        "geo": {
-          "lat": "24.8918",
-          "lng": "21.8984"
-        }
-      },
-      "phone": "210.067.6132",
-      "website": "elvis.io",
-      "company": {
-        "name": "Johns Group",
-        "catchPhrase": "Configurable multimedia task-force",
-        "bs": "generate enterprise e-tailers"
-      }
-    },
-    {
-      "id": 8,
-      "name": "Nicholas Runolfsdottir V",
-      "username": "Maxime_Nienow",
-      "email": "Sherwood@rosamond.me",
-      "address": {
-        "street": "Ellsworth Summit",
-        "suite": "Suite 729",
-        "city": "Aliyaview",
-        "zipcode": "45169",
-        "geo": {
-          "lat": "-14.3990",
-          "lng": "-120.7677"
-        }
-      },
-      "phone": "586.493.6943 x140",
-      "website": "jacynthe.com",
-      "company": {
-        "name": "Abernathy Group",
-        "catchPhrase": "Implemented secondary concept",
-        "bs": "e-enable extensible e-tailers"
-      }
-    },
-    {
-      "id": 9,
-      "name": "Glenna Reichert",
-      "username": "Delphine",
-      "email": "Chaim_McDermott@dana.io",
-      "address": {
-        "street": "Dayna Park",
-        "suite": "Suite 449",
-        "city": "Bartholomebury",
-        "zipcode": "76495-3109",
-        "geo": {
-          "lat": "24.6463",
-          "lng": "-168.8889"
-        }
-      },
-      "phone": "(775)976-6794 x41206",
-      "website": "conrad.com",
-      "company": {
-        "name": "Yost and Sons",
-        "catchPhrase": "Switchable contextually-based project",
-        "bs": "aggregate real-time technologies"
-      }
-    },
-    {
-      "id": 10,
-      "name": "Clementina DuBuque",
-      "username": "Moriah.Stanton",
-      "email": "Rey.Padberg@karina.biz",
-      "address": {
-        "street": "Kattie Turnpike",
-        "suite": "Suite 198",
-        "city": "Lebsackbury",
-        "zipcode": "31428-2261",
-        "geo": {
-          "lat": "-38.2386",
-          "lng": "57.2232"
-        }
-      },
-      "phone": "024-648-3804",
-      "website": "ambrose.net",
-      "company": {
-        "name": "Hoeger LLC",
-        "catchPhrase": "Centralized empowering task-force",
-        "bs": "target end-to-end models"
-      }
+      "id": 1700920568196,
+      "username": "Dishpak",
+      "password": "123"
     }
   ]
 }

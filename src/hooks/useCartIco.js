@@ -9,7 +9,7 @@ const useCartIco = () => {
     if (cart.amount >= 10) {
       setCartCounter('10+');
     } else {
-      setCartCounter(cart.amount.toString());
+      setCartCounter(cart?.amount?.toString());
     }
   };
 
