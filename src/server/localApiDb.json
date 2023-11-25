@@ -608,7 +608,13 @@
     {
       "id": 1700920568196,
       "username": "Dishpak",
-      "password": "123"
+      "password": "123",
+      "isLogged": true,
+      "avatar": "https://img.freepik.com/premium-vector/head-of-bearded-man-with-bow-tie-portrait-of-bearded-brunet-man-avatar-of-stylish-dendy-for-social-networks-abstract-male-portrait-full-face-illustration-in-flat-style_276162-43.jpg",
+      "name": "Dishpak",
+      "email": "dishpak@mail.ru",
+      "phoneNumber": "+375298778498",
+      "avatar-url": "https://img.freepik.com/premium-vector/empty-face-icon-avatar-with-beard-vector-illustration_601298-13395.jp"
     }
   ]
 }

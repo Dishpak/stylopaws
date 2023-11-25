@@ -12,6 +12,7 @@ export const ROUTES = {
   CONTACTS: '/contacts',
   CART: '/cart',
   SEARCH_RESULTS: '/search-results',
+  PROFILE: '/profile',
 };
 
 export const apiUrl = 'http://localhost:3001';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Image, Dropdown } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -25,9 +25,11 @@ const Userbar = ({ user }) => {
         id={'dropdown-button-drop-end'}
       ></Dropdown.Toggle>
       <Dropdown.Menu>
-        <Dropdown.Item>
-          <p onClick={logOut}>Logout</p>
+        <Dropdown.Item as={Link} to={'/profile'}>
+          Profile
         </Dropdown.Item>
+        <Dropdown.Item>Featured</Dropdown.Item>
+        <Dropdown.Item onClick={logOut}>Logout</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
   );

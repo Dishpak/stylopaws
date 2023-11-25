@@ -13,6 +13,7 @@ import Blog from '../components/blog/Blog';
 import About from '../components/about/About';
 import Contacts from '../components/contacts/Contacts';
 import SearchResults from '../components/search/SearchResults';
+import Profile from '../components/Profile Page/Profile';
 
 export const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ export const router = createBrowserRouter([
       {
         path: ROUTES.HOME,
         element: <MainPage />,
+      },
+      {
+        path: ROUTES.PROFILE,
+        element: <Profile />,
       },
       {
         path: ROUTES.CATEGORIES,
