@@ -186,6 +186,18 @@ main {
     padding: 50px 0;
   }
 
+  i.featured {
+    margin-top: 10px;
+    cursor: pointer;
+
+    &:hover {
+      color: greenyellow;
+      font-weight: bold;
+      stroke: #000;
+      outline: #2c0b0e;
+    }
+  }
+
   .product-page {
     .row {
       justify-content: center;
@@ -253,7 +265,4 @@ main {
       border: none;
     }
   }
-
-
-
 }

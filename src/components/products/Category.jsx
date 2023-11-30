@@ -4,6 +4,7 @@ import { Card, Row, Col, Container } from 'react-bootstrap';
 
 import AddToCartButton from '../helpers/AddToCartButton';
 import { apiUrl } from '../helpers/globalVariables';
+import FeaturedIcon from '../helpers/FeaturedIcon';
 
 const Category = () => {
   const categoryTitle = useParams().categoryTitle;
@@ -48,6 +49,7 @@ const Category = () => {
               </Card.Body>
               <Card.Footer>
                 <AddToCartButton product={product} />
+                <FeaturedIcon id={product.id} />
               </Card.Footer>
             </Card>
           </Col>

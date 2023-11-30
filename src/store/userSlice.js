@@ -2,12 +2,11 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
   user: {
-    id: 0,
-    username: 'default',
     avatar:
       'https://img.freepik.com/premium-vector/empty-face-icon-avatar-with-beard-vector-illustration_601298-13395.jpg',
     isLogged: false,
     cart: [],
+    featured: [],
   },
 };
 
@@ -16,9 +15,13 @@ export const usersSlice = createSlice({
   initialState,
   reducers: {
     registerUser: (state, action) => {
-      state.user.id = state.user = action.payload;
-      state.user.avatar = initialState.user.avatar;
-      state.user.isLogged = true;
+      state.user = {
+        ...initialState.user,
+        id: action.payload.id,
+        username: action.payload.username,
+        password: action.payload.password,
+        isLogged: true,
+      };
     },
 
     loginUser: (state, action) => {
@@ -39,9 +42,27 @@ export const usersSlice = createSlice({
         ...action.payload,
       };
     },
+
+    addFeatured: (state, action) => {
+      if (!state.user.featured) {
+        state.user.featured = [];
+      }
+      if (
+        state.user.featured.find((item) => item === action.payload) ===
+        action.payload
+      ) {
+        state.user.featured = state.user.featured.filter(
+          (item) => item !== action.payload,
+        );
+      } else {
+        state.user.featured.push(action.payload);
+      }
+      // state.user.featured = action.payload;
+      // console.log(action.payload);
+    },
   },
 });
 
-export const { registerUser, loginUser, logoutUser, editUser } =
+export const { registerUser, loginUser, logoutUser, editUser, addFeatured } =
   usersSlice.actions;
 export default usersSlice.reducer;
