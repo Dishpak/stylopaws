@@ -2,11 +2,22 @@
   "products": [
     {
       "id": 1,
-      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-      "price": 109.95,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "title": "Herb Ritts Beach Photo Tee",
+      "price": 35,
+      "description": "Tee with a Herb Ritts photo printed at the front. Graphic t-shirt cut from 100% cotton in a standard fit with short sleeves and a ribbed crew neck",
+      "features": [
+        "Graphic tee with a Herb Ritts photo print",
+        "Regular fit cotton t-shirt",
+        "Short sleeves",
+        "Ribbed crew neck"
+      ],
+      "care": [
+        "100% Cotton",
+        "Machine wash",
+        "Imported"
+      ],
       "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87286522_010_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 3.9,
         "count": 120
@@ -14,11 +25,23 @@
     },
     {
       "id": 2,
-      "title": "Mens Casual Premium Slim Fit T-Shirts ",
-      "price": 22.3,
-      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "title": "BDG Bonfire Tee",
+      "price": 29,
+      "description": "The essential Bonfire tee by UO’s own BDG label. Washed cotton t-shirt in a boxy silhouette with a cropped hem. Short sleeve style and fitted with a ribbed crew neck. Urban Outfitters exclusive",
+      "features": [
+        "Casual Bonfire tee from BDG",
+        "Boxy fit silhouette with a cropped hem",
+        "Short sleeve style t-shirt",
+        "UO exclusive"
+      ],
+      "care": [
+        "100% Cotton",
+        "Machine wash cold with like colors",
+        "This item has been overdyed and may transfer dye. We recommend that you wash this item separately a few times before wearing",
+        "Imported"
+      ],
       "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/86986361_066_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 4.1,
         "count": 259
@@ -26,11 +49,23 @@
     },
     {
       "id": 3,
-      "title": "Mens Cotton Jacket",
-      "price": 55.99,
-      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "title": "Snoop Dogg Photo Tee",
+      "price": 40,
+      "description": "Snoop Dogg photo tee with a graphic printed at the front. Cotton jersey t-shirt in a standard fit with short sleeves and a ribbed crew neck",
+      "features": [
+        "Snoop Dogg photo t-shirt",
+        "Front graphic print",
+        "Regular fit",
+        "Short sleeves",
+        "Ribbed crew neck"
+      ],
+      "care": [
+        "100% Cotton",
+        "Machine wash",
+        "Imported"
+      ],
       "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88480165_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 4.7,
         "count": 500
@@ -38,11 +73,23 @@
     },
     {
       "id": 4,
-      "title": "Mens Casual Slim Fit",
-      "price": 15.99,
-      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "title": "Budweiser Classic Hoodie Sweatshirt",
+      "price": 79,
+      "description": "Budweiser classic hoodie sweatshirt with graphics printed at the left chest and back. Pullover style in a cotton poly blend with an adjustable drawstring hood. Includes a front pouch pocket and ribbed knit trims",
       "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "features": [
+        "Budweiser classic hoodie sweatshirt",
+        "Front & back graphics",
+        "Adjustable drawstring hood",
+        "Front pouch pocket",
+        "Ribbed knit trims"
+      ],
+      "care": [
+        "80% Cotton, 20% polyester",
+        "Machine wash",
+        "Imported"
+      ],
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87855565_016_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 2.1,
         "count": 430
@@ -50,11 +97,23 @@
     },
     {
       "id": 5,
-      "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
-      "price": 695,
-      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-      "category": "footwear",
-      "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+      "title": "BDG Sedona Faux Leather Moto Vest",
+      "price": 79,
+      "description": "BDG moto vest in luxe faux leather. Hits at the waist in a slim-fit with a v-neckline and clasp closures at the front. Finished with side pockets plus silver hardware throughout. Only at UO",
+      "category": "women's clothing",
+      "features": [
+        "Faux leather BDG vest",
+        "Lightly cropped",
+        "Clasp closures",
+        "Side pockets",
+        "UO exclusive"
+      ],
+      "care": [
+        "100% Polyester",
+        "Machine wash",
+        "Imported"
+      ],
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87314787_020_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 4.6,
         "count": 400
@@ -62,11 +121,22 @@
     },
     {
       "id": 6,
-      "title": "Solid Gold Petite Micropave ",
-      "price": 168,
-      "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+      "title": "Converse Chuck 70 Core High Top Sneaker",
+      "price": 90,
+      "description": "Retro vibe Chuck Taylor high tops from Converse. The Chuck 70 Core 162050C sneaker has a durable canvas upper offers contrast stitch detailing and a lace front closure, complete with a rubber toe cap and grippy rubber outsole. A legit heritage classic in the world of sneakers, Converse is the name behind our beloved Chucks, and is respected worldwide as a producer of true, original, athletic footwear.",
+      "features": [
+        "Retro high top sneakers from Converse",
+        "Classic Chuck 70 style",
+        "Lace up front",
+        "Textured rubber outsole"
+      ],
+      "care": [
+        "Canvas, rubber",
+        "Spot clean",
+        "Imported"
+      ],
       "category": "footwear",
-      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/53378626_001_f?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 3.9,
         "count": 70
@@ -74,11 +144,22 @@
     },
     {
       "id": 7,
-      "title": "White Gold Plated Princess",
-      "price": 9.99,
-      "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+      "title": "Dr. Martens 8053 Oxford Shoe",
+      "price": 160,
+      "description": "Classic look Oxford shoe by Dr. Martens with a lace closure front and suede upper. Fitted with the brand’s signature air-cushioned soles and contrast Goodyear welt. Finished with textured tread at the rubber outsole.",
+      "features": [
+        "Suede Oxford shoe from Dr. Martens",
+        "Lace closure front",
+        "Padded collar",
+        "Textured rubber outsole"
+      ],
+      "care": [
+        "Suede, rubber",
+        "Spot clean",
+        "Imported"
+      ],
       "category": "footwear",
-      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/85438471_001_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 3,
         "count": 400
@@ -86,11 +167,44 @@
     },
     {
       "id": 8,
-      "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
-      "price": 10.99,
-      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+      "title": "Reebok X Harry Potter Club C 85 Sneaker",
+      "price": 110,
+      "description": "Classic Club C 85 tennis sneaker from Reebok from the brand's Harry Potter collection. Leather construction has cotton laces and an EVA midsole for added cushioning. Finished with a rubber sole. Innovators from the get-go, Reebok continues to release modern must-haves and classic reissues.",
+      "features": [
+        "Club C sneakers from Reebok",
+        "Harry Potter collection",
+        "Cushioned construction",
+        "Textured rubber outsole"
+      ],
+      "care": [
+        "Leather, rubber",
+        "Spot clean",
+        "Imported"
+      ],
       "category": "footwear",
-      "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/84668730_009_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "rating": {
+        "rate": 1.9,
+        "count": 100
+      }
+    },
+    {
+      "id": 108,
+      "title": "Seychelles Sweet Nothings Platform Heel",
+      "price": 159,
+      "description": "Seychelles Sweet Nothings platform heels. Party-ready peep-toe platforms from Seychelles. Strappy upper with a buckle at the ankle. Set on a platform sole with a chunky heel.",
+      "features": [
+        "Seychelles Sweet Nothings platform heels",
+        "Peep-toe platforms",
+        "Buckle closure"
+      ],
+      "care": [
+        "Leather, synthetic",
+        "Spot clean",
+        "Imported"
+      ],
+      "category": "footwear",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/84017656_001_f?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 1.9,
         "count": 100
@@ -98,11 +212,17 @@
     },
     {
       "id": 9,
-      "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
-      "price": 64,
-      "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+      "title": "Tommy Half Frame Round Sunglasses",
+      "price": 20,
+      "description": "Half frame round sunglasses with a plastic frame & tinted polycarbonate lenses offering 100% UV protection.",
+      "features": [],
+      "care": [
+        "Metal, polycarbonate",
+        "Wipe clean",
+        "Imported"
+      ],
       "category": "accessories",
-      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87348611_007_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 3.3,
         "count": 203
@@ -110,11 +230,15 @@
     },
     {
       "id": 10,
-      "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
-      "price": 109,
-      "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+      "title": "Giant Vintage Ley Classic Aviator Sunglasses",
+      "price": 28,
+      "description": "Our recently unearthed and never-before-worn or sold Ley Classic Aviator Sunglasses from GIANT VINTAGE are classically retro and one-of-a-kind. Complete with UV protection.",
+      "features": [],
+      "care": [
+        "Imported"
+      ],
       "category": "accessories",
-      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/85243798_001_m2?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 2.9,
         "count": 470
@@ -122,11 +246,21 @@
     },
     {
       "id": 11,
-      "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
-      "price": 109,
-      "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+      "title": "Silence + Noise Devon Crescent Bag",
+      "price": 49,
+      "description": "Studded faux leather bag from Silence + Noise. Crescent silhouette with a buckle closure and adjustable strap.",
+      "features": [
+        "Crescent silhouette",
+        "Buckle closure with adjustable strap",
+        "UO exclusive"
+      ],
+      "care": [
+        "PU, mixed metal",
+        "Spot clean",
+        "Imported"
+      ],
       "category": "accessories",
-      "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87750667_001_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 4.8,
         "count": 319
@@ -134,11 +268,20 @@
     },
     {
       "id": 12,
-      "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
-      "price": 114,
-      "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+      "title": "Rothco Canvas Classic Travel Crossbody Bag",
+      "price": 25,
+      "description": "Everyday crossbody bag by Rothco in durable cotton canvas. Utility style with pockets to store & organize it all. Finished with an adjustable length shoulder strap.",
+      "features": [
+        "Utility style with pockets",
+        "Adjustable length shoulder strap"
+      ],
+      "care": [
+        "100% Cotton",
+        "Spot clean",
+        "Imported"
+      ],
       "category": "accessories",
-      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/66605239_031_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 4.8,
         "count": 400
@@ -146,11 +289,23 @@
     },
     {
       "id": 13,
-      "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
-      "price": 599,
-      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+      "title": "Kimchi Blue Hollis Baguette Bag",
+      "price": 39,
+      "description": "Plaid baguette bag from Kimchi Blue in a structured silhouette trimmed with tonal piping. Zippered at the top with a lined interior and zippered pocket.",
+      "features": [
+        "Structured silhouette",
+        "Tonal piping",
+        "Zippered top",
+        "Lined interior with zippered pocket",
+        "Kimchi Blue logo at the front"
+      ],
+      "care": [
+        "100% Polyester",
+        "Spot clean",
+        "Imported"
+      ],
       "category": "accessories",
-      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87751624_049_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 2.9,
         "count": 250
@@ -158,11 +313,17 @@
     },
     {
       "id": 14,
-      "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
-      "price": 999.99,
-      "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+      "title": "Out From Under Jayde Barrel Claw Clip",
+      "price": 10,
+      "description": "New favorite claw clip in a barrel design perfect for a stay-put look.",
+      "features": [],
+      "care": [
+        "Plastic",
+        "Wipe clean",
+        "Imported"
+      ],
       "category": "accessories",
-      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87975520_001_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 2.2,
         "count": 140
@@ -170,11 +331,22 @@
     },
     {
       "id": 15,
-      "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
-      "price": 56.99,
-      "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+      "title": "The North Face Nuptse Cropped Puffer Jacket",
+      "price": 280,
+      "description": "The iconic The North Face 1996 Retro Nuptse down puffer jacket made modern in a cropped puffer jacket silhouette. The North Face Nuptse cropped down puffer jacket is crafted from durable water-repellent recycled nylon with ultra-warm 700 down fill in a short boxy puffer jacket silhouette. Finished with an adjustable drawcord hem and zip-front closure. This cozy puffer jacket has an attached stowable hood, and zipped hand pockets.",
+      "features": [
+        "The North Face Nuptse cropped down puffer jacket",
+        "Boxy down puffer jacket with hood",
+        "Made from recycled nylon with a water-repellent finish",
+        "Responsible Down Standard (RDS) certified down"
+      ],
+      "care": [
+        "100% Recycled nylon; Responsible Down Standard (RDS) certified goose down fill",
+        "Machine wash",
+        "Imported"
+      ],
       "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/81970790_001_f?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 2.6,
         "count": 235
@@ -182,11 +354,23 @@
     },
     {
       "id": 16,
-      "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
-      "price": 29.95,
-      "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+      "title": "BDG Theo Babydoll Mini Dress",
+      "price": 59,
+      "description": "Floaty mini dress from BDG. Cut in a short + swingy babydoll mini silhouette with a straight-across neckline and a button placket at the front. Finished with a cutout at the back and yes, it has pockets. Only at UO",
+      "features": [
+        "Babydoll BDG mini dress",
+        "Straight-across neckline",
+        "Cutout at the back",
+        "Side pockets",
+        "UO exclusive"
+      ],
+      "care": [
+        "100% Cotton",
+        "Machine wash",
+        "Imported"
+      ],
       "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88034095_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 2.9,
         "count": 340
@@ -194,11 +378,24 @@
     },
     {
       "id": 17,
-      "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
-      "price": 39.99,
-      "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+      "title": "UO Bella Bow-Back Satin Mini Dress",
+      "price": 59,
+      "description": "Satin mini dress from UO with an adjustable tie at the back. Cut in a slim-fit with a light dip at the neckline, a seamed empire waist and a mini skirt with a subtle a-line silhouette. Topped with adjustable spaghetti straps. UO exclusive.",
+      "features": [
+        "Adjustable tie at the back",
+        "Slim-fit with a light dip at the neckline",
+        "Seamed empire waist",
+        "Mini skirt with a subtle a-line silhouette",
+        "Topped with adjustable spaghetti straps",
+        "UO exclusive"
+      ],
+      "care": [
+        "97% Polyester, 3% spandex",
+        "Machine wash",
+        "Imported"
+      ],
       "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/79653598_031_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 3.8,
         "count": 679
@@ -206,11 +403,23 @@
     },
     {
       "id": 18,
-      "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
-      "price": 9.85,
-      "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+      "title": "Silence + Noise Tatianna Off-The-Shoulder Ribbed Sweater",
+      "price": 49,
+      "description": "Sweater from Silence + Noise in a lightweight tissue knit. Cropped above the waist and cut with an off-the-shoulder neckline and flared long sleeves. Complete with ribbing throughout. Only available at UO.",
+      "features": [
+        "Ribbed Silence + Noise sweater",
+        "Cropped + fitted",
+        "Off-the-shoulder silhouette",
+        "UO exclusive"
+      ],
+      "care": [
+        "70% Polyester, 30% acrylic",
+        "Hand wash",
+        "Best stored folded",
+        "Imported"
+      ],
       "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87105904_004_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 4.7,
         "count": 130
@@ -218,11 +427,22 @@
     },
     {
       "id": 19,
-      "title": "Opna Women's Short Sleeve Moisture",
-      "price": 7.95,
-      "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+      "title": "UO Danielle Asymmetric Off-The-Shoulder Sweater",
+      "price": 55,
+      "description": "Asymmetric off-the-shoulder sweater by UO. Lightweight sheer knit in a fitted silhouette with ribbed knit trims.",
+      "features": [
+        "Danielle asymmetric off-the-shoulder sweater from UO",
+        "Sheer knit",
+        "Ribbed trims"
+      ],
+      "care": [
+        "54% Acrylic, 46% nylon",
+        "Hand wash",
+        "Best stored folded",
+        "Imported"
+      ],
       "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88077789_004_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 4.5,
         "count": 146
@@ -230,11 +450,22 @@
     },
     {
       "id": 20,
-      "title": "DANVOUY Womens T Shirt Casual Cotton Short",
-      "price": 12.99,
-      "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+      "title": "Out From Under Prep School Pleated Mini Skort",
+      "price": 45,
+      "description": "Bring a preppy element to your ensemble in this mini tennis skort by Out From Under. Cut in a super short micro silhouette with a mid-rise. Complete with pleats all around. Only available at UO.",
+      "features": [
+        "Pleated Out From Under mini skort",
+        "Mid-rise fit",
+        "Hidden shorts underneath",
+        "UO exclusive"
+      ],
+      "care": [
+        "95% Cotton, 5% spandex",
+        "Machine wash",
+        "Imported"
+      ],
       "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87650628_010_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
       "rating": {
         "rate": 3.6,
         "count": 145
@@ -245,26 +476,26 @@
     {
       "id": 101,
       "title": "men's clothing",
-      "description": "lorem ipsum",
-      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg"
+      "description": "Discover the latest trends in men's fashion, from casual essentials to stylish statement pieces",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/78624707_020_g?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
     },
     {
       "id": 102,
       "title": "women's clothing",
-      "description": "lorem ipsum",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+      "description": "Elevate your wardrobe with our collection of women's clothing, featuring everything from timeless classics to on-trend styles",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87650628_010_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
     },
     {
       "id": 103,
       "title": "footwear",
-      "description": "lorem ipsum",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+      "description": "Step into style with our diverse range of footwear, offering comfort and fashion-forward designs for every occasion",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/84134709_012_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
     },
     {
       "id": 104,
       "title": "accessories",
-      "description": "lorem ipsum",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+      "description": "Complete your look with our curated selection of accessories, adding the perfect finishing touches to your outfit",
+      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87759569_070_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
     }
   ],
   "posts": [
@@ -614,8 +845,271 @@
       ],
       "avatar": "https://img.freepik.com/premium-vector/empty-face-icon-avatar-with-beard-vector-illustration_601298-13395.jpg",
       "isLogged": true,
-      "cart": [],
-      "name": "Dzmitry Shpak"
+      "cart": [
+        {
+          "id": 3,
+          "title": "Snoop Dogg Photo Tee",
+          "price": 40,
+          "description": "Snoop Dogg photo tee with a graphic printed at the front. Cotton jersey t-shirt in a standard fit with short sleeves and a ribbed crew neck",
+          "features": [
+            "Snoop Dogg photo t-shirt",
+            "Front graphic print",
+            "Regular fit",
+            "Short sleeves",
+            "Ribbed crew neck"
+          ],
+          "care": [
+            "100% Cotton",
+            "Machine wash",
+            "Imported"
+          ],
+          "category": "men's clothing",
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88480165_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "rating": {
+            "rate": 4.7,
+            "count": 500
+          }
+        },
+        {
+          "id": 5,
+          "title": "BDG Sedona Faux Leather Moto Vest",
+          "price": 79,
+          "description": "BDG moto vest in luxe faux leather. Hits at the waist in a slim-fit with a v-neckline and clasp closures at the front. Finished with side pockets plus silver hardware throughout. Only at UO",
+          "category": "women's clothing",
+          "features": [
+            "Faux leather BDG vest",
+            "Lightly cropped",
+            "Clasp closures",
+            "Side pockets",
+            "UO exclusive"
+          ],
+          "care": [
+            "100% Polyester",
+            "Machine wash",
+            "Imported"
+          ],
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87314787_020_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "rating": {
+            "rate": 4.6,
+            "count": 400
+          }
+        },
+        {
+          "id": 1,
+          "title": "Herb Ritts Beach Photo Tee",
+          "price": 35,
+          "description": "Tee with a Herb Ritts photo printed at the front. Graphic t-shirt cut from 100% cotton in a standard fit with short sleeves and a ribbed crew neck",
+          "features": [
+            "Graphic tee with a Herb Ritts photo print",
+            "Regular fit cotton t-shirt",
+            "Short sleeves",
+            "Ribbed crew neck"
+          ],
+          "care": [
+            "100% Cotton",
+            "Machine wash",
+            "Imported"
+          ],
+          "category": "men's clothing",
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87286522_010_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "rating": {
+            "rate": 3.9,
+            "count": 120
+          }
+        },
+        {
+          "id": 4,
+          "title": "Budweiser Classic Hoodie Sweatshirt",
+          "price": 79,
+          "description": "Budweiser classic hoodie sweatshirt with graphics printed at the left chest and back. Pullover style in a cotton poly blend with an adjustable drawstring hood. Includes a front pouch pocket and ribbed knit trims",
+          "category": "men's clothing",
+          "features": [
+            "Budweiser classic hoodie sweatshirt",
+            "Front & back graphics",
+            "Adjustable drawstring hood",
+            "Front pouch pocket",
+            "Ribbed knit trims"
+          ],
+          "care": [
+            "80% Cotton, 20% polyester",
+            "Machine wash",
+            "Imported"
+          ],
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87855565_016_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "rating": {
+            "rate": 2.1,
+            "count": 430
+          }
+        },
+        {
+          "id": 2,
+          "title": "BDG Bonfire Tee",
+          "price": 29,
+          "description": "The essential Bonfire tee by UO’s own BDG label. Washed cotton t-shirt in a boxy silhouette with a cropped hem. Short sleeve style and fitted with a ribbed crew neck. Urban Outfitters exclusive",
+          "features": [
+            "Casual Bonfire tee from BDG",
+            "Boxy fit silhouette with a cropped hem",
+            "Short sleeve style t-shirt",
+            "UO exclusive"
+          ],
+          "care": [
+            "100% Cotton",
+            "Machine wash cold with like colors",
+            "This item has been overdyed and may transfer dye. We recommend that you wash this item separately a few times before wearing",
+            "Imported"
+          ],
+          "category": "men's clothing",
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/86986361_066_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "rating": {
+            "rate": 4.1,
+            "count": 259
+          }
+        },
+        {
+          "id": 15,
+          "title": "The North Face Nuptse Cropped Puffer Jacket",
+          "price": 280,
+          "description": "The iconic The North Face 1996 Retro Nuptse down puffer jacket made modern in a cropped puffer jacket silhouette. The North Face Nuptse cropped down puffer jacket is crafted from durable water-repellent recycled nylon with ultra-warm 700 down fill in a short boxy puffer jacket silhouette. Finished with an adjustable drawcord hem and zip-front closure. This cozy puffer jacket has an attached stowable hood, and zipped hand pockets.",
+          "features": [
+            "The North Face Nuptse cropped down puffer jacket",
+            "Boxy down puffer jacket with hood",
+            "Made from recycled nylon with a water-repellent finish",
+            "Responsible Down Standard (RDS) certified down"
+          ],
+          "care": [
+            "100% Recycled nylon; Responsible Down Standard (RDS) certified goose down fill",
+            "Machine wash",
+            "Imported"
+          ],
+          "category": "women's clothing",
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/81970790_001_f?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "rating": {
+            "rate": 2.6,
+            "count": 235
+          }
+        },
+        {
+          "id": 16,
+          "title": "BDG Theo Babydoll Mini Dress",
+          "price": 59,
+          "description": "Floaty mini dress from BDG. Cut in a short + swingy babydoll mini silhouette with a straight-across neckline and a button placket at the front. Finished with a cutout at the back and yes, it has pockets. Only at UO",
+          "features": [
+            "Babydoll BDG mini dress",
+            "Straight-across neckline",
+            "Cutout at the back",
+            "Side pockets",
+            "UO exclusive"
+          ],
+          "care": [
+            "100% Cotton",
+            "Machine wash",
+            "Imported"
+          ],
+          "category": "women's clothing",
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88034095_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "rating": {
+            "rate": 2.9,
+            "count": 340
+          }
+        },
+        {
+          "id": 17,
+          "title": "UO Bella Bow-Back Satin Mini Dress",
+          "price": 59,
+          "description": "Satin mini dress from UO with an adjustable tie at the back. Cut in a slim-fit with a light dip at the neckline, a seamed empire waist and a mini skirt with a subtle a-line silhouette. Topped with adjustable spaghetti straps. UO exclusive.",
+          "features": [
+            "Adjustable tie at the back",
+            "Slim-fit with a light dip at the neckline",
+            "Seamed empire waist",
+            "Mini skirt with a subtle a-line silhouette",
+            "Topped with adjustable spaghetti straps",
+            "UO exclusive"
+          ],
+          "care": [
+            "97% Polyester, 3% spandex",
+            "Machine wash",
+            "Imported"
+          ],
+          "category": "women's clothing",
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/79653598_031_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "rating": {
+            "rate": 3.8,
+            "count": 679
+          }
+        },
+        {
+          "id": 18,
+          "title": "Silence + Noise Tatianna Off-The-Shoulder Ribbed Sweater",
+          "price": 49,
+          "description": "Sweater from Silence + Noise in a lightweight tissue knit. Cropped above the waist and cut with an off-the-shoulder neckline and flared long sleeves. Complete with ribbing throughout. Only available at UO.",
+          "features": [
+            "Ribbed Silence + Noise sweater",
+            "Cropped + fitted",
+            "Off-the-shoulder silhouette",
+            "UO exclusive"
+          ],
+          "care": [
+            "70% Polyester, 30% acrylic",
+            "Hand wash",
+            "Best stored folded",
+            "Imported"
+          ],
+          "category": "women's clothing",
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87105904_004_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "rating": {
+            "rate": 4.7,
+            "count": 130
+          }
+        },
+        {
+          "id": 19,
+          "title": "UO Danielle Asymmetric Off-The-Shoulder Sweater",
+          "price": 55,
+          "description": "Asymmetric off-the-shoulder sweater by UO. Lightweight sheer knit in a fitted silhouette with ribbed knit trims.",
+          "features": [
+            "Danielle asymmetric off-the-shoulder sweater from UO",
+            "Sheer knit",
+            "Ribbed trims"
+          ],
+          "care": [
+            "54% Acrylic, 46% nylon",
+            "Hand wash",
+            "Best stored folded",
+            "Imported"
+          ],
+          "category": "women's clothing",
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88077789_004_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "rating": {
+            "rate": 4.5,
+            "count": 146
+          }
+        },
+        {
+          "id": 20,
+          "title": "Out From Under Prep School Pleated Mini Skort",
+          "price": 45,
+          "description": "Bring a preppy element to your ensemble in this mini tennis skort by Out From Under. Cut in a super short micro silhouette with a mid-rise. Complete with pleats all around. Only available at UO.",
+          "features": [
+            "Pleated Out From Under mini skort",
+            "Mid-rise fit",
+            "Hidden shorts underneath",
+            "UO exclusive"
+          ],
+          "care": [
+            "95% Cotton, 5% spandex",
+            "Machine wash",
+            "Imported"
+          ],
+          "category": "women's clothing",
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87650628_010_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "rating": {
+            "rate": 3.6,
+            "count": 145
+          }
+        }
+      ],
+      "name": "Dzmitry Shpak",
+      "cartAmount": 11
     }
   ]
 }

@@ -11,9 +11,10 @@ export const cartSlice = createSlice({
 
   reducers: {
     loadCart: (state, action) => {
-      const { cart, cartAmount } = action.payload;
+      const { cart } = action.payload;
+      state.userId = action.payload.userId;
       state.cart = cart || [];
-      state.amount = cartAmount;
+      state.amount = cart.length;
     },
     addToCart: (state, action) => {
       const { product } = action.payload;

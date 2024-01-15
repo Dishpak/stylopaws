@@ -696,13 +696,37 @@ main section:nth-child(even) {
 
 main .row .card {
   min-height: 100%;
-  padding: 15px;
 }
 
-main .row .card img {
-  width: 200px;
-  height: 200px;
+main .row .card .card-title > * {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+main .row .card .card-image {
+  overflow: hidden;
+}
+
+main .row .card .card-image img {
   margin: 0 auto;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-delay: 0.2s;
+}
+
+main .row .card .card-image img:hover {
+  transform: scale(1.5);
+}
+
+main .row .card .card-text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
 
 main .row .card .card-footer {
@@ -751,8 +775,6 @@ main .top-products .card-container .product-card {
 }
 
 main .top-products .card-container .product-card .card-img-top {
-  width: 200px;
-  height: 200px;
   margin: 0 auto;
 }
 
@@ -793,7 +815,7 @@ main .product-page .row {
 }
 
 main .product-page .row img {
-  width: 300px;
+  max-width: 100%;
   cursor: pointer;
 }
 

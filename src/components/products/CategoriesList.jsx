@@ -31,7 +31,9 @@ const CategoriesList = () => {
         {categories.map((category) => (
           <Col key={category.id} as={Link} to={category.title}>
             <Card>
-              <Card.Img variant="top" src={category.image} />
+              <div className={'card-image'}>
+                <Card.Img variant="top" src={category.image} />
+              </div>
               <Card.Body>
                 <Card.Title>{category.title}</Card.Title>
                 <Card.Text>{category.description}</Card.Text>

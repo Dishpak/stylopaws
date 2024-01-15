@@ -15,13 +15,14 @@ const Product = () => {
   useEffect(() => {
     const loadData = async () => {
       try {
-        const response = await fetch('http://localhost:3001/products/');
+        const response = await fetch(
+          `http://localhost:3001/products/${productId}`,
+        );
         if (!response.ok) {
           throw new Error(`HTTP Error! Status ${response.status}`);
         }
         const data = await response.json();
-        const product = data.filter((product) => product.id === productId);
-        dispatch(loadProduct(...product));
+        dispatch(loadProduct({ ...data }));
       } catch (error) {
         console.error('Error', error);
       }
@@ -45,6 +46,26 @@ const Product = () => {
           <p>
             <span>{product?.price}$</span>
           </p>
+          {product.features.length ? (
+            <div>
+              <h4>Features:</h4>
+              <ul>
+                {product?.features?.map((feature, index) => (
+                  <li key={index}>{feature}</li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+          {product.care.length ? (
+            <div>
+              <h4>Content + Care:</h4>
+              <ul>
+                {product?.care?.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
           <AddToCartButton product={product} />
         </div>
       </div>

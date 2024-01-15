@@ -39,8 +39,10 @@ const TopRatedSection = () => {
               state={product.id}
               key={product.id}
             >
-              <Card key={product.id} className="product-card p-5">
-                <Card.Img variant="top" src={product.image} />
+              <Card key={product.id} className="product-card">
+                <div className="card-image">
+                  <Card.Img variant="top" src={product.image} />
+                </div>
                 <Card.Body>
                   <Card.Title>
                     <h3>{product.title}</h3>
@@ -51,7 +53,7 @@ const TopRatedSection = () => {
                     {product.description}
                   </Card.Text>
                 </Card.Body>
-                <Card.Footer>{product.price}$</Card.Footer>
+                <Card.Footer className={'mb-3'}>{product.price}$</Card.Footer>
               </Card>
             </Col>
           ))}

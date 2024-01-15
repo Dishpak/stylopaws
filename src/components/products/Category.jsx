@@ -35,7 +35,9 @@ const Category = () => {
           <Col key={product.id} className={'col-3'}>
             <Card>
               <Link to={`/product/${product.id}`} state={product.id}>
-                <Card.Img variant="top" src={product.image} />
+                <div className={'card-image'}>
+                  <Card.Img variant="top" src={product.image} />
+                </div>
               </Link>
               <Card.Body>
                 <Card.Title

@@ -23,6 +23,7 @@ const LoginForm = ({ closeModal }) => {
           user.password === formInputs.password,
       );
       if (isUser) {
+        console.log(isUser);
         setFailedLogMessage(false);
         dispatch(loginUser(isUser));
         dispatch(loadCart(isUser));
