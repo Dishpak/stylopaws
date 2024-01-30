@@ -14,6 +14,8 @@ import About from '../components/about/About';
 import Contacts from '../components/contacts/Contacts';
 import SearchResults from '../components/search/SearchResults';
 import Profile from '../components/Profile Page/Profile';
+import FeaturedIcon from '../components/helpers/FeaturedIcon';
+import FeaturedProducts from '../components/products/FeaturedProducts';
 
 export const router = createBrowserRouter([
   {
@@ -35,6 +37,10 @@ export const router = createBrowserRouter([
       {
         path: `${ROUTES.CATEGORIES}/:categoryTitle`,
         element: <Category />,
+      },
+      {
+        path: `${ROUTES.FEATURED_PRODUCTS}/`,
+        element: <FeaturedProducts />,
       },
       {
         path: `${ROUTES.PRODUCT}/:productId`,

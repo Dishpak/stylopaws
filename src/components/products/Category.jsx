@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useParams } from 'react-router-dom';
-import { Card, Row, Col, Container } from 'react-bootstrap';
+import { useParams } from 'react-router-dom';
+import { Row, Col, Container } from 'react-bootstrap';
 
-import AddToCartButton from '../helpers/AddToCartButton';
 import { apiUrl } from '../helpers/globalVariables';
-import FeaturedIcon from '../helpers/FeaturedIcon';
+import ProductCard from './ProductCard';
 
 const Category = () => {
   const categoryTitle = useParams().categoryTitle;
@@ -12,7 +11,9 @@ const Category = () => {
 
   const loadProducts = async () => {
     try {
-      const response = await fetch(`${apiUrl}/products`);
+      const response = await fetch(
+        `${apiUrl}/products?category=${categoryTitle}`,
+      );
       if (!response.ok) {
         throw new Error(`HTTP error! Status ${response.status}`);
       }
@@ -33,27 +34,7 @@ const Category = () => {
       <Row className={'g-3'}>
         {products.map((product) => (
           <Col key={product.id} className={'col-3'}>
-            <Card>
-              <Link to={`/product/${product.id}`} state={product.id}>
-                <div className={'card-image'}>
-                  <Card.Img variant="top" src={product.image} />
-                </div>
-              </Link>
-              <Card.Body>
-                <Card.Title
-                  as={Link}
-                  to={`/product/${product.id}`}
-                  state={product.id}
-                >
-                  {product.title}
-                </Card.Title>
-                <Card.Text>{product.price}$</Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <AddToCartButton product={product} />
-                <FeaturedIcon id={product.id} />
-              </Card.Footer>
-            </Card>
+            <ProductCard product={product} />
           </Col>
         ))}
       </Row>

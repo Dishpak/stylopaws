@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { loadProduct } from '../../store/productsSlice';
 import AddToCartButton from '../helpers/AddToCartButton';
 import ImageModal from '../modals/ImageModal';
+import FeaturedIcon from '../helpers/FeaturedIcon';
 
 const Product = () => {
   const productId = useLocation().state;
@@ -46,27 +47,28 @@ const Product = () => {
           <p>
             <span>{product?.price}$</span>
           </p>
-          {product.features.length ? (
+          {product.features ? (
             <div>
               <h4>Features:</h4>
               <ul>
-                {product?.features?.map((feature, index) => (
+                {product?.features.map((feature, index) => (
                   <li key={index}>{feature}</li>
                 ))}
               </ul>
             </div>
           ) : null}
-          {product.care.length ? (
+          {product?.care ? (
             <div>
               <h4>Content + Care:</h4>
               <ul>
-                {product?.care?.map((item, index) => (
+                {product?.care.map((item, index) => (
                   <li key={index}>{item}</li>
                 ))}
               </ul>
             </div>
           ) : null}
           <AddToCartButton product={product} />
+          <FeaturedIcon product={product} />
         </div>
       </div>
       <ImageModal show={showModalImage} setShow={setShowModalImage}>

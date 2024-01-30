@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import { logoutUser } from '../../store/userSlice';
 import { dropCart } from '../../store/cartSlice';
+import FeaturedProducts from '../products/FeaturedProducts';
 
 const Userbar = ({ user }) => {
   const dispatch = useDispatch();
@@ -28,7 +29,9 @@ const Userbar = ({ user }) => {
         <Dropdown.Item as={Link} to={'/profile'}>
           Profile
         </Dropdown.Item>
-        <Dropdown.Item>Featured</Dropdown.Item>
+        <Dropdown.Item as={Link} to={'/featured'}>
+          Featured
+        </Dropdown.Item>
         <Dropdown.Item onClick={logOut}>Logout</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>

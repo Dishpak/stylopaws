@@ -43,26 +43,31 @@ export const usersSlice = createSlice({
       };
     },
 
-    addFeatured: (state, action) => {
+    toggleFeatured: (state, action) => {
       if (!state.user.featured) {
         state.user.featured = [];
       }
-      if (
-        state.user.featured.find((item) => item === action.payload) ===
-        action.payload
-      ) {
+      if (state.user.featured.find(({ id }) => id === action.payload.id)) {
         state.user.featured = state.user.featured.filter(
-          (item) => item !== action.payload,
+          (item) => item.id !== action.payload.id,
         );
       } else {
         state.user.featured.push(action.payload);
       }
-      // state.user.featured = action.payload;
-      // console.log(action.payload);
+    },
+
+    deleteFeatured: (state) => {
+      state.user.featured = [];
     },
   },
 });
 
-export const { registerUser, loginUser, logoutUser, editUser, addFeatured } =
-  usersSlice.actions;
+export const {
+  registerUser,
+  loginUser,
+  logoutUser,
+  editUser,
+  toggleFeatured,
+  deleteFeatured,
+} = usersSlice.actions;
 export default usersSlice.reducer;

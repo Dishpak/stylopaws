@@ -1,35 +1,42 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
 import { apiUrl } from './globalVariables';
-import { addFeatured } from '../../store/userSlice';
+import { toggleFeatured } from '../../store/userSlice';
 
-const FeaturedIcon = (id) => {
-  const { user } = useSelector((state) => state.user);
+const FeaturedIcon = ({ product }) => {
   const dispatch = useDispatch();
-  const [isFeatured, setIsFeatured] = useState(
-    user?.featured?.find((item) => item === id),
-  );
+  const { user } = useSelector((state) => state.user);
+  const featuredItems = user.featured;
+  const [isFeatured, setIsFeatured] = useState(false);
 
-  const [...featuredItems] = user.featured;
-  const handleFeatured = ({ id }) => {
-    featuredItems.includes(id)
-      ? featuredItems.filter((item) => item !== id)
-      : featuredItems.push(id);
+  useEffect(() => {
+    setIsFeatured(featuredItems.some((item) => item.id === product.id));
+  }, [user, featuredItems, product.id]);
+
+  const handleFeatured = () => {
+    const isProductFeatured = featuredItems.some(
+      (item) => item.id === product.id,
+    );
+    dispatch(toggleFeatured(product));
+
+    const updateFeaturedItems = isProductFeatured
+      ? featuredItems.filter((item) => item.id !== product.id)
+      : [...featuredItems, product];
+
     axios.patch(`${apiUrl}/users/${user.id}`, {
-      featured: featuredItems,
+      featured: updateFeaturedItems,
     });
 
-    dispatch(addFeatured(id));
     setIsFeatured(!isFeatured);
   };
   return (
-    <div>
+    <>
       <i
         className={`fa-${isFeatured ? 'solid' : 'regular'} fa-star featured`}
-        onClick={() => handleFeatured(id)}
+        onClick={handleFeatured}
       ></i>
-    </div>
+    </>
   );
 };
 

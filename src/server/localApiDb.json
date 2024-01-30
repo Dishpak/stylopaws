@@ -840,83 +840,35 @@
       "id": 1700938884723,
       "username": "Dishpak",
       "password": "123",
-      "featured": [
-        1
-      ],
       "avatar": "https://img.freepik.com/premium-vector/empty-face-icon-avatar-with-beard-vector-illustration_601298-13395.jpg",
       "isLogged": true,
-      "cart": [
+      "featured": [
         {
-          "id": 3,
-          "title": "Snoop Dogg Photo Tee",
-          "price": 40,
-          "description": "Snoop Dogg photo tee with a graphic printed at the front. Cotton jersey t-shirt in a standard fit with short sleeves and a ribbed crew neck",
+          "id": 16,
+          "title": "BDG Theo Babydoll Mini Dress",
+          "price": 59,
+          "description": "Floaty mini dress from BDG. Cut in a short + swingy babydoll mini silhouette with a straight-across neckline and a button placket at the front. Finished with a cutout at the back and yes, it has pockets. Only at UO",
           "features": [
-            "Snoop Dogg photo t-shirt",
-            "Front graphic print",
-            "Regular fit",
-            "Short sleeves",
-            "Ribbed crew neck"
-          ],
-          "care": [
-            "100% Cotton",
-            "Machine wash",
-            "Imported"
-          ],
-          "category": "men's clothing",
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88480165_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
-          "rating": {
-            "rate": 4.7,
-            "count": 500
-          }
-        },
-        {
-          "id": 5,
-          "title": "BDG Sedona Faux Leather Moto Vest",
-          "price": 79,
-          "description": "BDG moto vest in luxe faux leather. Hits at the waist in a slim-fit with a v-neckline and clasp closures at the front. Finished with side pockets plus silver hardware throughout. Only at UO",
-          "category": "women's clothing",
-          "features": [
-            "Faux leather BDG vest",
-            "Lightly cropped",
-            "Clasp closures",
+            "Babydoll BDG mini dress",
+            "Straight-across neckline",
+            "Cutout at the back",
             "Side pockets",
             "UO exclusive"
           ],
           "care": [
-            "100% Polyester",
-            "Machine wash",
-            "Imported"
-          ],
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87314787_020_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
-          "rating": {
-            "rate": 4.6,
-            "count": 400
-          }
-        },
-        {
-          "id": 1,
-          "title": "Herb Ritts Beach Photo Tee",
-          "price": 35,
-          "description": "Tee with a Herb Ritts photo printed at the front. Graphic t-shirt cut from 100% cotton in a standard fit with short sleeves and a ribbed crew neck",
-          "features": [
-            "Graphic tee with a Herb Ritts photo print",
-            "Regular fit cotton t-shirt",
-            "Short sleeves",
-            "Ribbed crew neck"
-          ],
-          "care": [
             "100% Cotton",
             "Machine wash",
             "Imported"
           ],
-          "category": "men's clothing",
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87286522_010_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "category": "women's clothing",
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88034095_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
           "rating": {
-            "rate": 3.9,
-            "count": 120
+            "rate": 2.9,
+            "count": 340
           }
-        },
+        }
+      ],
+      "cart": [
         {
           "id": 4,
           "title": "Budweiser Classic Hoodie Sweatshirt",
@@ -942,27 +894,109 @@
           }
         },
         {
-          "id": 2,
-          "title": "BDG Bonfire Tee",
-          "price": 29,
-          "description": "The essential Bonfire tee by UO’s own BDG label. Washed cotton t-shirt in a boxy silhouette with a cropped hem. Short sleeve style and fitted with a ribbed crew neck. Urban Outfitters exclusive",
+          "id": 15,
+          "title": "The North Face Nuptse Cropped Puffer Jacket",
+          "price": 280,
+          "description": "The iconic The North Face 1996 Retro Nuptse down puffer jacket made modern in a cropped puffer jacket silhouette. The North Face Nuptse cropped down puffer jacket is crafted from durable water-repellent recycled nylon with ultra-warm 700 down fill in a short boxy puffer jacket silhouette. Finished with an adjustable drawcord hem and zip-front closure. This cozy puffer jacket has an attached stowable hood, and zipped hand pockets.",
           "features": [
-            "Casual Bonfire tee from BDG",
-            "Boxy fit silhouette with a cropped hem",
-            "Short sleeve style t-shirt",
+            "The North Face Nuptse cropped down puffer jacket",
+            "Boxy down puffer jacket with hood",
+            "Made from recycled nylon with a water-repellent finish",
+            "Responsible Down Standard (RDS) certified down"
+          ],
+          "care": [
+            "100% Recycled nylon; Responsible Down Standard (RDS) certified goose down fill",
+            "Machine wash",
+            "Imported"
+          ],
+          "category": "women's clothing",
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/81970790_001_f?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "rating": {
+            "rate": 2.6,
+            "count": 235
+          }
+        },
+        {
+          "id": 16,
+          "title": "BDG Theo Babydoll Mini Dress",
+          "price": 59,
+          "description": "Floaty mini dress from BDG. Cut in a short + swingy babydoll mini silhouette with a straight-across neckline and a button placket at the front. Finished with a cutout at the back and yes, it has pockets. Only at UO",
+          "features": [
+            "Babydoll BDG mini dress",
+            "Straight-across neckline",
+            "Cutout at the back",
+            "Side pockets",
             "UO exclusive"
           ],
           "care": [
             "100% Cotton",
-            "Machine wash cold with like colors",
-            "This item has been overdyed and may transfer dye. We recommend that you wash this item separately a few times before wearing",
+            "Machine wash",
             "Imported"
           ],
-          "category": "men's clothing",
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/86986361_066_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "category": "women's clothing",
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88034095_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
           "rating": {
-            "rate": 4.1,
-            "count": 259
+            "rate": 2.9,
+            "count": 340
+          }
+        },
+        {
+          "id": 18,
+          "title": "Silence + Noise Tatianna Off-The-Shoulder Ribbed Sweater",
+          "price": 49,
+          "description": "Sweater from Silence + Noise in a lightweight tissue knit. Cropped above the waist and cut with an off-the-shoulder neckline and flared long sleeves. Complete with ribbing throughout. Only available at UO.",
+          "features": [
+            "Ribbed Silence + Noise sweater",
+            "Cropped + fitted",
+            "Off-the-shoulder silhouette",
+            "UO exclusive"
+          ],
+          "care": [
+            "70% Polyester, 30% acrylic",
+            "Hand wash",
+            "Best stored folded",
+            "Imported"
+          ],
+          "category": "women's clothing",
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87105904_004_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "rating": {
+            "rate": 4.7,
+            "count": 130
+          }
+        }
+      ],
+      "name": "Dishpak Dishpakovich",
+      "cartAmount": 4,
+      "email": "dishpak.dev@gmail.com",
+      "phoneNumber": "+123"
+    },
+    {
+      "id": 1705481523351,
+      "username": "NewUser",
+      "password": "123",
+      "cart": [
+        {
+          "id": 5,
+          "title": "BDG Sedona Faux Leather Moto Vest",
+          "price": 79,
+          "description": "BDG moto vest in luxe faux leather. Hits at the waist in a slim-fit with a v-neckline and clasp closures at the front. Finished with side pockets plus silver hardware throughout. Only at UO",
+          "category": "women's clothing",
+          "features": [
+            "Faux leather BDG vest",
+            "Lightly cropped",
+            "Clasp closures",
+            "Side pockets",
+            "UO exclusive"
+          ],
+          "care": [
+            "100% Polyester",
+            "Machine wash",
+            "Imported"
+          ],
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87314787_020_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "rating": {
+            "rate": 4.6,
+            "count": 400
           }
         },
         {
@@ -1038,30 +1072,6 @@
           }
         },
         {
-          "id": 18,
-          "title": "Silence + Noise Tatianna Off-The-Shoulder Ribbed Sweater",
-          "price": 49,
-          "description": "Sweater from Silence + Noise in a lightweight tissue knit. Cropped above the waist and cut with an off-the-shoulder neckline and flared long sleeves. Complete with ribbing throughout. Only available at UO.",
-          "features": [
-            "Ribbed Silence + Noise sweater",
-            "Cropped + fitted",
-            "Off-the-shoulder silhouette",
-            "UO exclusive"
-          ],
-          "care": [
-            "70% Polyester, 30% acrylic",
-            "Hand wash",
-            "Best stored folded",
-            "Imported"
-          ],
-          "category": "women's clothing",
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87105904_004_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
-          "rating": {
-            "rate": 4.7,
-            "count": 130
-          }
-        },
-        {
           "id": 19,
           "title": "UO Danielle Asymmetric Off-The-Shoulder Sweater",
           "price": 55,
@@ -1085,31 +1095,78 @@
           }
         },
         {
-          "id": 20,
-          "title": "Out From Under Prep School Pleated Mini Skort",
-          "price": 45,
-          "description": "Bring a preppy element to your ensemble in this mini tennis skort by Out From Under. Cut in a super short micro silhouette with a mid-rise. Complete with pleats all around. Only available at UO.",
+          "id": 1,
+          "title": "Herb Ritts Beach Photo Tee",
+          "price": 35,
+          "description": "Tee with a Herb Ritts photo printed at the front. Graphic t-shirt cut from 100% cotton in a standard fit with short sleeves and a ribbed crew neck",
           "features": [
-            "Pleated Out From Under mini skort",
-            "Mid-rise fit",
-            "Hidden shorts underneath",
-            "UO exclusive"
+            "Graphic tee with a Herb Ritts photo print",
+            "Regular fit cotton t-shirt",
+            "Short sleeves",
+            "Ribbed crew neck"
           ],
           "care": [
-            "95% Cotton, 5% spandex",
+            "100% Cotton",
             "Machine wash",
             "Imported"
           ],
-          "category": "women's clothing",
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87650628_010_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "category": "men's clothing",
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87286522_010_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
           "rating": {
-            "rate": 3.6,
-            "count": 145
+            "rate": 3.9,
+            "count": 120
+          }
+        },
+        {
+          "id": 3,
+          "title": "Snoop Dogg Photo Tee",
+          "price": 40,
+          "description": "Snoop Dogg photo tee with a graphic printed at the front. Cotton jersey t-shirt in a standard fit with short sleeves and a ribbed crew neck",
+          "features": [
+            "Snoop Dogg photo t-shirt",
+            "Front graphic print",
+            "Regular fit",
+            "Short sleeves",
+            "Ribbed crew neck"
+          ],
+          "care": [
+            "100% Cotton",
+            "Machine wash",
+            "Imported"
+          ],
+          "category": "men's clothing",
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88480165_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "rating": {
+            "rate": 4.7,
+            "count": 500
+          }
+        },
+        {
+          "id": 4,
+          "title": "Budweiser Classic Hoodie Sweatshirt",
+          "price": 79,
+          "description": "Budweiser classic hoodie sweatshirt with graphics printed at the left chest and back. Pullover style in a cotton poly blend with an adjustable drawstring hood. Includes a front pouch pocket and ribbed knit trims",
+          "category": "men's clothing",
+          "features": [
+            "Budweiser classic hoodie sweatshirt",
+            "Front & back graphics",
+            "Adjustable drawstring hood",
+            "Front pouch pocket",
+            "Ribbed knit trims"
+          ],
+          "care": [
+            "80% Cotton, 20% polyester",
+            "Machine wash",
+            "Imported"
+          ],
+          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87855565_016_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "rating": {
+            "rate": 2.1,
+            "count": 430
           }
         }
       ],
-      "name": "Dzmitry Shpak",
-      "cartAmount": 11
+      "cartAmount": 8
     }
   ]
 }
