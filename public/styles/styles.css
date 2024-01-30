@@ -843,6 +843,30 @@ main .slider-container button.btn-forward {
   right: 0;
 }
 
+main .slider-container .preview-container {
+  height: 150px;
+  width: fit-content;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  margin: 10px auto;
+  bottom: 20px;
+}
+
+main .slider-container .preview-container .slider-preview-image {
+  flex: 0 1 auto;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  opacity: 0.6;
+  transition: opacity 0.5s;
+}
+
+main .slider-container .preview-container .slider-preview-image:hover {
+  opacity: 1;
+}
+
 main .product-page .row {
   justify-content: center;
   align-items: center;
@@ -852,7 +876,6 @@ main .product-page .row {
 
 main .product-page .row img {
   max-width: 100%;
-  width: 500px;
   cursor: pointer;
 }
 

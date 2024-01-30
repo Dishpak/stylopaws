@@ -17,6 +17,10 @@ const Slider = ({ product }) => {
     );
   };
 
+  const moveToSlide = (index) => {
+    setImageCounter(index);
+  };
+
   console.log(imageCounter);
 
   return (
@@ -38,6 +42,18 @@ const Slider = ({ product }) => {
           onClick={() => setShowModalImage(true)}
           alt={product.title}
         />
+
+        <div className="preview-container">
+          {product.image.map((image, index) => (
+            <img
+              src={image}
+              alt=""
+              key={index}
+              className={'slider-preview-image'}
+              onClick={() => moveToSlide(index)}
+            />
+          ))}
+        </div>
       </div>
       <ImageModal show={showModalImage} setShow={setShowModalImage}>
         <img src={product.image[imageCounter]} alt={product.title} />
