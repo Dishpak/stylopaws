@@ -18,14 +18,16 @@ const ImageModal = ({
         onClick={(e) => e.stopPropagation()}
       >
         {children}
-        <>
-          <Button onClick={slideBackward} className={'btn-backward'}>
-            <i className="fa-solid fa-chevron-left"></i>
-          </Button>
-          <Button onClick={slideForward} className={'btn-forward'}>
-            <i className="fa-solid fa-chevron-right"></i>
-          </Button>
-        </>
+        {children.length > 1 && (
+          <>
+            <Button onClick={slideBackward} className={'btn-backward'}>
+              <i className="fa-solid fa-chevron-left"></i>
+            </Button>
+            <Button onClick={slideForward} className={'btn-forward'}>
+              <i className="fa-solid fa-chevron-right"></i>
+            </Button>
+          </>
+        )}
       </div>
     </div>
   );

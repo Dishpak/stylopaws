@@ -758,6 +758,7 @@ main i.featured:hover {
 }
 main .image-modal .image-modal-content {
   width: 500px;
+  z-index: 3;
 }
 main .slider-container button, main .image-modal-content button {
   position: absolute;
