@@ -6,6 +6,7 @@ import { loadProduct } from '../../store/productsSlice';
 import AddToCartButton from '../helpers/AddToCartButton';
 import ImageModal from '../modals/ImageModal';
 import FeaturedIcon from '../helpers/FeaturedIcon';
+import Slider from '../helpers/Slider';
 
 const Product = () => {
   const productId = useLocation().state;
@@ -35,11 +36,7 @@ const Product = () => {
     <div className="container product-page">
       <div className="row">
         <div className="col">
-          <img
-            src={product?.image}
-            onClick={() => setShowModalImage(true)}
-            alt={product.title}
-          />
+          <Slider product={product} />
         </div>
         <div className="col">
           <h1>{product?.title}</h1>

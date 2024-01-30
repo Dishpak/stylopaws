@@ -17,7 +17,10 @@
         "Imported"
       ],
       "category": "men's clothing",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87286522_010_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/87286522_010_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+        "https://images.urbndata.com/is/image/UrbanOutfitters/87286522_010_h?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 3.9,
         "count": 120
@@ -41,7 +44,9 @@
         "Imported"
       ],
       "category": "men's clothing",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/86986361_066_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/86986361_066_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 4.1,
         "count": 259
@@ -65,7 +70,9 @@
         "Imported"
       ],
       "category": "men's clothing",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88480165_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/88480165_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 4.7,
         "count": 500
@@ -89,7 +96,9 @@
         "Machine wash",
         "Imported"
       ],
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87855565_016_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/87855565_016_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 2.1,
         "count": 430
@@ -113,7 +122,9 @@
         "Machine wash",
         "Imported"
       ],
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87314787_020_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/87314787_020_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 4.6,
         "count": 400
@@ -136,7 +147,9 @@
         "Imported"
       ],
       "category": "footwear",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/53378626_001_f?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/53378626_001_f?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 3.9,
         "count": 70
@@ -159,7 +172,9 @@
         "Imported"
       ],
       "category": "footwear",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/85438471_001_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/85438471_001_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 3,
         "count": 400
@@ -182,7 +197,9 @@
         "Imported"
       ],
       "category": "footwear",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/84668730_009_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/84668730_009_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 1.9,
         "count": 100
@@ -204,7 +221,9 @@
         "Imported"
       ],
       "category": "footwear",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/84017656_001_f?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/84017656_001_f?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 1.9,
         "count": 100
@@ -222,7 +241,9 @@
         "Imported"
       ],
       "category": "accessories",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87348611_007_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/87348611_007_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 3.3,
         "count": 203
@@ -238,7 +259,9 @@
         "Imported"
       ],
       "category": "accessories",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/85243798_001_m2?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/85243798_001_m2?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 2.9,
         "count": 470
@@ -260,7 +283,9 @@
         "Imported"
       ],
       "category": "accessories",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87750667_001_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/87750667_001_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 4.8,
         "count": 319
@@ -281,7 +306,9 @@
         "Imported"
       ],
       "category": "accessories",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/66605239_031_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/66605239_031_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 4.8,
         "count": 400
@@ -305,7 +332,9 @@
         "Imported"
       ],
       "category": "accessories",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87751624_049_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/87751624_049_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 2.9,
         "count": 250
@@ -323,7 +352,9 @@
         "Imported"
       ],
       "category": "accessories",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87975520_001_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/87975520_001_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 2.2,
         "count": 140
@@ -346,7 +377,9 @@
         "Imported"
       ],
       "category": "women's clothing",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/81970790_001_f?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/81970790_001_f?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 2.6,
         "count": 235
@@ -370,7 +403,9 @@
         "Imported"
       ],
       "category": "women's clothing",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88034095_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/88034095_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 2.9,
         "count": 340
@@ -395,7 +430,12 @@
         "Imported"
       ],
       "category": "women's clothing",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/79653598_031_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/79653598_031_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+        "https://images.urbndata.com/is/image/UrbanOutfitters/79653598_031_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+        "https://images.urbndata.com/is/image/UrbanOutfitters/79653598_031_e?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+        "https://images.urbndata.com/is/image/UrbanOutfitters/79653598_031_g?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 3.8,
         "count": 679
@@ -419,7 +459,9 @@
         "Imported"
       ],
       "category": "women's clothing",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87105904_004_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/87105904_004_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 4.7,
         "count": 130
@@ -442,7 +484,9 @@
         "Imported"
       ],
       "category": "women's clothing",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88077789_004_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/88077789_004_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 4.5,
         "count": 146
@@ -465,7 +509,9 @@
         "Imported"
       ],
       "category": "women's clothing",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87650628_010_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/87650628_010_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ],
       "rating": {
         "rate": 3.6,
         "count": 145
@@ -477,25 +523,33 @@
       "id": 101,
       "title": "men's clothing",
       "description": "Discover the latest trends in men's fashion, from casual essentials to stylish statement pieces",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/78624707_020_g?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/78624707_020_g?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ]
     },
     {
       "id": 102,
       "title": "women's clothing",
       "description": "Elevate your wardrobe with our collection of women's clothing, featuring everything from timeless classics to on-trend styles",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87650628_010_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/87650628_010_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ]
     },
     {
       "id": 103,
       "title": "footwear",
       "description": "Step into style with our diverse range of footwear, offering comfort and fashion-forward designs for every occasion",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/84134709_012_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/84134709_012_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ]
     },
     {
       "id": 104,
       "title": "accessories",
       "description": "Complete your look with our curated selection of accessories, adding the perfect finishing touches to your outfit",
-      "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87759569_070_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      "image": [
+        "https://images.urbndata.com/is/image/UrbanOutfitters/87759569_070_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+      ]
     }
   ],
   "posts": [
@@ -844,6 +898,34 @@
       "isLogged": true,
       "featured": [
         {
+          "id": 17,
+          "title": "UO Bella Bow-Back Satin Mini Dress",
+          "price": 59,
+          "description": "Satin mini dress from UO with an adjustable tie at the back. Cut in a slim-fit with a light dip at the neckline, a seamed empire waist and a mini skirt with a subtle a-line silhouette. Topped with adjustable spaghetti straps. UO exclusive.",
+          "features": [
+            "Adjustable tie at the back",
+            "Slim-fit with a light dip at the neckline",
+            "Seamed empire waist",
+            "Mini skirt with a subtle a-line silhouette",
+            "Topped with adjustable spaghetti straps",
+            "UO exclusive"
+          ],
+          "care": [
+            "97% Polyester, 3% spandex",
+            "Machine wash",
+            "Imported"
+          ],
+          "category": "women's clothing",
+          "image": [
+            "https://images.urbndata.com/is/image/UrbanOutfitters/79653598_031_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+            "https://images.urbndata.com/is/image/UrbanOutfitters/79653598_031_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+          ],
+          "rating": {
+            "rate": 3.8,
+            "count": 679
+          }
+        },
+        {
           "id": 16,
           "title": "BDG Theo Babydoll Mini Dress",
           "price": 59,
@@ -861,7 +943,9 @@
             "Imported"
           ],
           "category": "women's clothing",
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88034095_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "image": [
+            "https://images.urbndata.com/is/image/UrbanOutfitters/88034095_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+          ],
           "rating": {
             "rate": 2.9,
             "count": 340
@@ -887,7 +971,9 @@
             "Machine wash",
             "Imported"
           ],
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87855565_016_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "image": [
+            "https://images.urbndata.com/is/image/UrbanOutfitters/87855565_016_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+          ],
           "rating": {
             "rate": 2.1,
             "count": 430
@@ -910,7 +996,9 @@
             "Imported"
           ],
           "category": "women's clothing",
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/81970790_001_f?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "image": [
+            "https://images.urbndata.com/is/image/UrbanOutfitters/81970790_001_f?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+          ],
           "rating": {
             "rate": 2.6,
             "count": 235
@@ -934,7 +1022,9 @@
             "Imported"
           ],
           "category": "women's clothing",
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88034095_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "image": [
+            "https://images.urbndata.com/is/image/UrbanOutfitters/88034095_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+          ],
           "rating": {
             "rate": 2.9,
             "count": 340
@@ -958,7 +1048,9 @@
             "Imported"
           ],
           "category": "women's clothing",
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87105904_004_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "image": [
+            "https://images.urbndata.com/is/image/UrbanOutfitters/87105904_004_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+          ],
           "rating": {
             "rate": 4.7,
             "count": 130
@@ -993,7 +1085,9 @@
             "Machine wash",
             "Imported"
           ],
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87314787_020_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "image": [
+            "https://images.urbndata.com/is/image/UrbanOutfitters/87314787_020_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+          ],
           "rating": {
             "rate": 4.6,
             "count": 400
@@ -1016,7 +1110,9 @@
             "Imported"
           ],
           "category": "women's clothing",
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/81970790_001_f?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "image": [
+            "https://images.urbndata.com/is/image/UrbanOutfitters/81970790_001_f?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+          ],
           "rating": {
             "rate": 2.6,
             "count": 235
@@ -1040,7 +1136,9 @@
             "Imported"
           ],
           "category": "women's clothing",
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88034095_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "image": [
+            "https://images.urbndata.com/is/image/UrbanOutfitters/88034095_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+          ],
           "rating": {
             "rate": 2.9,
             "count": 340
@@ -1065,7 +1163,9 @@
             "Imported"
           ],
           "category": "women's clothing",
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/79653598_031_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "image": [
+            "https://images.urbndata.com/is/image/UrbanOutfitters/79653598_031_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+          ],
           "rating": {
             "rate": 3.8,
             "count": 679
@@ -1088,7 +1188,9 @@
             "Imported"
           ],
           "category": "women's clothing",
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88077789_004_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "image": [
+            "https://images.urbndata.com/is/image/UrbanOutfitters/88077789_004_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+          ],
           "rating": {
             "rate": 4.5,
             "count": 146
@@ -1111,7 +1213,9 @@
             "Imported"
           ],
           "category": "men's clothing",
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87286522_010_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "image": [
+            "https://images.urbndata.com/is/image/UrbanOutfitters/87286522_010_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+          ],
           "rating": {
             "rate": 3.9,
             "count": 120
@@ -1135,7 +1239,9 @@
             "Imported"
           ],
           "category": "men's clothing",
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/88480165_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "image": [
+            "https://images.urbndata.com/is/image/UrbanOutfitters/88480165_001_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+          ],
           "rating": {
             "rate": 4.7,
             "count": 500
@@ -1159,7 +1265,9 @@
             "Machine wash",
             "Imported"
           ],
-          "image": "https://images.urbndata.com/is/image/UrbanOutfitters/87855565_016_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960",
+          "image": [
+            "https://images.urbndata.com/is/image/UrbanOutfitters/87855565_016_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=960"
+          ],
           "rating": {
             "rate": 2.1,
             "count": 430
