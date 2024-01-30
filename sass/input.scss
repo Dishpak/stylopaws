@@ -222,10 +222,36 @@ main {
 
   //IMAGES
   .image-modal .image-modal-content {
-    width: auto;
+    width: 500px;
   }
 
   //SLIDER
+.slider-container, .image-modal-content {
+  button {
+    position: absolute;
+    top: 50%;
+    margin: 0 auto;
+    font-size: 50px;
+    opacity: 0.6;
+    color: $secondary;
+    background: none;
+    border: none;
+
+    &:hover, &:focus, &:active {
+      background: none;
+      color: $contrast;
+    }
+
+    &.btn-backward {
+      left: 0;
+    }
+
+    &.btn-forward {
+      right: 0;
+    }
+  }
+}
+
   .slider-container {
     position: relative;
     width: 500px;
@@ -233,29 +259,6 @@ main {
     justify-content: center;
     align-items: center;
 
-    button {
-      position: absolute;
-      top: 50%;
-      margin: 0 auto;
-      font-size: 50px;
-      opacity: 0.6;
-      color: $secondary;
-      background: none;
-      border: none;
-
-      &:hover, &:focus, &:active {
-        background: none;
-        color: $contrast;
-      }
-
-      &.btn-backward {
-        left: 0;
-      }
-
-      &.btn-forward {
-        right: 0;
-      }
-    }
     .preview-container {
       height: 150px;
       width: fit-content;

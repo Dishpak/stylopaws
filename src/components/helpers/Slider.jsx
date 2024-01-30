@@ -55,7 +55,12 @@ const Slider = ({ product }) => {
           ))}
         </div>
       </div>
-      <ImageModal show={showModalImage} setShow={setShowModalImage}>
+      <ImageModal
+        show={showModalImage}
+        setShow={setShowModalImage}
+        slideForward={slideForward}
+        slideBackward={slideBackward}
+      >
         <img src={product.image[imageCounter]} alt={product.title} />
       </ImageModal>
     </>

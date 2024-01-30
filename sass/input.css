@@ -757,16 +757,9 @@ main i.featured:hover {
   outline: #2c0b0e;
 }
 main .image-modal .image-modal-content {
-  width: auto;
-}
-main .slider-container {
-  position: relative;
   width: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-main .slider-container button {
+main .slider-container button, main .image-modal-content button {
   position: absolute;
   top: 50%;
   margin: 0 auto;
@@ -776,15 +769,22 @@ main .slider-container button {
   background: none;
   border: none;
 }
-main .slider-container button:hover, main .slider-container button:focus, main .slider-container button:active {
+main .slider-container button:hover, main .slider-container button:focus, main .slider-container button:active, main .image-modal-content button:hover, main .image-modal-content button:focus, main .image-modal-content button:active {
   background: none;
   color: #000;
 }
-main .slider-container button.btn-backward {
+main .slider-container button.btn-backward, main .image-modal-content button.btn-backward {
   left: 0;
 }
-main .slider-container button.btn-forward {
+main .slider-container button.btn-forward, main .image-modal-content button.btn-forward {
   right: 0;
+}
+main .slider-container {
+  position: relative;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 main .slider-container .preview-container {
   height: 150px;
