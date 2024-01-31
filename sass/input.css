@@ -32,6 +32,10 @@
   width: 100%;
 }
 
+.feedback-form .row {
+  margin-bottom: 15px;
+}
+
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -619,6 +623,7 @@ header .dropdown {
 header .dropdown .dropdown-toggle {
   align-self: start;
   padding-left: 0 !important;
+  cursor: pointer;
 }
 header .dropdown .dropdown-menu {
   display: none;

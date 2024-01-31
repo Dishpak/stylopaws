@@ -21,8 +21,6 @@ const Slider = ({ product }) => {
     setImageCounter(index);
   };
 
-  console.log(imageCounter);
-
   return (
     <>
       <div className="slider-container">

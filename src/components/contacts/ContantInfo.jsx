@@ -16,7 +16,7 @@ const ContactInfo = () => (
         <i className="fa-solid fa-phone"></i>
         <div>
           <h3>
-            <a href="tel: +123456789"></a>12 (34) 45689
+            <a href="tel: +123456789">12 (34) 45689</a>
           </h3>
           <p>Mon to Fri 9am to 6pm</p>
         </div>
@@ -27,7 +27,7 @@ const ContactInfo = () => (
         <i className="fa-solid fa-envelope"></i>
         <div>
           <h3>
-            <a href="mailto: test@mail.com">test@mail.com</a>
+            <a href="mailto: dishpak.dev@gmail.com">dishpak.dev@gmail.com</a>
           </h3>
           <p>Send us your query anytime!</p>
         </div>

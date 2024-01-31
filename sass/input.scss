@@ -1,6 +1,7 @@
 @import '../node_modules/bootstrap/scss/functions';
 @import 'custom_variables';
 @import 'image-modal';
+@import "forms";
 @import '../node_modules/bootstrap/scss/variables';
 @import '../node_modules/bootstrap/scss/variables-dark';
 @import '../node_modules/bootstrap/scss/maps';
@@ -38,6 +39,7 @@ header {
     .dropdown-toggle {
       align-self: start;
       padding-left: 0 !important;
+      cursor: pointer;
     }
 
     .dropdown-menu {
