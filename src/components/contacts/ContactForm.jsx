@@ -6,7 +6,6 @@ import BootstrapModal from '../helpers/BootstrapModal';
 
 const ContactForm = () => {
   const [formInputs, handleInputChange, handleInputsReset] = useFormInputs({});
-
   const [showModal, setShowModal] = useState(false);
 
   const handleSubmit = (e) => {
