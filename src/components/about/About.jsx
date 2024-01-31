@@ -22,19 +22,26 @@ const About = () => {
               preferences. We are dedicated to delivering fashion-forward,
               sustainable, and affordable clothing, ensuring that you not only
               look good but feel great about your choices. Join us in the
-              journey of defining your style, and let [Your Store Name] be your
-              trusted fashion partner.
+              journey of defining your style, and let StyloPaws be your trusted
+              fashion partner.
             </p>
-            <Image
-              src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&q=80&w=1972&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt=""
-              fluid
-            />
           </Col>
+          <Row className={'justify-content-center'}>
+            <Col lg={8}>
+              <Image
+                src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&q=80&w=1972&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+                fluid
+              />
+            </Col>
+          </Row>
         </Row>
-        <Row>
+        <Row className={'align-items-center'}>
           <Col>
-            <h2>Discover StyloPaws</h2>
+            <h2>
+              Discover <br />
+              StyloPaws
+            </h2>
           </Col>
           <Col>
             <p>
@@ -42,21 +49,17 @@ const About = () => {
               affordable fashion. At StyloPaws, we're dedicated to providing you
               with the latest styles and the best shopping experience. Our
               mission is to offer high-quality, sustainable clothing that helps
-              you express your unique style and embrace your individuality. We
-              believe that fashion should be accessible to all, and we're
-              committed to making it easy for you to look and feel your best.
-              Join us on this fashion journey, and let StyloPaws be your go-to
-              for all your clothing needs.
+              you express your unique style and embrace your individuality.
             </p>
           </Col>
         </Row>
-        <Row>
+        <Row className={'company-features'}>
           {companyFeatures.map((feature, index) => {
             return (
-              <div className="col" key={index}>
+              <Col key={index}>
                 <i className={`fa-solid ${feature.iconClass}`}></i>
                 <h4>{feature.title}</h4>
-              </div>
+              </Col>
             );
           })}
         </Row>
