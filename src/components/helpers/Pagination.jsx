@@ -1,9 +1,10 @@
-const BootstrapPagination = ({
+const Pagination = ({
   handleMoveToPage,
   handleMoveForward,
   handleMoveBack,
   pagesNumbers,
   currentPage,
+  displayPages,
 }) => {
   const renderPageNumbers = () => {
     const pageNumbers = [];
@@ -36,7 +37,7 @@ const BootstrapPagination = ({
               Previous
             </button>
           </li>
-          {renderPageNumbers()}
+          {displayPages && renderPageNumbers()}
           <li className="page-item">
             <button className="page-link" onClick={handleMoveForward}>
               Next
@@ -48,4 +49,4 @@ const BootstrapPagination = ({
   );
 };
 
-export default BootstrapPagination;
+export default Pagination;

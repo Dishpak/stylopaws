@@ -810,7 +810,7 @@ main i.featured {
 }
 
 main i.featured:hover {
-  color: greenyellow;
+  color: #7cb9e8;
   font-weight: bold;
   stroke: #000;
   outline: #2c0b0e;
@@ -889,10 +889,37 @@ main .product-page .row img {
   cursor: pointer;
 }
 
+main .product-page button, main .product-page i {
+  display: block;
+  margin: 10px auto 0;
+}
+
+main .product-page i {
+  text-align: center;
+}
+
 main .blog .article {
   padding: 20px 0;
   text-align: left;
   border-bottom: 1px solid #000;
+  align-items: center;
+  color: #000;
+}
+
+main .blog .article .article-image {
+  height: 300px;
+  width: 500px;
+  padding: 0;
+  overflow: hidden;
+}
+
+main .blog .article .article-image img {
+  width: 100%;
+}
+
+main .post section {
+  background: none;
+  text-align: justify;
 }
 
 main .profile .avatar-container {

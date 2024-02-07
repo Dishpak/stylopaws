@@ -16,6 +16,7 @@ import SearchResults from '../components/search/SearchResults';
 import Profile from '../components/Profile Page/Profile';
 import FeaturedIcon from '../components/helpers/FeaturedIcon';
 import FeaturedProducts from '../components/products/FeaturedProducts';
+import Post from '../components/blog/Post';
 
 export const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ export const router = createBrowserRouter([
       {
         path: `${ROUTES.PRODUCT}/:productId`,
         element: <Product />,
+      },
+      {
+        path: `${ROUTES.POST}/:postId`,
+        element: <Post />,
       },
       {
         path: ROUTES.BLOG,

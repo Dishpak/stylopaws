@@ -217,7 +217,7 @@ main {
     cursor: pointer;
 
     &:hover {
-      color: greenyellow;
+      color: $primary;
       font-weight: bold;
       stroke: #000;
       outline: #2c0b0e;
@@ -303,6 +303,14 @@ main {
         cursor: pointer;
       }
     }
+
+    button, i {
+      display: block;
+      margin: 10px auto 0;
+    }
+    i {
+      text-align: center;
+    }
   }
 
   .blog {
@@ -310,6 +318,26 @@ main {
       padding: 20px 0;
       text-align: left;
       border-bottom: 1px solid #000;
+      align-items: center;
+      color: #000;
+
+      .article-image {
+        height: 300px;
+        width: 500px;
+        padding: 0;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .post {
+    section {
+      background: none;
+      text-align: justify;
     }
   }
 

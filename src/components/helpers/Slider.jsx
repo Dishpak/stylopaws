@@ -41,17 +41,19 @@ const Slider = ({ product }) => {
           alt={product.title}
         />
 
-        <div className="preview-container">
-          {product.image.map((image, index) => (
-            <img
-              src={image}
-              alt=""
-              key={index}
-              className={'slider-preview-image'}
-              onClick={() => moveToSlide(index)}
-            />
-          ))}
-        </div>
+        {product.image.length > 1 && (
+          <div className="preview-container">
+            {product.image.map((image, index) => (
+              <img
+                src={image}
+                alt=""
+                key={index}
+                className={'slider-preview-image'}
+                onClick={() => moveToSlide(index)}
+              />
+            ))}
+          </div>
+        )}
       </div>
       <ImageModal
         show={showModalImage}

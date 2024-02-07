@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 
 import { apiUrl } from '../helpers/globalVariables';
-import Pagination from '../helpers/BootstrapPagination';
+import Pagination from '../helpers/Pagination';
 import usePagination from '../../hooks/usePagination';
+import { Link } from 'react-router-dom';
 
 const Blog = () => {
   const [posts, setPosts] = useState([]);
@@ -31,25 +32,35 @@ const Blog = () => {
   };
 
   useEffect(() => {
-    loadPosts();
+    void loadPosts();
   }, [currentPage]);
 
   return (
     <Container className={'blog'}>
       <h1>Our Blog</h1>
-      <Row>
-        <Col>
-          {dataPerPage().map((post) => (
-            <div key={post.id} className={'article'}>
-              <h3>{post.title}</h3>
-              <div>{post.body}</div>
-            </div>
-          ))}
-        </Col>
-      </Row>
+      {dataPerPage().map((post) => (
+        <Row
+          key={post.id}
+          className={'article'}
+          as={Link}
+          to={`/blog/post/${post.id}`}
+          state={post.id}
+        >
+          <Col>
+            <h3>{post.title}</h3>
+            <div>{post.introText}</div>
+          </Col>
+          {post.image && (
+            <Col lg={3} className={'article-image'}>
+              <Image src={post.image[0]} />
+            </Col>
+          )}
+        </Row>
+      ))}
       <Pagination
         currentPage={currentPage}
         pagesNumbers={pagesNumbers}
+        displayPages={true}
         handleMoveForward={handleMoveForward}
         handleMoveBack={handleMoveBack}
         handleMoveToPage={handleMoveToPage}

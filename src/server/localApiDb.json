@@ -556,177 +556,259 @@
     {
       "id": 1,
       "title": "Discover the Elegance: Latest Trends in Evening Wear",
-      "body": "Indulge in the allure of evening fashion with our curated collection. From glamorous gowns to sophisticated cocktail dresses, embrace the style that defines you."
+      "introText": "Indulge in the allure of evening fashion with our curated collection. From glamorous gowns to sophisticated cocktail dresses, embrace the style that defines you.",
+      "body": "<section>\n        <p>Indulge in the allure of evening fashion with our curated collection, where every piece tells a story of sophistication and glamour. Elevate your style with the latest trends in evening wear, from dazzling gowns to chic cocktail dresses. Embrace the opportunity to define your signature look and make a statement at every soirée.</p>\n\n        <ol>\n            <li><strong>Glamorous Gowns for Show-Stopping Moments</strong>\n                <p>Step into the spotlight with our exquisite selection of glamorous gowns. The latest trends showcase a fusion of classic elegance and modern flair. Whether you prefer flowing silhouettes, intricate embellishments, or daring necklines, our collection ensures you'll make a lasting impression at any formal event.</p>\n            </li>\n\n            <li><strong>Sophisticated Cocktail Dresses for Effortless Style</strong>\n                <p>For those occasions that call for a touch of refined charm, explore our range of sophisticated cocktail dresses. From timeless black dresses to vibrant hues, each piece is designed to capture the essence of modern femininity. Discover the perfect balance between style and grace as you navigate through an evening of celebrations.</p>\n            </li>\n\n            <li><strong>Embrace Your Unique Style</strong>\n                <p>Our collection is more than just clothing; it's an invitation to embrace your unique style. Find the dress that resonates with your personality and allows you to express yourself with confidence. Whether you're drawn to bold prints, subtle details, or contemporary cuts, our evening wear selection has something for every fashion enthusiast.</p>\n            </li>\n\n            <li><strong>Elevate Your Evening Experience</strong>\n                <p>Elevate your evening experience with fashion that transcends trends. Our carefully curated collection ensures that you not only follow the latest styles but also set them. Immerse yourself in a world of elegance, where each garment is a testament to the artistry of evening wear.</p>\n            </li>\n        </ol>\n\n        <p>Discover the elegance within you – explore the latest trends in evening wear and let your style shine at every event. Make a statement, leave a lasting impression, and revel in the magic of fashion that speaks volumes without saying a word.</p>\n    </section>",
+      "image": [
+        "https://plus.unsplash.com/premium_photo-1672883552128-90918d210a4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2hpcnR8ZW58MHx8MHx8fDA%3D"
+      ]
     },
     {
       "id": 2,
       "title": "Essentials for the Modern Gentleman: A Guide to Men's Fashion",
-      "body": "Explore the epitome of men's fashion with our carefully selected essentials. From tailored suits to casual chic, redefine your wardrobe with timeless pieces that exude confidence."
+      "introText": "Explore the epitome of men's fashion with our carefully selected essentials. From tailored suits to casual chic, redefine your wardrobe with timeless pieces that exude confidence.",
+      "body": "<section>\n  <h2>Essentials for the Modern Gentleman: A Guide to Men's Fashion</h2>\n  <p>Discover the essence of sophisticated style with our collection of men's fashion essentials. Whether you're dressing for a formal occasion or embracing casual chic, our carefully curated selection ensures you stand out with confidence.</p>\n  <p>From impeccably tailored suits that make a powerful statement to laid-back yet refined casual wear, each piece is a testament to the artistry of men's fashion. We believe that true style is timeless, and our collection reflects a blend of classic elegance and contemporary flair.</p>\n  <ul>\n    <li>Elevate your professional presence with finely tailored suits and dress shirts.</li>\n    <li>Express your personality with a range of accessories, from classic ties to modern cufflinks.</li>\n    <li>Embrace casual sophistication with our collection of well-fitted, comfortable casual wear.</li>\n  </ul>\n  <p>At the intersection of tradition and innovation, our fashion guide is a companion for the modern gentleman. Redefine your style, embrace the details, and make a lasting impression with our meticulously curated men's fashion essentials.</p>\n</section>",
+      "image": [
+        "https://plus.unsplash.com/premium_photo-1663100940306-d9d419fe7cfa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNoaXJ0fGVufDB8fDB8fHww"
+      ]
     },
     {
       "id": 3,
       "title": "Chic Street Style: Mastering the Art of Casual Fashion",
-      "body": "Elevate your street style game with our chic and comfortable outfits. Unleash your creativity, mix and match, and step out in confidence with fashion that speaks volumes."
+      "introText": "Elevate your street style game with our chic and comfortable outfits. Unleash your creativity, mix and match, and step out in confidence with fashion that speaks volumes.",
+      "body": "<section>\n  <h2>Chic Street Style: Mastering the Art of Casual Fashion</h2>\n  <p>Step into the world of casual fashion and express your unique style with our chic streetwear collection. From laid-back weekends to spontaneous adventures, our outfits are designed for the modern individual who values both comfort and flair.</p>\n  <p>Embrace the versatility of street style by mixing and matching key pieces to create effortlessly cool looks. Whether you prefer a classic urban vibe or want to experiment with bold patterns, our collection has something for every streetwear enthusiast.</p>\n  <ul>\n    <li>Discover comfortable yet stylish essentials for your everyday wardrobe.</li>\n    <li>Unleash your creativity with mix-and-match options that reflect your personality.</li>\n    <li>Step out in confidence, knowing your street style speaks volumes about your individuality.</li>\n  </ul>\n  <p>Master the art of casual fashion with our curated street style collection. Express yourself, embrace the unexpected, and redefine casual wear with a touch of chic sophistication.</p>\n</section>",
+      "image": [
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNoaXJ0fGVufDB8fDB8fHww"
+      ]
     },
     {
       "id": 4,
       "title": "Accessorize Your Way: Must-Have Fashion Accessories",
-      "body": "Complete your look with our curated collection of fashion accessories. From statement jewelry to trendy handbags, express your unique style with the perfect finishing touches."
+      "introText": "Complete your look with our curated collection of fashion accessories. From statement jewelry to trendy handbags, express your unique style with the perfect finishing touches.",
+      "body": "<section>\n  <h2>Accessorize Your Way: Must-Have Fashion Accessories</h2>\n  <p>Elevate your style with our collection of must-have fashion accessories that add the perfect finishing touches to your look. From statement jewelry that catches the eye to trendy handbags that blend style and functionality, our accessories are curated to complement your unique personality.</p>\n  <p>Discover the art of accessorizing and transform your outfit from ordinary to extraordinary. Whether you're attending a special event or simply want to express your style on a daily basis, our collection has something for every fashion enthusiast.</p>\n  <ul>\n    <li>Make a statement with bold and unique jewelry pieces that reflect your personality.</li>\n    <li>Explore trendy handbags that not only carry your essentials but also elevate your overall look.</li>\n    <li>Find the perfect accessories to express your individuality and enhance your personal style.</li>\n  </ul>\n  <p>Complete your look with our must-have fashion accessories. Embrace the details, express yourself, and make every outfit uniquely yours.</p>\n</section>",
+      "image": [
+        "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbnxlbnwwfDB8MHx8fDA%3D"
+      ]
     },
     {
       "id": 5,
       "title": "Runway to Reality: Embracing High Fashion in Everyday Life",
-      "body": "Bring the glamour of the runway into your everyday life. Discover how to incorporate high fashion elements into your wardrobe and make a statement wherever you go."
+      "introText": "Bring the glamour of the runway into your everyday life. Discover how to incorporate high fashion elements into your wardrobe and make a statement wherever you go.",
+      "body": "<section>\n  <h2>Runway to Reality: Embracing High Fashion in Everyday Life</h2>\n  <p>Experience the magic of high fashion as we bring the glamour of the runway into your everyday life. Our collection is a celebration of style, allowing you to incorporate luxurious and sophisticated elements into your wardrobe effortlessly.</p>\n  <p>Discover how to make a statement with high fashion pieces, whether it's a well-tailored coat, a striking dress, or accessories that elevate your look. Embrace the artistry of fashion and transform your daily style into a runway-worthy experience.</p>\n  <ul>\n    <li>Explore luxurious pieces that capture the essence of high fashion and sophistication.</li>\n    <li>Learn how to incorporate runway-inspired elements into your everyday wardrobe.</li>\n    <li>Make a statement wherever you go with our curated collection of high fashion essentials.</li>\n  </ul>\n  <p>Embrace the allure of high fashion in your everyday life. Elevate your style, exude confidence, and let your wardrobe be a reflection of your unique personality.</p>\n</section>",
+      "image": [
+        "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFzaGlvbnxlbnwwfDB8MHx8fDA%3D"
+      ]
     },
     {
       "id": 6,
       "title": "Sustainable Fashion: Stylish Choices for a Greener Tomorrow",
-      "body": "Join the movement towards sustainable fashion. Explore our eco-friendly and stylish options that allow you to make a positive impact on the planet without compromising on style."
+      "introText": "Join the movement towards sustainable fashion. Explore our eco-friendly and stylish options that allow you to make a positive impact on the planet without compromising on style.",
+      "body": "<section>\n  <h2>Sustainable Fashion: Stylish Choices for a Greener Tomorrow</h2>\n  <p>Be a part of the movement towards a greener future with our collection of sustainable and stylish fashion choices. We believe that fashion can be both trendsetting and environmentally conscious, and our curated selection reflects that commitment.</p>\n  <p>Explore eco-friendly materials, ethical production processes, and timeless designs that contribute to a positive impact on the planet. From organic cotton to recycled materials, our sustainable fashion options are a testament to the beauty of responsible choices.</p>\n  <ul>\n    <li>Choose from a range of eco-friendly materials that prioritize sustainability without compromising style.</li>\n    <li>Support ethical production practices and make a positive impact on both style and the environment.</li>\n    <li>Make a conscious choice with fashion that aligns with your values for a greener tomorrow.</li>\n  </ul>\n  <p>Join us on the journey towards sustainable fashion. Make stylish choices that contribute to a greener tomorrow without sacrificing the elements that make fashion exciting and personal.</p>\n</section>",
+      "image": [
+        "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFzaGlvbnxlbnwwfDB8MHx8fDA%3D"
+      ]
     },
     {
       "id": 7,
       "title": "Bold and Beautiful: The Power of Statement Pieces",
-      "body": "Make a statement with our bold and beautiful fashion pieces. Whether it's vibrant colors or unique designs, express your personality and turn heads wherever you go."
+      "introText": "Make a statement with our bold and beautiful fashion pieces. Whether it's vibrant colors or unique designs, express your personality and turn heads wherever you go.",
+      "body": null,
+      "image": null
     },
     {
       "id": 8,
       "title": "Athleisure Vibes: Elevate Your Casual Wardrobe",
-      "body": "Experience the perfect blend of comfort and style with our athleisure collection. From workout essentials to leisurewear, redefine casual fashion with a touch of sophistication."
+      "introText": "Experience the perfect blend of comfort and style with our athleisure collection. From workout essentials to leisurewear, redefine casual fashion with a touch of sophistication.",
+      "body": null,
+      "image": null
     },
     {
       "id": 9,
       "title": "The Classic Charm: Timeless Fashion Staples",
-      "body": "Discover the enduring appeal of classic fashion staples. From the little black dress to tailored blazers, build a wardrobe that stands the test of time with these timeless pieces."
+      "introText": "Discover the enduring appeal of classic fashion staples. From the little black dress to tailored blazers, build a wardrobe that stands the test of time with these timeless pieces.",
+      "body": null,
+      "image": null
     },
     {
       "id": 10,
       "title": "Furry Fashionista: Adorable Outfits for Your Stylish Pets",
-      "body": "Extend your love for fashion to your furry friends. Explore our collection of adorable and stylish outfits for pets, because fashion isn't just for humans!"
+      "introText": "Extend your love for fashion to your furry friends. Explore our collection of adorable and stylish outfits for pets, because fashion isn't just for humans!",
+      "body": null,
+      "image": null
     },
     {
       "id": 11,
       "title": "Boho Chic Bliss: Embrace the Free-Spirited Fashion Journey",
-      "body": "Step into the world of boho chic fashion. Discover the art of layering, playful patterns, and free-spirited accessories that define the essence of bohemian style."
+      "introText": "Step into the world of boho chic fashion. Discover the art of layering, playful patterns, and free-spirited accessories that define the essence of bohemian style.",
+      "body": null,
+      "image": null
     },
     {
       "id": 12,
       "title": "Dapper Paws: Canine Couture for the Discerning Dog",
-      "body": "Elevate your pup's style with our exclusive canine couture. From bow ties to tutus, let your furry friend strut their stuff in fashion-forward outfits that are paw-sitively adorable."
+      "introText": "Elevate your pup's style with our exclusive canine couture. From bow ties to tutus, let your furry friend strut their stuff in fashion-forward outfits that are paw-sitively adorable.",
+      "body": null,
+      "image": null
     },
     {
       "id": 13,
       "title": "Vintage Vibes: Timeless Elegance in Every Stitch",
-      "body": "Travel back in time with our vintage-inspired fashion collection. Unearth the elegance of bygone eras with retro silhouettes, classic prints, and timeless pieces that never go out of style."
+      "introText": "Travel back in time with our vintage-inspired fashion collection. Unearth the elegance of bygone eras with retro silhouettes, classic prints, and timeless pieces that never go out of style.",
+      "body": null,
+      "image": null
     },
     {
       "id": 14,
       "title": "Sneaker Street: A Sneak Peek into Casual Cool",
-      "body": "Explore the world of trendy sneakers and streetwear. From classic kicks to bold designs, find the perfect pair to add a dose of casual coolness to your everyday look."
+      "introText": "Explore the world of trendy sneakers and streetwear. From classic kicks to bold designs, find the perfect pair to add a dose of casual coolness to your everyday look.",
+      "body": null,
+      "image": null
     },
     {
       "id": 15,
       "title": "Glamorous Getaways: Vacation Wardrobe Essentials",
-      "body": "Jet-set in style with our vacation wardrobe essentials. From breezy dresses to resort-ready accessories, ensure you're the epitome of glamour whether you're lounging by the pool or exploring new destinations."
+      "introText": "Jet-set in style with our vacation wardrobe essentials. From breezy dresses to resort-ready accessories, ensure you're the epitome of glamour whether you're lounging by the pool or exploring new destinations.",
+      "body": null,
+      "image": null
     },
     {
       "id": 16,
       "title": "Tech Meets Fashion: Futuristic Trends for the Digital Age",
-      "body": "Embrace the future of fashion with our tech-infused trends. From smart fabrics to wearable tech accessories, stay ahead of the curve and redefine modern style."
+      "introText": "Embrace the future of fashion with our tech-infused trends. From smart fabrics to wearable tech accessories, stay ahead of the curve and redefine modern style.",
+      "body": null,
+      "image": null
     },
     {
       "id": 17,
       "title": "Haute Couture for the Home: Stylish Interior Design Trends",
-      "body": "Extend your fashion sense to your living space. Explore the latest trends in stylish home decor and transform your space into a runway of elegance and sophistication."
+      "introText": "Extend your fashion sense to your living space. Explore the latest trends in stylish home decor and transform your space into a runway of elegance and sophistication.",
+      "body": null,
+      "image": null
     },
     {
       "id": 18,
       "title": "Runway-Inspired Makeup: Beauty Trends to Slay Every Look",
-      "body": "Get ready to slay with our runway-inspired makeup tips. From bold lips to dramatic eyes, experiment with the latest beauty trends and turn heads wherever you go."
+      "introText": "Get ready to slay with our runway-inspired makeup tips. From bold lips to dramatic eyes, experiment with the latest beauty trends and turn heads wherever you go.",
+      "body": null,
+      "image": null
     },
     {
       "id": 19,
       "title": "Edgy Elegance: Rocking Leather and Studs",
-      "body": "Channel your inner rockstar with our edgy elegance collection. From leather jackets to studded accessories, embrace the rebellious spirit of fashion and make a statement with your style."
+      "introText": "Channel your inner rockstar with our edgy elegance collection. From leather jackets to studded accessories, embrace the rebellious spirit of fashion and make a statement with your style.",
+      "body": null,
+      "image": null
     },
     {
       "id": 20,
       "title": "Effortless Sophistication: Minimalist Fashion for Maximum Impact",
-      "body": "Less is more with our minimalist fashion picks. Discover the beauty of clean lines, neutral tones, and understated elegance that speaks volumes without saying a word."
+      "introText": "Less is more with our minimalist fashion picks. Discover the beauty of clean lines, neutral tones, and understated elegance that speaks volumes without saying a word.",
+      "body": null,
+      "image": null
     },
     {
       "id": 21,
       "title": "City Lights: Urban Fashion for the Modern Explorer",
-      "body": "Navigate the urban jungle with our city lights collection. From street-smart ensembles to versatile accessories, conquer the streets in style as you embrace the energy of the city."
+      "introText": "Navigate the urban jungle with our city lights collection. From street-smart ensembles to versatile accessories, conquer the streets in style as you embrace the energy of the city.",
+      "body": null,
+      "image": null
     },
     {
       "id": 22,
       "title": "Sun-Kissed Style: Effortless Summer Fashion Essentials",
-      "body": "Soak up the sun in style with our summer fashion essentials. From flowy sundresses to chic sunglasses, radiate effortless summer vibes wherever you go."
+      "introText": "Soak up the sun in style with our summer fashion essentials. From flowy sundresses to chic sunglasses, radiate effortless summer vibes wherever you go.",
+      "body": null,
+      "image": null
     },
     {
       "id": 23,
       "title": "Artistic Expression: Wearable Masterpieces for the Creative Soul",
-      "body": "Become a canvas for artistic expression with our wearable masterpieces. From bold prints to avant-garde designs, let your clothes tell a story and showcase your creative soul."
+      "introText": "Become a canvas for artistic expression with our wearable masterpieces. From bold prints to avant-garde designs, let your clothes tell a story and showcase your creative soul.",
+      "body": null,
+      "image": null
     },
     {
       "id": 24,
       "title": "Fierce Footwear: Strut Your Stuff in Statement Shoes",
-      "body": "Elevate your look from the ground up with our fierce footwear collection. Whether it's bold heels or trendy sneakers, make a statement with every step you take."
+      "introText": "Elevate your look from the ground up with our fierce footwear collection. Whether it's bold heels or trendy sneakers, make a statement with every step you take.",
+      "body": null,
+      "image": null
     },
     {
       "id": 25,
       "title": "Cultivate Your Style: A Guide to Personalized Fashion",
-      "body": "Discover the art of cultivating your unique style. From mix-and-match outfits to signature accessories, let your personality shine through in every element of your wardrobe."
+      "introText": "Discover the art of cultivating your unique style. From mix-and-match outfits to signature accessories, let your personality shine through in every element of your wardrobe.",
+      "body": null,
+      "image": null
     },
     {
       "id": 26,
       "title": "Fashion Forward: Stay Ahead of the Trends with Our Picks",
-      "body": "Be a trendsetter with our fashion-forward picks. Stay ahead of the curve with the latest styles, colors, and patterns that will keep you turning heads and setting the standard for style."
+      "introText": "Be a trendsetter with our fashion-forward picks. Stay ahead of the curve with the latest styles, colors, and patterns that will keep you turning heads and setting the standard for style.",
+      "body": null,
+      "image": null
     },
     {
       "id": 27,
       "title": "Couture for All: Inclusive Fashion for Every Body",
-      "body": "Celebrate diversity with our inclusive fashion collection. Find styles that flatter every body type and embrace the beauty of individuality in every piece of clothing you wear."
+      "introText": "Celebrate diversity with our inclusive fashion collection. Find styles that flatter every body type and embrace the beauty of individuality in every piece of clothing you wear.",
+      "body": null,
+      "image": null
     },
     {
       "id": 28,
       "title": "Fitness Fashionista: Stylish Activewear for Your Workout Journey",
-      "body": "Combine fitness and fashion with our activewear collection. From leggings to sports bras, embark on your workout journey in style and comfort, because being fit has never looked this good."
+      "introText": "Combine fitness and fashion with our activewear collection. From leggings to sports bras, embark on your workout journey in style and comfort, because being fit has never looked this good.",
+      "body": null,
+      "image": null
     },
     {
       "id": 29,
       "title": "Winter Wonderland Wardrobe: Cozy and Chic Cold-Weather Fashion",
-      "body": "Stay cozy and chic in our winter wonderland wardrobe. From luxurious coats to stylish scarves, brave the cold weather with fashion that keeps you warm without compromising on style."
+      "introText": "Stay cozy and chic in our winter wonderland wardrobe. From luxurious coats to stylish scarves, brave the cold weather with fashion that keeps you warm without compromising on style.",
+      "body": null,
+      "image": null
     },
     {
       "id": 30,
       "title": "Denim Dreams: From Classic to Distressed, Find Your Perfect Pair",
-      "body": "Dive into denim dreams with our diverse collection of jeans. From classic cuts to distressed styles, discover the perfect pair that complements your unique style and fits like a second skin."
+      "introText": "Dive into denim dreams with our diverse collection of jeans. From classic cuts to distressed styles, discover the perfect pair that complements your unique style and fits like a second skin.",
+      "body": null,
+      "image": null
     },
     {
       "id": 31,
       "title": "Festival Fashion Frenzy: Stand Out in the Crowd",
-      "body": "Gear up for the festival season with our fashion frenzy picks. From bohemian dresses to statement accessories, stand out in the crowd and let your festival style shine."
+      "introText": "Gear up for the festival season with our fashion frenzy picks. From bohemian dresses to statement accessories, stand out in the crowd and let your festival style shine.",
+      "body": null,
+      "image": null
     },
     {
       "id": 32,
       "title": "Ethereal Elegance: Whimsical Fashion for a Magical Touch",
-      "body": "Add a touch of magic to your wardrobe with our ethereal elegance collection. From fairy-tale dresses to enchanting accessories, embrace whimsical fashion that transports you to a realm of beauty and wonder."
+      "introText": "Add a touch of magic to your wardrobe with our ethereal elegance collection. From fairy-tale dresses to enchanting accessories, embrace whimsical fashion that transports you to a realm of beauty and wonder.",
+      "body": null,
+      "image": null
     },
     {
       "id": 33,
       "title": "Monochrome Magic: Elevate Your Style with Black and White",
-      "body": "Experience the power of monochrome magic. Elevate your style with the timeless combination of black and white, creating looks that are sophisticated, bold, and effortlessly chic."
+      "introText": "Experience the power of monochrome magic. Elevate your style with the timeless combination of black and white, creating looks that are sophisticated, bold, and effortlessly chic.",
+      "body": null,
+      "image": null
     },
     {
       "id": 34,
       "title": "Retro Revival: Bringing Back the Classics with a Modern Twist",
-      "body": "Take a trip down memory lane with our retro revival collection. Bringing back classic styles with a modern twist, these timeless pieces add a touch of nostalgia to your contemporary wardrobe."
+      "introText": "Take a trip down memory lane with our retro revival collection. Bringing back classic styles with a modern twist, these timeless pieces add a touch of nostalgia to your contemporary wardrobe.",
+      "body": null,
+      "image": null
     },
     {
       "id": 35,
       "title": "Whimsical Winter: Playful Fashion for the Chilly Season",
-      "body": "Embrace the whimsy of winter with our playful fashion picks. From cute sweaters to quirky accessories, infuse your cold-weather wardrobe with charm and character."
+      "introText": "Embrace the whimsy of winter with our playful fashion picks. From cute sweaters to quirky accessories, infuse your cold-weather wardrobe with charm and character.",
+      "body": null,
+      "image": null
     }
   ],
   "users": [
