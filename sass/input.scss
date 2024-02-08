@@ -341,6 +341,11 @@ main {
     }
   }
 
+  .post-navigate {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .profile {
     .avatar-container {
       position: relative;

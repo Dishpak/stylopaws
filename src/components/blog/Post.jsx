@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { useLocation, Link } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import parse from 'html-react-parser';
 import { Button, Image } from 'react-bootstrap';
 
@@ -8,21 +8,37 @@ import { apiUrl } from '../helpers/globalVariables';
 import Pagination from '../helpers/Pagination';
 
 const Post = () => {
-  const postId = useLocation().state;
+  const [postId, setPostId] = useState(Number(useParams().postId));
+  const fetchUrl = `${apiUrl}/posts/${postId}`;
+  const navigate = useNavigate();
   const [data, setData] = useState({});
   const [convertedText, setConvertedText] = useState();
+
   useEffect(() => {
     const loadData = async () => {
-      const response = await axios(`${apiUrl}/posts/${postId}`);
+      const response = await axios(fetchUrl);
       setData(response.data);
+      console.log(response);
       response.data.body && setConvertedText(parse(response.data.body));
     };
 
     void loadData();
-  }, [postId]);
+  }, [postId, convertedText]);
 
-  const navigateToPrevPost = () => {};
-  const navigateToNextPost = () => {};
+  const navigateToPrevPost = () => {
+    if (postId !== 1) {
+      navigate(`../${postId >= 1 ? postId - 1 : 1}`, { relative: 'path' });
+      setPostId((prev) => (prev >= 1 ? postId + -1 : 1));
+      // window.location.reload();
+    }
+  };
+  const navigateToNextPost = () => {
+    navigate(`../${postId + 1}`, { relative: 'path' });
+    setPostId((prev) => postId + 1);
+    // window.location.reload();
+  };
+
+  // console.log(convertedText);
 
   return (
     <div className={'container'}>
@@ -33,8 +49,8 @@ const Post = () => {
       </div>
       <div className="post-navigate">
         <Pagination />
-        {/*<Button onClick={navigateToPrevPost}>Previous post</Button>*/}
-        {/*<Button onClick={navigateToNextPost}>Next post</Button>*/}
+        <Button onClick={navigateToPrevPost}>Previous post</Button>
+        <Button onClick={navigateToNextPost}>Next post</Button>
       </div>
     </div>
   );

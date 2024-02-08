@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { loadProduct } from '../../store/productsSlice';
@@ -9,7 +9,7 @@ import FeaturedIcon from '../helpers/FeaturedIcon';
 import Slider from '../helpers/Slider';
 
 const Product = () => {
-  const productId = useLocation().state;
+  const { productId } = useParams();
   const product = useSelector((state) => state.product.product);
   const dispatch = useDispatch();
   const [showModalImage, setShowModalImage] = useState(false);

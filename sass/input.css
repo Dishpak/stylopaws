@@ -853,6 +853,10 @@ main .post section {
   background: none;
   text-align: justify;
 }
+main .post-navigate {
+  display: flex;
+  justify-content: space-between;
+}
 main .profile .avatar-container {
   position: relative;
   border-radius: 50%;
